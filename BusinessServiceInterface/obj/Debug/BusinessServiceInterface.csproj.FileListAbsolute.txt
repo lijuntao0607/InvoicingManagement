@@ -24,3 +24,17 @@ E:\projects\InvoicingManagement\BusinessServiceInterface\obj\Debug\BusinessServi
 E:\projects\InvoicingManagement\BusinessServiceInterface\obj\Debug\BusinessServiceInterface.pdb
 E:\projects\InvoicingManagement\BusinessServiceInterface\bin\Debug\Utility.dll
 E:\projects\InvoicingManagement\BusinessServiceInterface\bin\Debug\Utility.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\SpecificationConversion.cs
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\BusinessServiceInterface.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\BusinessServiceInterface.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\CommonEntity.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\DomainModule.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\Utility.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\ViewModel.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\CommonEntity.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\DomainModule.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\Utility.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\bin\Debug\ViewModel.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\obj\Debug\BusinessServiceInterface.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\BusinessServiceInterface\obj\Debug\BusinessServiceInterface.pdb

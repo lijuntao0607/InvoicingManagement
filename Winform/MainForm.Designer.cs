@@ -389,27 +389,27 @@
             this.InportMyDataToolStripMenuItem,
             this.ExitToolStripMenuItem});
             this.SystemToolStripMenuItem.Name = "SystemToolStripMenuItem";
-            this.SystemToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.SystemToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.SystemToolStripMenuItem.Text = "系统";
             // 
             // ExportMyDataToolStripMenuItem
             // 
             this.ExportMyDataToolStripMenuItem.Name = "ExportMyDataToolStripMenuItem";
-            this.ExportMyDataToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.ExportMyDataToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.ExportMyDataToolStripMenuItem.Text = "导出我的数据";
             this.ExportMyDataToolStripMenuItem.Visible = false;
             // 
             // InportMyDataToolStripMenuItem
             // 
             this.InportMyDataToolStripMenuItem.Name = "InportMyDataToolStripMenuItem";
-            this.InportMyDataToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.InportMyDataToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.InportMyDataToolStripMenuItem.Text = "导入我的数据";
             this.InportMyDataToolStripMenuItem.Visible = false;
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.ExitToolStripMenuItem.Text = "退出";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -420,27 +420,27 @@
             this.addProductToolStripMenuItem,
             this.SystemDictionaryToolStripMenuItem});
             this.productInfoToolStripMenuItem.Name = "productInfoToolStripMenuItem";
-            this.productInfoToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.productInfoToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.productInfoToolStripMenuItem.Text = "产品";
             // 
             // productListToolStripMenuItem
             // 
             this.productListToolStripMenuItem.Name = "productListToolStripMenuItem";
-            this.productListToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.productListToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.productListToolStripMenuItem.Text = "产品列表";
             this.productListToolStripMenuItem.Click += new System.EventHandler(this.productListToolStripMenuItem_Click);
             // 
             // addProductToolStripMenuItem
             // 
             this.addProductToolStripMenuItem.Name = "addProductToolStripMenuItem";
-            this.addProductToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.addProductToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.addProductToolStripMenuItem.Text = "添加产品";
             this.addProductToolStripMenuItem.Click += new System.EventHandler(this.addProductToolStripMenuItem_Click);
             // 
             // SystemDictionaryToolStripMenuItem
             // 
             this.SystemDictionaryToolStripMenuItem.Name = "SystemDictionaryToolStripMenuItem";
-            this.SystemDictionaryToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.SystemDictionaryToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.SystemDictionaryToolStripMenuItem.Text = "系统字典";
             this.SystemDictionaryToolStripMenuItem.Click += new System.EventHandler(this.SystemDictionaryToolStripMenuItem_Click);
             // 
@@ -449,13 +449,13 @@
             this.PurchaseManagerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.PurchaseStorageInToolStripMenuItem});
             this.PurchaseManagerToolStripMenuItem.Name = "PurchaseManagerToolStripMenuItem";
-            this.PurchaseManagerToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.PurchaseManagerToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.PurchaseManagerToolStripMenuItem.Text = "采购管理";
             // 
             // PurchaseStorageInToolStripMenuItem
             // 
             this.PurchaseStorageInToolStripMenuItem.Name = "PurchaseStorageInToolStripMenuItem";
-            this.PurchaseStorageInToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.PurchaseStorageInToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.PurchaseStorageInToolStripMenuItem.Text = "采购进货";
             this.PurchaseStorageInToolStripMenuItem.Click += new System.EventHandler(this.PurchaseStorageInToolStripMenuItem_Click);
             // 
@@ -464,13 +464,13 @@
             this.SalesManagerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.SalesStorageOutToolStripMenuItem});
             this.SalesManagerToolStripMenuItem.Name = "SalesManagerToolStripMenuItem";
-            this.SalesManagerToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.SalesManagerToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.SalesManagerToolStripMenuItem.Text = "销售管理";
             // 
             // SalesStorageOutToolStripMenuItem
             // 
             this.SalesStorageOutToolStripMenuItem.Name = "SalesStorageOutToolStripMenuItem";
-            this.SalesStorageOutToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.SalesStorageOutToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.SalesStorageOutToolStripMenuItem.Text = "销售出库";
             this.SalesStorageOutToolStripMenuItem.Click += new System.EventHandler(this.SalesStorageOutToolStripMenuItem_Click);
             // 
@@ -480,20 +480,20 @@
             this.InvoicingViewToolStripMenuItem,
             this.InvoicingUpdateToolStripMenuItem});
             this.invoicingToolStripMenuItem1.Name = "invoicingToolStripMenuItem1";
-            this.invoicingToolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
+            this.invoicingToolStripMenuItem1.Size = new System.Drawing.Size(43, 20);
             this.invoicingToolStripMenuItem1.Text = "库存";
             // 
             // InvoicingViewToolStripMenuItem
             // 
             this.InvoicingViewToolStripMenuItem.Name = "InvoicingViewToolStripMenuItem";
-            this.InvoicingViewToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.InvoicingViewToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.InvoicingViewToolStripMenuItem.Text = "库存查看";
             this.InvoicingViewToolStripMenuItem.Click += new System.EventHandler(this.InvoicingViewToolStripMenuItem_Click);
             // 
             // InvoicingUpdateToolStripMenuItem
             // 
             this.InvoicingUpdateToolStripMenuItem.Name = "InvoicingUpdateToolStripMenuItem";
-            this.InvoicingUpdateToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.InvoicingUpdateToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.InvoicingUpdateToolStripMenuItem.Text = "盘点库存";
             this.InvoicingUpdateToolStripMenuItem.Visible = false;
             this.InvoicingUpdateToolStripMenuItem.Click += new System.EventHandler(this.InvoicingUpdateToolStripMenuItem_Click);
@@ -505,14 +505,14 @@
             this.SalesReporterToolStripMenuItem,
             this.InvoicingReporterToolStripMenuItem});
             this.ReportToolStripMenuItem.Name = "ReportToolStripMenuItem";
-            this.ReportToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.ReportToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.ReportToolStripMenuItem.Text = "报表";
             this.ReportToolStripMenuItem.Visible = false;
             // 
             // PurchaseReporterToolStripMenuItem
             // 
             this.PurchaseReporterToolStripMenuItem.Name = "PurchaseReporterToolStripMenuItem";
-            this.PurchaseReporterToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.PurchaseReporterToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.PurchaseReporterToolStripMenuItem.Text = "采购统计报表";
             this.PurchaseReporterToolStripMenuItem.Visible = false;
             this.PurchaseReporterToolStripMenuItem.Click += new System.EventHandler(this.PurchaseReporterToolStripMenuItem_Click);
@@ -520,7 +520,7 @@
             // SalesReporterToolStripMenuItem
             // 
             this.SalesReporterToolStripMenuItem.Name = "SalesReporterToolStripMenuItem";
-            this.SalesReporterToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.SalesReporterToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.SalesReporterToolStripMenuItem.Text = "销售统计报表";
             this.SalesReporterToolStripMenuItem.Visible = false;
             this.SalesReporterToolStripMenuItem.Click += new System.EventHandler(this.SalesReporterToolStripMenuItem_Click);
@@ -528,7 +528,7 @@
             // InvoicingReporterToolStripMenuItem
             // 
             this.InvoicingReporterToolStripMenuItem.Name = "InvoicingReporterToolStripMenuItem";
-            this.InvoicingReporterToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.InvoicingReporterToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.InvoicingReporterToolStripMenuItem.Text = "进销存统计报表";
             this.InvoicingReporterToolStripMenuItem.Visible = false;
             this.InvoicingReporterToolStripMenuItem.Click += new System.EventHandler(this.InvoicingReporterToolStripMenuItem_Click);
@@ -589,7 +589,7 @@
             this.extensionTabControl1.Location = new System.Drawing.Point(0, 24);
             this.extensionTabControl1.Name = "extensionTabControl1";
             this.extensionTabControl1.SelectedIndex = 0;
-            this.extensionTabControl1.Size = new System.Drawing.Size(845, 400);
+            this.extensionTabControl1.Size = new System.Drawing.Size(845, 435);
             this.extensionTabControl1.TabIndex = 1;
             // 
             // ProductListPage
@@ -599,7 +599,7 @@
             this.ProductListPage.Location = new System.Drawing.Point(4, 24);
             this.ProductListPage.Name = "ProductListPage";
             this.ProductListPage.Padding = new System.Windows.Forms.Padding(3);
-            this.ProductListPage.Size = new System.Drawing.Size(837, 372);
+            this.ProductListPage.Size = new System.Drawing.Size(837, 407);
             this.ProductListPage.TabIndex = 0;
             this.ProductListPage.Text = "产品列表  ";
             this.ProductListPage.UseVisualStyleBackColor = true;
@@ -610,9 +610,9 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(147, 3);
+            this.panel1.Location = new System.Drawing.Point(163, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(687, 366);
+            this.panel1.Size = new System.Drawing.Size(671, 401);
             this.panel1.TabIndex = 3;
             // 
             // panel2
@@ -620,9 +620,9 @@
             this.panel2.Controls.Add(this.productListDataGridView);
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 66);
+            this.panel2.Location = new System.Drawing.Point(0, 72);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(687, 300);
+            this.panel2.Size = new System.Drawing.Size(671, 329);
             this.panel2.TabIndex = 2;
             // 
             // productListDataGridView
@@ -642,13 +642,13 @@
             this.PlBarcode});
             this.productListDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.productListDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.productListDataGridView.Location = new System.Drawing.Point(0, 74);
+            this.productListDataGridView.Location = new System.Drawing.Point(0, 80);
             this.productListDataGridView.MultiSelect = false;
             this.productListDataGridView.Name = "productListDataGridView";
             this.productListDataGridView.RowTemplate.Height = 23;
             this.productListDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.productListDataGridView.Size = new System.Drawing.Size(687, 226);
-            this.productListDataGridView.TabIndex = 1;
+            this.productListDataGridView.Size = new System.Drawing.Size(671, 249);
+            this.productListDataGridView.TabIndex = 3;
             // 
             // PlId
             // 
@@ -721,7 +721,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(687, 74);
+            this.groupBox2.Size = new System.Drawing.Size(671, 80);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "操作";
@@ -747,13 +747,13 @@
             this.btnDeleteProduct.ImageOffset = 0;
             this.btnDeleteProduct.IsPressed = false;
             this.btnDeleteProduct.KeepPress = false;
-            this.btnDeleteProduct.Location = new System.Drawing.Point(111, 22);
+            this.btnDeleteProduct.Location = new System.Drawing.Point(111, 24);
             this.btnDeleteProduct.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnDeleteProduct.MenuPos = new System.Drawing.Point(0, 0);
             this.btnDeleteProduct.Name = "btnDeleteProduct";
             this.btnDeleteProduct.Radius = 10;
             this.btnDeleteProduct.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnDeleteProduct.Size = new System.Drawing.Size(76, 29);
+            this.btnDeleteProduct.Size = new System.Drawing.Size(76, 31);
             this.btnDeleteProduct.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnDeleteProduct.SplitDistance = 0;
             this.btnDeleteProduct.TabIndex = 6;
@@ -783,13 +783,13 @@
             this.btnEditProduct.ImageOffset = 0;
             this.btnEditProduct.IsPressed = false;
             this.btnEditProduct.KeepPress = false;
-            this.btnEditProduct.Location = new System.Drawing.Point(193, 22);
+            this.btnEditProduct.Location = new System.Drawing.Point(193, 24);
             this.btnEditProduct.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnEditProduct.MenuPos = new System.Drawing.Point(0, 0);
             this.btnEditProduct.Name = "btnEditProduct";
             this.btnEditProduct.Radius = 10;
             this.btnEditProduct.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnEditProduct.Size = new System.Drawing.Size(76, 29);
+            this.btnEditProduct.Size = new System.Drawing.Size(76, 31);
             this.btnEditProduct.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnEditProduct.SplitDistance = 0;
             this.btnEditProduct.TabIndex = 5;
@@ -819,13 +819,13 @@
             this.btnAddProduct.ImageOffset = 0;
             this.btnAddProduct.IsPressed = false;
             this.btnAddProduct.KeepPress = false;
-            this.btnAddProduct.Location = new System.Drawing.Point(29, 22);
+            this.btnAddProduct.Location = new System.Drawing.Point(29, 24);
             this.btnAddProduct.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnAddProduct.MenuPos = new System.Drawing.Point(0, 0);
             this.btnAddProduct.Name = "btnAddProduct";
             this.btnAddProduct.Radius = 10;
             this.btnAddProduct.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnAddProduct.Size = new System.Drawing.Size(76, 29);
+            this.btnAddProduct.Size = new System.Drawing.Size(76, 31);
             this.btnAddProduct.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnAddProduct.SplitDistance = 0;
             this.btnAddProduct.TabIndex = 4;
@@ -844,7 +844,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(687, 66);
+            this.groupBox1.Size = new System.Drawing.Size(671, 72);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "查询";
@@ -870,13 +870,13 @@
             this.ribbonMenuButton6.ImageOffset = 0;
             this.ribbonMenuButton6.IsPressed = false;
             this.ribbonMenuButton6.KeepPress = false;
-            this.ribbonMenuButton6.Location = new System.Drawing.Point(323, 12);
+            this.ribbonMenuButton6.Location = new System.Drawing.Point(323, 13);
             this.ribbonMenuButton6.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton6.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton6.Name = "ribbonMenuButton6";
             this.ribbonMenuButton6.Radius = 10;
             this.ribbonMenuButton6.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.ribbonMenuButton6.Size = new System.Drawing.Size(76, 29);
+            this.ribbonMenuButton6.Size = new System.Drawing.Size(76, 31);
             this.ribbonMenuButton6.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.ribbonMenuButton6.SplitDistance = 0;
             this.ribbonMenuButton6.TabIndex = 6;
@@ -887,15 +887,15 @@
             // 
             // tbBarcode
             // 
-            this.tbBarcode.Location = new System.Drawing.Point(194, 16);
+            this.tbBarcode.Location = new System.Drawing.Point(46, 19);
             this.tbBarcode.Name = "tbBarcode";
             this.tbBarcode.Size = new System.Drawing.Size(100, 23);
-            this.tbBarcode.TabIndex = 3;
+            this.tbBarcode.TabIndex = 1;
             // 
             // lblBarcode
             // 
             this.lblBarcode.AutoSize = true;
-            this.lblBarcode.Location = new System.Drawing.Point(153, 20);
+            this.lblBarcode.Location = new System.Drawing.Point(6, 22);
             this.lblBarcode.Name = "lblBarcode";
             this.lblBarcode.Size = new System.Drawing.Size(35, 14);
             this.lblBarcode.TabIndex = 2;
@@ -903,15 +903,15 @@
             // 
             // tbProduct
             // 
-            this.tbProduct.Location = new System.Drawing.Point(47, 17);
+            this.tbProduct.Location = new System.Drawing.Point(193, 19);
             this.tbProduct.Name = "tbProduct";
             this.tbProduct.Size = new System.Drawing.Size(100, 23);
-            this.tbProduct.TabIndex = 1;
+            this.tbProduct.TabIndex = 2;
             // 
             // lblProductNumber
             // 
             this.lblProductNumber.AutoSize = true;
-            this.lblProductNumber.Location = new System.Drawing.Point(6, 20);
+            this.lblProductNumber.Location = new System.Drawing.Point(152, 22);
             this.lblProductNumber.Name = "lblProductNumber";
             this.lblProductNumber.Size = new System.Drawing.Size(35, 14);
             this.lblProductNumber.TabIndex = 0;
@@ -927,10 +927,11 @@
             treeNode1.Text = "产品类别";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode1});
-            this.treeView1.Size = new System.Drawing.Size(144, 366);
+            this.treeView1.Size = new System.Drawing.Size(160, 401);
             this.treeView1.TabIndex = 0;
             this.treeView1.BeforeLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.treeView1_BeforeLabelEdit);
             this.treeView1.AfterLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.treeView1_AfterLabelEdit);
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             this.treeView1.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView1_NodeMouseClick);
             // 
             // AddProductPage
@@ -939,7 +940,7 @@
             this.AddProductPage.Controls.Add(this.groupBox3);
             this.AddProductPage.Location = new System.Drawing.Point(4, 24);
             this.AddProductPage.Name = "AddProductPage";
-            this.AddProductPage.Size = new System.Drawing.Size(837, 372);
+            this.AddProductPage.Size = new System.Drawing.Size(837, 407);
             this.AddProductPage.TabIndex = 0;
             this.AddProductPage.Text = "添加产品  ";
             this.AddProductPage.UseVisualStyleBackColor = true;
@@ -950,9 +951,9 @@
             this.groupBox5.Controls.Add(this.ApSpecDataGridView);
             this.groupBox5.Controls.Add(this.panel3);
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox5.Location = new System.Drawing.Point(0, 101);
+            this.groupBox5.Location = new System.Drawing.Point(0, 109);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(837, 271);
+            this.groupBox5.Size = new System.Drawing.Size(837, 298);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "产品规格";
@@ -972,10 +973,10 @@
             this.SLCreateTime});
             this.ApSpecDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ApSpecDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.ApSpecDataGridView.Location = new System.Drawing.Point(3, 137);
+            this.ApSpecDataGridView.Location = new System.Drawing.Point(3, 147);
             this.ApSpecDataGridView.Name = "ApSpecDataGridView";
             this.ApSpecDataGridView.RowTemplate.Height = 23;
-            this.ApSpecDataGridView.Size = new System.Drawing.Size(831, 131);
+            this.ApSpecDataGridView.Size = new System.Drawing.Size(831, 148);
             this.ApSpecDataGridView.TabIndex = 3;
             this.ApSpecDataGridView.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.SpecDataGridView_CellBeginEdit);
             this.ApSpecDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SpecDataGridView_CellClick);
@@ -1053,34 +1054,34 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 19);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(831, 118);
+            this.panel3.Size = new System.Drawing.Size(831, 128);
             this.panel3.TabIndex = 2;
             // 
             // ApUnit
             // 
             this.ApUnit.FormattingEnabled = true;
-            this.ApUnit.Location = new System.Drawing.Point(359, 11);
+            this.ApUnit.Location = new System.Drawing.Point(359, 12);
             this.ApUnit.Name = "ApUnit";
             this.ApUnit.Size = new System.Drawing.Size(121, 22);
             this.ApUnit.TabIndex = 18;
             // 
             // ApBarcode
             // 
-            this.ApBarcode.Location = new System.Drawing.Point(84, 38);
+            this.ApBarcode.Location = new System.Drawing.Point(84, 41);
             this.ApBarcode.Name = "ApBarcode";
             this.ApBarcode.Size = new System.Drawing.Size(121, 23);
             this.ApBarcode.TabIndex = 17;
             // 
             // ApSpeciText
             // 
-            this.ApSpeciText.Location = new System.Drawing.Point(84, 11);
+            this.ApSpeciText.Location = new System.Drawing.Point(84, 12);
             this.ApSpeciText.Name = "ApSpeciText";
             this.ApSpeciText.Size = new System.Drawing.Size(121, 23);
             this.ApSpeciText.TabIndex = 16;
             // 
             // ApUnitPrice
             // 
-            this.ApUnitPrice.Location = new System.Drawing.Point(359, 38);
+            this.ApUnitPrice.Location = new System.Drawing.Point(359, 41);
             this.ApUnitPrice.Name = "ApUnitPrice";
             this.ApUnitPrice.Size = new System.Drawing.Size(121, 23);
             this.ApUnitPrice.TabIndex = 15;
@@ -1088,7 +1089,7 @@
             // formLabel41
             // 
             this.formLabel41.AutoSize = true;
-            this.formLabel41.Location = new System.Drawing.Point(294, 41);
+            this.formLabel41.Location = new System.Drawing.Point(294, 44);
             this.formLabel41.Name = "formLabel41";
             this.formLabel41.Size = new System.Drawing.Size(63, 14);
             this.formLabel41.TabIndex = 14;
@@ -1097,7 +1098,7 @@
             // formLabel40
             // 
             this.formLabel40.AutoSize = true;
-            this.formLabel40.Location = new System.Drawing.Point(19, 41);
+            this.formLabel40.Location = new System.Drawing.Point(19, 44);
             this.formLabel40.Name = "formLabel40";
             this.formLabel40.Size = new System.Drawing.Size(63, 14);
             this.formLabel40.TabIndex = 13;
@@ -1106,7 +1107,7 @@
             // formLabel39
             // 
             this.formLabel39.AutoSize = true;
-            this.formLabel39.Location = new System.Drawing.Point(294, 14);
+            this.formLabel39.Location = new System.Drawing.Point(294, 15);
             this.formLabel39.Name = "formLabel39";
             this.formLabel39.Size = new System.Drawing.Size(63, 14);
             this.formLabel39.TabIndex = 12;
@@ -1115,7 +1116,7 @@
             // formLabel38
             // 
             this.formLabel38.AutoSize = true;
-            this.formLabel38.Location = new System.Drawing.Point(19, 14);
+            this.formLabel38.Location = new System.Drawing.Point(19, 15);
             this.formLabel38.Name = "formLabel38";
             this.formLabel38.Size = new System.Drawing.Size(63, 14);
             this.formLabel38.TabIndex = 11;
@@ -1142,13 +1143,13 @@
             this.btnSaveClose.ImageOffset = 0;
             this.btnSaveClose.IsPressed = false;
             this.btnSaveClose.KeepPress = false;
-            this.btnSaveClose.Location = new System.Drawing.Point(600, 70);
+            this.btnSaveClose.Location = new System.Drawing.Point(600, 76);
             this.btnSaveClose.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSaveClose.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSaveClose.Name = "btnSaveClose";
             this.btnSaveClose.Radius = 10;
             this.btnSaveClose.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnSaveClose.Size = new System.Drawing.Size(101, 29);
+            this.btnSaveClose.Size = new System.Drawing.Size(101, 31);
             this.btnSaveClose.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnSaveClose.SplitDistance = 0;
             this.btnSaveClose.TabIndex = 10;
@@ -1179,13 +1180,13 @@
             this.btnSaveAndContinue.ImageOffset = 0;
             this.btnSaveAndContinue.IsPressed = false;
             this.btnSaveAndContinue.KeepPress = false;
-            this.btnSaveAndContinue.Location = new System.Drawing.Point(493, 70);
+            this.btnSaveAndContinue.Location = new System.Drawing.Point(493, 76);
             this.btnSaveAndContinue.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSaveAndContinue.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSaveAndContinue.Name = "btnSaveAndContinue";
             this.btnSaveAndContinue.Radius = 10;
             this.btnSaveAndContinue.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnSaveAndContinue.Size = new System.Drawing.Size(101, 29);
+            this.btnSaveAndContinue.Size = new System.Drawing.Size(101, 31);
             this.btnSaveAndContinue.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnSaveAndContinue.SplitDistance = 0;
             this.btnSaveAndContinue.TabIndex = 9;
@@ -1215,13 +1216,13 @@
             this.btnAddSpec.ImageOffset = 0;
             this.btnAddSpec.IsPressed = false;
             this.btnAddSpec.KeepPress = false;
-            this.btnAddSpec.Location = new System.Drawing.Point(22, 70);
+            this.btnAddSpec.Location = new System.Drawing.Point(22, 76);
             this.btnAddSpec.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnAddSpec.MenuPos = new System.Drawing.Point(0, 0);
             this.btnAddSpec.Name = "btnAddSpec";
             this.btnAddSpec.Radius = 10;
             this.btnAddSpec.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnAddSpec.Size = new System.Drawing.Size(76, 29);
+            this.btnAddSpec.Size = new System.Drawing.Size(76, 31);
             this.btnAddSpec.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnAddSpec.SplitDistance = 0;
             this.btnAddSpec.TabIndex = 7;
@@ -1251,13 +1252,13 @@
             this.btnDeleteSpec.ImageOffset = 0;
             this.btnDeleteSpec.IsPressed = false;
             this.btnDeleteSpec.KeepPress = false;
-            this.btnDeleteSpec.Location = new System.Drawing.Point(125, 70);
+            this.btnDeleteSpec.Location = new System.Drawing.Point(125, 76);
             this.btnDeleteSpec.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnDeleteSpec.MenuPos = new System.Drawing.Point(0, 0);
             this.btnDeleteSpec.Name = "btnDeleteSpec";
             this.btnDeleteSpec.Radius = 10;
             this.btnDeleteSpec.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnDeleteSpec.Size = new System.Drawing.Size(76, 29);
+            this.btnDeleteSpec.Size = new System.Drawing.Size(76, 31);
             this.btnDeleteSpec.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnDeleteSpec.SplitDistance = 0;
             this.btnDeleteSpec.TabIndex = 8;
@@ -1284,7 +1285,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(837, 101);
+            this.groupBox3.Size = new System.Drawing.Size(837, 109);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "产品基本信息";
@@ -1294,7 +1295,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(518, 57);
+            this.label1.Location = new System.Drawing.Point(518, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 12);
             this.label1.TabIndex = 15;
@@ -1305,7 +1306,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(489, 57);
+            this.label3.Location = new System.Drawing.Point(489, 62);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(11, 12);
             this.label3.TabIndex = 14;
@@ -1316,7 +1317,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.Color.DarkRed;
-            this.label5.Location = new System.Drawing.Point(489, 30);
+            this.label5.Location = new System.Drawing.Point(489, 33);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(11, 12);
             this.label5.TabIndex = 13;
@@ -1327,7 +1328,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.DarkRed;
-            this.label4.Location = new System.Drawing.Point(220, 59);
+            this.label4.Location = new System.Drawing.Point(220, 64);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(11, 12);
             this.label4.TabIndex = 12;
@@ -1338,7 +1339,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(220, 32);
+            this.label2.Location = new System.Drawing.Point(220, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(11, 12);
             this.label2.TabIndex = 10;
@@ -1346,7 +1347,7 @@
             // 
             // ApTaxRate
             // 
-            this.ApTaxRate.Location = new System.Drawing.Point(362, 54);
+            this.ApTaxRate.Location = new System.Drawing.Point(362, 59);
             this.ApTaxRate.Name = "ApTaxRate";
             this.ApTaxRate.Size = new System.Drawing.Size(121, 23);
             this.ApTaxRate.TabIndex = 9;
@@ -1354,7 +1355,7 @@
             // formLabel4
             // 
             this.formLabel4.AutoSize = true;
-            this.formLabel4.Location = new System.Drawing.Point(297, 57);
+            this.formLabel4.Location = new System.Drawing.Point(297, 62);
             this.formLabel4.Name = "formLabel4";
             this.formLabel4.Size = new System.Drawing.Size(49, 14);
             this.formLabel4.TabIndex = 6;
@@ -1363,7 +1364,7 @@
             // ApCategory
             // 
             this.ApCategory.BackColor = System.Drawing.SystemColors.Window;
-            this.ApCategory.Location = new System.Drawing.Point(362, 27);
+            this.ApCategory.Location = new System.Drawing.Point(362, 29);
             this.ApCategory.Name = "ApCategory";
             this.ApCategory.ReadOnly = true;
             this.ApCategory.Size = new System.Drawing.Size(121, 23);
@@ -1373,14 +1374,14 @@
             // 
             // ApProductNumber
             // 
-            this.ApProductNumber.Location = new System.Drawing.Point(87, 54);
+            this.ApProductNumber.Location = new System.Drawing.Point(87, 59);
             this.ApProductNumber.Name = "ApProductNumber";
             this.ApProductNumber.Size = new System.Drawing.Size(121, 23);
             this.ApProductNumber.TabIndex = 4;
             // 
             // ApProductName
             // 
-            this.ApProductName.Location = new System.Drawing.Point(87, 27);
+            this.ApProductName.Location = new System.Drawing.Point(87, 29);
             this.ApProductName.Name = "ApProductName";
             this.ApProductName.Size = new System.Drawing.Size(121, 23);
             this.ApProductName.TabIndex = 3;
@@ -1388,7 +1389,7 @@
             // formLabel3
             // 
             this.formLabel3.AutoSize = true;
-            this.formLabel3.Location = new System.Drawing.Point(297, 30);
+            this.formLabel3.Location = new System.Drawing.Point(297, 33);
             this.formLabel3.Name = "formLabel3";
             this.formLabel3.Size = new System.Drawing.Size(49, 14);
             this.formLabel3.TabIndex = 2;
@@ -1397,7 +1398,7 @@
             // formLabel2
             // 
             this.formLabel2.AutoSize = true;
-            this.formLabel2.Location = new System.Drawing.Point(22, 57);
+            this.formLabel2.Location = new System.Drawing.Point(22, 62);
             this.formLabel2.Name = "formLabel2";
             this.formLabel2.Size = new System.Drawing.Size(49, 14);
             this.formLabel2.TabIndex = 1;
@@ -1406,7 +1407,7 @@
             // formLabel1
             // 
             this.formLabel1.AutoSize = true;
-            this.formLabel1.Location = new System.Drawing.Point(22, 30);
+            this.formLabel1.Location = new System.Drawing.Point(22, 33);
             this.formLabel1.Name = "formLabel1";
             this.formLabel1.Size = new System.Drawing.Size(49, 14);
             this.formLabel1.TabIndex = 0;
@@ -1419,7 +1420,7 @@
             this.listStorageInPage.Location = new System.Drawing.Point(4, 24);
             this.listStorageInPage.Name = "listStorageInPage";
             this.listStorageInPage.Padding = new System.Windows.Forms.Padding(3);
-            this.listStorageInPage.Size = new System.Drawing.Size(837, 372);
+            this.listStorageInPage.Size = new System.Drawing.Size(837, 407);
             this.listStorageInPage.TabIndex = 4;
             this.listStorageInPage.Text = "采购入库单  ";
             this.listStorageInPage.UseVisualStyleBackColor = true;
@@ -1436,10 +1437,10 @@
             this.Column2,
             this.Column3});
             this.StorageInListDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StorageInListDataGridView.Location = new System.Drawing.Point(3, 81);
+            this.StorageInListDataGridView.Location = new System.Drawing.Point(3, 88);
             this.StorageInListDataGridView.Name = "StorageInListDataGridView";
             this.StorageInListDataGridView.RowTemplate.Height = 23;
-            this.StorageInListDataGridView.Size = new System.Drawing.Size(831, 288);
+            this.StorageInListDataGridView.Size = new System.Drawing.Size(831, 316);
             this.StorageInListDataGridView.TabIndex = 1;
             // 
             // StlId
@@ -1499,7 +1500,7 @@
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox4.Location = new System.Drawing.Point(3, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(831, 78);
+            this.groupBox4.Size = new System.Drawing.Size(831, 85);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "查询";
@@ -1525,13 +1526,13 @@
             this.ribbonMenuButton9.ImageOffset = 0;
             this.ribbonMenuButton9.IsPressed = false;
             this.ribbonMenuButton9.KeepPress = false;
-            this.ribbonMenuButton9.Location = new System.Drawing.Point(615, 29);
+            this.ribbonMenuButton9.Location = new System.Drawing.Point(615, 31);
             this.ribbonMenuButton9.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton9.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton9.Name = "ribbonMenuButton9";
             this.ribbonMenuButton9.Radius = 10;
             this.ribbonMenuButton9.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.ribbonMenuButton9.Size = new System.Drawing.Size(102, 29);
+            this.ribbonMenuButton9.Size = new System.Drawing.Size(102, 31);
             this.ribbonMenuButton9.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.ribbonMenuButton9.SplitDistance = 0;
             this.ribbonMenuButton9.TabIndex = 9;
@@ -1561,13 +1562,13 @@
             this.ribbonMenuButton7.ImageOffset = 0;
             this.ribbonMenuButton7.IsPressed = false;
             this.ribbonMenuButton7.KeepPress = false;
-            this.ribbonMenuButton7.Location = new System.Drawing.Point(533, 29);
+            this.ribbonMenuButton7.Location = new System.Drawing.Point(533, 31);
             this.ribbonMenuButton7.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton7.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton7.Name = "ribbonMenuButton7";
             this.ribbonMenuButton7.Radius = 10;
             this.ribbonMenuButton7.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.ribbonMenuButton7.Size = new System.Drawing.Size(76, 29);
+            this.ribbonMenuButton7.Size = new System.Drawing.Size(76, 31);
             this.ribbonMenuButton7.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.ribbonMenuButton7.SplitDistance = 0;
             this.ribbonMenuButton7.TabIndex = 8;
@@ -1597,13 +1598,13 @@
             this.btnSearchStorageIn.ImageOffset = 0;
             this.btnSearchStorageIn.IsPressed = false;
             this.btnSearchStorageIn.KeepPress = false;
-            this.btnSearchStorageIn.Location = new System.Drawing.Point(451, 29);
+            this.btnSearchStorageIn.Location = new System.Drawing.Point(451, 31);
             this.btnSearchStorageIn.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSearchStorageIn.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSearchStorageIn.Name = "btnSearchStorageIn";
             this.btnSearchStorageIn.Radius = 10;
             this.btnSearchStorageIn.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnSearchStorageIn.Size = new System.Drawing.Size(76, 29);
+            this.btnSearchStorageIn.Size = new System.Drawing.Size(76, 31);
             this.btnSearchStorageIn.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnSearchStorageIn.SplitDistance = 0;
             this.btnSearchStorageIn.TabIndex = 5;
@@ -1614,7 +1615,7 @@
             // 
             // SilSearchEndTime
             // 
-            this.SilSearchEndTime.Location = new System.Drawing.Point(288, 31);
+            this.SilSearchEndTime.Location = new System.Drawing.Point(288, 34);
             this.SilSearchEndTime.Name = "SilSearchEndTime";
             this.SilSearchEndTime.Size = new System.Drawing.Size(132, 23);
             this.SilSearchEndTime.TabIndex = 3;
@@ -1622,7 +1623,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(261, 37);
+            this.label6.Location = new System.Drawing.Point(261, 40);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(21, 14);
             this.label6.TabIndex = 2;
@@ -1631,7 +1632,7 @@
             // 
             // SilSearchStartTime
             // 
-            this.SilSearchStartTime.Location = new System.Drawing.Point(123, 31);
+            this.SilSearchStartTime.Location = new System.Drawing.Point(123, 34);
             this.SilSearchStartTime.Name = "SilSearchStartTime";
             this.SilSearchStartTime.Size = new System.Drawing.Size(132, 23);
             this.SilSearchStartTime.TabIndex = 1;
@@ -1639,7 +1640,7 @@
             // formLabel5
             // 
             this.formLabel5.AutoSize = true;
-            this.formLabel5.Location = new System.Drawing.Point(31, 37);
+            this.formLabel5.Location = new System.Drawing.Point(31, 40);
             this.formLabel5.Name = "formLabel5";
             this.formLabel5.Size = new System.Drawing.Size(77, 14);
             this.formLabel5.TabIndex = 0;
@@ -1653,7 +1654,7 @@
             this.addStorageInPage.Location = new System.Drawing.Point(4, 24);
             this.addStorageInPage.Name = "addStorageInPage";
             this.addStorageInPage.Padding = new System.Windows.Forms.Padding(3);
-            this.addStorageInPage.Size = new System.Drawing.Size(837, 372);
+            this.addStorageInPage.Size = new System.Drawing.Size(837, 407);
             this.addStorageInPage.TabIndex = 1;
             this.addStorageInPage.Text = "添加采购入库  ";
             this.addStorageInPage.UseVisualStyleBackColor = true;
@@ -1664,9 +1665,9 @@
             this.panel5.Controls.Add(this.AsStorageInItemDataGridView);
             this.panel5.Controls.Add(this.groupBox9);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 81);
+            this.panel5.Location = new System.Drawing.Point(3, 88);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(831, 288);
+            this.panel5.Size = new System.Drawing.Size(831, 316);
             this.panel5.TabIndex = 1;
             // 
             // AsStorageInItemDataGridView
@@ -1688,11 +1689,11 @@
             this.AsProductListCreateTime});
             this.AsStorageInItemDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AsStorageInItemDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.AsStorageInItemDataGridView.Location = new System.Drawing.Point(0, 167);
+            this.AsStorageInItemDataGridView.Location = new System.Drawing.Point(0, 181);
             this.AsStorageInItemDataGridView.Name = "AsStorageInItemDataGridView";
             this.AsStorageInItemDataGridView.RowTemplate.Height = 23;
             this.AsStorageInItemDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AsStorageInItemDataGridView.Size = new System.Drawing.Size(831, 121);
+            this.AsStorageInItemDataGridView.Size = new System.Drawing.Size(831, 135);
             this.AsStorageInItemDataGridView.TabIndex = 4;
             this.AsStorageInItemDataGridView.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.AsStorageInItemDataGridView_CellBeginEdit);
             this.AsStorageInItemDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AsStorageInItemDataGridView_CellContentClick);
@@ -1801,7 +1802,7 @@
             this.groupBox9.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox9.Location = new System.Drawing.Point(0, 0);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(831, 167);
+            this.groupBox9.Size = new System.Drawing.Size(831, 181);
             this.groupBox9.TabIndex = 3;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "添加采购产品";
@@ -1827,13 +1828,13 @@
             this.btnSaveStorageIn.ImageOffset = 0;
             this.btnSaveStorageIn.IsPressed = false;
             this.btnSaveStorageIn.KeepPress = false;
-            this.btnSaveStorageIn.Location = new System.Drawing.Point(582, 125);
+            this.btnSaveStorageIn.Location = new System.Drawing.Point(582, 135);
             this.btnSaveStorageIn.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSaveStorageIn.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSaveStorageIn.Name = "btnSaveStorageIn";
             this.btnSaveStorageIn.Radius = 10;
             this.btnSaveStorageIn.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnSaveStorageIn.Size = new System.Drawing.Size(88, 29);
+            this.btnSaveStorageIn.Size = new System.Drawing.Size(88, 31);
             this.btnSaveStorageIn.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnSaveStorageIn.SplitDistance = 0;
             this.btnSaveStorageIn.TabIndex = 29;
@@ -1846,7 +1847,7 @@
             // 
             this.AsProductSpeciText.Enabled = false;
             this.AsProductSpeciText.FormattingEnabled = true;
-            this.AsProductSpeciText.Location = new System.Drawing.Point(330, 55);
+            this.AsProductSpeciText.Location = new System.Drawing.Point(330, 60);
             this.AsProductSpeciText.Name = "AsProductSpeciText";
             this.AsProductSpeciText.Size = new System.Drawing.Size(124, 22);
             this.AsProductSpeciText.TabIndex = 28;
@@ -1855,7 +1856,7 @@
             // AsProductUnit
             // 
             this.AsProductUnit.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsProductUnit.Location = new System.Drawing.Point(546, 55);
+            this.AsProductUnit.Location = new System.Drawing.Point(546, 60);
             this.AsProductUnit.Name = "AsProductUnit";
             this.AsProductUnit.ReadOnly = true;
             this.AsProductUnit.Size = new System.Drawing.Size(124, 23);
@@ -1863,7 +1864,7 @@
             // 
             // AsProductAmount
             // 
-            this.AsProductAmount.Location = new System.Drawing.Point(330, 87);
+            this.AsProductAmount.Location = new System.Drawing.Point(330, 94);
             this.AsProductAmount.Name = "AsProductAmount";
             this.AsProductAmount.Size = new System.Drawing.Size(124, 23);
             this.AsProductAmount.TabIndex = 27;
@@ -1871,7 +1872,7 @@
             // formLabel14
             // 
             this.formLabel14.AutoSize = true;
-            this.formLabel14.Location = new System.Drawing.Point(268, 90);
+            this.formLabel14.Location = new System.Drawing.Point(268, 98);
             this.formLabel14.Name = "formLabel14";
             this.formLabel14.Size = new System.Drawing.Size(35, 14);
             this.formLabel14.TabIndex = 26;
@@ -1879,7 +1880,7 @@
             // 
             // AsProductUnitPrice
             // 
-            this.AsProductUnitPrice.Location = new System.Drawing.Point(109, 87);
+            this.AsProductUnitPrice.Location = new System.Drawing.Point(109, 94);
             this.AsProductUnitPrice.Name = "AsProductUnitPrice";
             this.AsProductUnitPrice.Size = new System.Drawing.Size(124, 23);
             this.AsProductUnitPrice.TabIndex = 25;
@@ -1887,7 +1888,7 @@
             // formLabel15
             // 
             this.formLabel15.AutoSize = true;
-            this.formLabel15.Location = new System.Drawing.Point(40, 90);
+            this.formLabel15.Location = new System.Drawing.Point(40, 98);
             this.formLabel15.Name = "formLabel15";
             this.formLabel15.Size = new System.Drawing.Size(49, 14);
             this.formLabel15.TabIndex = 24;
@@ -1896,7 +1897,7 @@
             // formLabel16
             // 
             this.formLabel16.AutoSize = true;
-            this.formLabel16.Location = new System.Drawing.Point(487, 61);
+            this.formLabel16.Location = new System.Drawing.Point(487, 66);
             this.formLabel16.Name = "formLabel16";
             this.formLabel16.Size = new System.Drawing.Size(35, 14);
             this.formLabel16.TabIndex = 20;
@@ -1905,7 +1906,7 @@
             // formLabel17
             // 
             this.formLabel17.AutoSize = true;
-            this.formLabel17.Location = new System.Drawing.Point(268, 61);
+            this.formLabel17.Location = new System.Drawing.Point(268, 66);
             this.formLabel17.Name = "formLabel17";
             this.formLabel17.Size = new System.Drawing.Size(35, 14);
             this.formLabel17.TabIndex = 18;
@@ -1914,7 +1915,7 @@
             // AsProductName
             // 
             this.AsProductName.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsProductName.Location = new System.Drawing.Point(109, 55);
+            this.AsProductName.Location = new System.Drawing.Point(109, 60);
             this.AsProductName.Name = "AsProductName";
             this.AsProductName.ReadOnly = true;
             this.AsProductName.Size = new System.Drawing.Size(124, 23);
@@ -1923,7 +1924,7 @@
             // formLabel18
             // 
             this.formLabel18.AutoSize = true;
-            this.formLabel18.Location = new System.Drawing.Point(40, 55);
+            this.formLabel18.Location = new System.Drawing.Point(40, 60);
             this.formLabel18.Name = "formLabel18";
             this.formLabel18.Size = new System.Drawing.Size(49, 14);
             this.formLabel18.TabIndex = 16;
@@ -1931,7 +1932,7 @@
             // 
             // AsProductBarcode
             // 
-            this.AsProductBarcode.Location = new System.Drawing.Point(330, 22);
+            this.AsProductBarcode.Location = new System.Drawing.Point(330, 24);
             this.AsProductBarcode.Name = "AsProductBarcode";
             this.AsProductBarcode.Size = new System.Drawing.Size(124, 23);
             this.AsProductBarcode.TabIndex = 15;
@@ -1940,7 +1941,7 @@
             // formLabel19
             // 
             this.formLabel19.AutoSize = true;
-            this.formLabel19.Location = new System.Drawing.Point(267, 25);
+            this.formLabel19.Location = new System.Drawing.Point(267, 27);
             this.formLabel19.Name = "formLabel19";
             this.formLabel19.Size = new System.Drawing.Size(35, 14);
             this.formLabel19.TabIndex = 14;
@@ -1948,7 +1949,7 @@
             // 
             // AsProductNumber
             // 
-            this.AsProductNumber.Location = new System.Drawing.Point(109, 22);
+            this.AsProductNumber.Location = new System.Drawing.Point(109, 24);
             this.AsProductNumber.Name = "AsProductNumber";
             this.AsProductNumber.Size = new System.Drawing.Size(124, 23);
             this.AsProductNumber.TabIndex = 12;
@@ -1957,7 +1958,7 @@
             // formLabel27
             // 
             this.formLabel27.AutoSize = true;
-            this.formLabel27.Location = new System.Drawing.Point(40, 25);
+            this.formLabel27.Location = new System.Drawing.Point(40, 27);
             this.formLabel27.Name = "formLabel27";
             this.formLabel27.Size = new System.Drawing.Size(35, 14);
             this.formLabel27.TabIndex = 11;
@@ -1984,13 +1985,13 @@
             this.btnAddStorageInItem.ImageOffset = 0;
             this.btnAddStorageInItem.IsPressed = false;
             this.btnAddStorageInItem.KeepPress = false;
-            this.btnAddStorageInItem.Location = new System.Drawing.Point(271, 125);
+            this.btnAddStorageInItem.Location = new System.Drawing.Point(271, 135);
             this.btnAddStorageInItem.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnAddStorageInItem.MenuPos = new System.Drawing.Point(0, 0);
             this.btnAddStorageInItem.Name = "btnAddStorageInItem";
             this.btnAddStorageInItem.Radius = 10;
             this.btnAddStorageInItem.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnAddStorageInItem.Size = new System.Drawing.Size(76, 29);
+            this.btnAddStorageInItem.Size = new System.Drawing.Size(76, 31);
             this.btnAddStorageInItem.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnAddStorageInItem.SplitDistance = 0;
             this.btnAddStorageInItem.TabIndex = 9;
@@ -2020,13 +2021,13 @@
             this.btnDeleteStorageInItem.ImageOffset = 0;
             this.btnDeleteStorageInItem.IsPressed = false;
             this.btnDeleteStorageInItem.KeepPress = false;
-            this.btnDeleteStorageInItem.Location = new System.Drawing.Point(366, 125);
+            this.btnDeleteStorageInItem.Location = new System.Drawing.Point(366, 135);
             this.btnDeleteStorageInItem.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnDeleteStorageInItem.MenuPos = new System.Drawing.Point(0, 0);
             this.btnDeleteStorageInItem.Name = "btnDeleteStorageInItem";
             this.btnDeleteStorageInItem.Radius = 10;
             this.btnDeleteStorageInItem.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnDeleteStorageInItem.Size = new System.Drawing.Size(76, 29);
+            this.btnDeleteStorageInItem.Size = new System.Drawing.Size(76, 31);
             this.btnDeleteStorageInItem.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.btnDeleteStorageInItem.SplitDistance = 0;
             this.btnDeleteStorageInItem.TabIndex = 10;
@@ -2045,7 +2046,7 @@
             this.groupBox8.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox8.Location = new System.Drawing.Point(3, 3);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(831, 78);
+            this.groupBox8.Size = new System.Drawing.Size(831, 85);
             this.groupBox8.TabIndex = 0;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "入库单信息";
@@ -2055,7 +2056,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label12.ForeColor = System.Drawing.Color.DarkRed;
-            this.label12.Location = new System.Drawing.Point(249, 38);
+            this.label12.Location = new System.Drawing.Point(249, 41);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(11, 12);
             this.label12.TabIndex = 11;
@@ -2063,7 +2064,7 @@
             // 
             // AsStorageInTime
             // 
-            this.AsStorageInTime.Location = new System.Drawing.Point(470, 27);
+            this.AsStorageInTime.Location = new System.Drawing.Point(470, 29);
             this.AsStorageInTime.Name = "AsStorageInTime";
             this.AsStorageInTime.Size = new System.Drawing.Size(124, 23);
             this.AsStorageInTime.TabIndex = 3;
@@ -2072,7 +2073,7 @@
             // formLabel11
             // 
             this.formLabel11.AutoSize = true;
-            this.formLabel11.Location = new System.Drawing.Point(401, 33);
+            this.formLabel11.Location = new System.Drawing.Point(401, 36);
             this.formLabel11.Name = "formLabel11";
             this.formLabel11.Size = new System.Drawing.Size(63, 14);
             this.formLabel11.TabIndex = 2;
@@ -2080,7 +2081,7 @@
             // 
             // AsNumber
             // 
-            this.AsNumber.Location = new System.Drawing.Point(109, 30);
+            this.AsNumber.Location = new System.Drawing.Point(109, 33);
             this.AsNumber.Name = "AsNumber";
             this.AsNumber.Size = new System.Drawing.Size(124, 23);
             this.AsNumber.TabIndex = 1;
@@ -2088,7 +2089,7 @@
             // formLabel10
             // 
             this.formLabel10.AutoSize = true;
-            this.formLabel10.Location = new System.Drawing.Point(40, 33);
+            this.formLabel10.Location = new System.Drawing.Point(40, 36);
             this.formLabel10.Name = "formLabel10";
             this.formLabel10.Size = new System.Drawing.Size(63, 14);
             this.formLabel10.TabIndex = 0;
@@ -2101,7 +2102,7 @@
             this.listStorageOutPage.Location = new System.Drawing.Point(4, 24);
             this.listStorageOutPage.Name = "listStorageOutPage";
             this.listStorageOutPage.Padding = new System.Windows.Forms.Padding(3);
-            this.listStorageOutPage.Size = new System.Drawing.Size(837, 372);
+            this.listStorageOutPage.Size = new System.Drawing.Size(837, 407);
             this.listStorageOutPage.TabIndex = 5;
             this.listStorageOutPage.Text = "销售出库单  ";
             this.listStorageOutPage.UseVisualStyleBackColor = true;
@@ -2118,10 +2119,10 @@
             this.IsDel,
             this.CreateTime});
             this.StorageOutList.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StorageOutList.Location = new System.Drawing.Point(3, 81);
+            this.StorageOutList.Location = new System.Drawing.Point(3, 88);
             this.StorageOutList.Name = "StorageOutList";
             this.StorageOutList.RowTemplate.Height = 23;
-            this.StorageOutList.Size = new System.Drawing.Size(831, 288);
+            this.StorageOutList.Size = new System.Drawing.Size(831, 316);
             this.StorageOutList.TabIndex = 2;
             // 
             // dataGridViewTextBoxColumn18
@@ -2179,7 +2180,7 @@
             this.groupBox12.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox12.Location = new System.Drawing.Point(3, 3);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(831, 78);
+            this.groupBox12.Size = new System.Drawing.Size(831, 85);
             this.groupBox12.TabIndex = 1;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "查询";
@@ -2206,13 +2207,13 @@
             this.ribbonMenuButton5.ImageOffset = 0;
             this.ribbonMenuButton5.IsPressed = false;
             this.ribbonMenuButton5.KeepPress = false;
-            this.ribbonMenuButton5.Location = new System.Drawing.Point(598, 29);
+            this.ribbonMenuButton5.Location = new System.Drawing.Point(598, 31);
             this.ribbonMenuButton5.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton5.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton5.Name = "ribbonMenuButton5";
             this.ribbonMenuButton5.Radius = 10;
             this.ribbonMenuButton5.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.ribbonMenuButton5.Size = new System.Drawing.Size(76, 29);
+            this.ribbonMenuButton5.Size = new System.Drawing.Size(76, 31);
             this.ribbonMenuButton5.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.ribbonMenuButton5.SplitDistance = 0;
             this.ribbonMenuButton5.TabIndex = 5;
@@ -2223,7 +2224,7 @@
             // 
             // SolSearchEndTime
             // 
-            this.SolSearchEndTime.Location = new System.Drawing.Point(288, 31);
+            this.SolSearchEndTime.Location = new System.Drawing.Point(288, 34);
             this.SolSearchEndTime.Name = "SolSearchEndTime";
             this.SolSearchEndTime.Size = new System.Drawing.Size(132, 23);
             this.SolSearchEndTime.TabIndex = 3;
@@ -2231,7 +2232,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(261, 37);
+            this.label14.Location = new System.Drawing.Point(261, 40);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(21, 14);
             this.label14.TabIndex = 2;
@@ -2239,7 +2240,7 @@
             // 
             // SolSearchStartTime
             // 
-            this.SolSearchStartTime.Location = new System.Drawing.Point(123, 31);
+            this.SolSearchStartTime.Location = new System.Drawing.Point(123, 34);
             this.SolSearchStartTime.Name = "SolSearchStartTime";
             this.SolSearchStartTime.Size = new System.Drawing.Size(132, 23);
             this.SolSearchStartTime.TabIndex = 1;
@@ -2247,7 +2248,7 @@
             // formLabel28
             // 
             this.formLabel28.AutoSize = true;
-            this.formLabel28.Location = new System.Drawing.Point(31, 37);
+            this.formLabel28.Location = new System.Drawing.Point(31, 40);
             this.formLabel28.Name = "formLabel28";
             this.formLabel28.Size = new System.Drawing.Size(77, 14);
             this.formLabel28.TabIndex = 0;
@@ -2260,7 +2261,7 @@
             this.addStorageOutPage.Location = new System.Drawing.Point(4, 24);
             this.addStorageOutPage.Name = "addStorageOutPage";
             this.addStorageOutPage.Padding = new System.Windows.Forms.Padding(3);
-            this.addStorageOutPage.Size = new System.Drawing.Size(837, 372);
+            this.addStorageOutPage.Size = new System.Drawing.Size(837, 407);
             this.addStorageOutPage.TabIndex = 6;
             this.addStorageOutPage.Text = "添加销售出库  ";
             this.addStorageOutPage.UseVisualStyleBackColor = true;
@@ -2271,9 +2272,9 @@
             this.panel7.Controls.Add(this.AsoStorageOutItemDataGridView);
             this.panel7.Controls.Add(this.groupBox14);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(3, 81);
+            this.panel7.Location = new System.Drawing.Point(3, 88);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(831, 288);
+            this.panel7.Size = new System.Drawing.Size(831, 316);
             this.panel7.TabIndex = 2;
             // 
             // AsoStorageOutItemDataGridView
@@ -2295,11 +2296,11 @@
             this.AsoProductListCreateTime});
             this.AsoStorageOutItemDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AsoStorageOutItemDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.AsoStorageOutItemDataGridView.Location = new System.Drawing.Point(0, 167);
+            this.AsoStorageOutItemDataGridView.Location = new System.Drawing.Point(0, 181);
             this.AsoStorageOutItemDataGridView.Name = "AsoStorageOutItemDataGridView";
             this.AsoStorageOutItemDataGridView.RowTemplate.Height = 23;
             this.AsoStorageOutItemDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AsoStorageOutItemDataGridView.Size = new System.Drawing.Size(831, 121);
+            this.AsoStorageOutItemDataGridView.Size = new System.Drawing.Size(831, 135);
             this.AsoStorageOutItemDataGridView.TabIndex = 4;
             // 
             // AsoProductListId
@@ -2404,7 +2405,7 @@
             this.groupBox14.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox14.Location = new System.Drawing.Point(0, 0);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(831, 167);
+            this.groupBox14.Size = new System.Drawing.Size(831, 181);
             this.groupBox14.TabIndex = 3;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "添加销售产品";
@@ -2430,13 +2431,13 @@
             this.AsoSaveStorageOut.ImageOffset = 0;
             this.AsoSaveStorageOut.IsPressed = false;
             this.AsoSaveStorageOut.KeepPress = false;
-            this.AsoSaveStorageOut.Location = new System.Drawing.Point(582, 125);
+            this.AsoSaveStorageOut.Location = new System.Drawing.Point(582, 135);
             this.AsoSaveStorageOut.MaxImageSize = new System.Drawing.Point(0, 0);
             this.AsoSaveStorageOut.MenuPos = new System.Drawing.Point(0, 0);
             this.AsoSaveStorageOut.Name = "AsoSaveStorageOut";
             this.AsoSaveStorageOut.Radius = 10;
             this.AsoSaveStorageOut.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.AsoSaveStorageOut.Size = new System.Drawing.Size(88, 29);
+            this.AsoSaveStorageOut.Size = new System.Drawing.Size(88, 31);
             this.AsoSaveStorageOut.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.AsoSaveStorageOut.SplitDistance = 0;
             this.AsoSaveStorageOut.TabIndex = 29;
@@ -2449,7 +2450,7 @@
             // 
             this.AsoStorageOutSpeciText.Enabled = false;
             this.AsoStorageOutSpeciText.FormattingEnabled = true;
-            this.AsoStorageOutSpeciText.Location = new System.Drawing.Point(330, 55);
+            this.AsoStorageOutSpeciText.Location = new System.Drawing.Point(330, 60);
             this.AsoStorageOutSpeciText.Name = "AsoStorageOutSpeciText";
             this.AsoStorageOutSpeciText.Size = new System.Drawing.Size(124, 22);
             this.AsoStorageOutSpeciText.TabIndex = 28;
@@ -2457,7 +2458,7 @@
             // AsoStorageOutUnit
             // 
             this.AsoStorageOutUnit.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsoStorageOutUnit.Location = new System.Drawing.Point(546, 55);
+            this.AsoStorageOutUnit.Location = new System.Drawing.Point(546, 60);
             this.AsoStorageOutUnit.Name = "AsoStorageOutUnit";
             this.AsoStorageOutUnit.ReadOnly = true;
             this.AsoStorageOutUnit.Size = new System.Drawing.Size(124, 23);
@@ -2465,7 +2466,7 @@
             // 
             // AsoStorageOutAmount
             // 
-            this.AsoStorageOutAmount.Location = new System.Drawing.Point(330, 87);
+            this.AsoStorageOutAmount.Location = new System.Drawing.Point(330, 94);
             this.AsoStorageOutAmount.Name = "AsoStorageOutAmount";
             this.AsoStorageOutAmount.Size = new System.Drawing.Size(124, 23);
             this.AsoStorageOutAmount.TabIndex = 27;
@@ -2473,7 +2474,7 @@
             // formLabel31
             // 
             this.formLabel31.AutoSize = true;
-            this.formLabel31.Location = new System.Drawing.Point(268, 90);
+            this.formLabel31.Location = new System.Drawing.Point(268, 98);
             this.formLabel31.Name = "formLabel31";
             this.formLabel31.Size = new System.Drawing.Size(35, 14);
             this.formLabel31.TabIndex = 26;
@@ -2481,7 +2482,7 @@
             // 
             // AsoStorageOutUnitPrice
             // 
-            this.AsoStorageOutUnitPrice.Location = new System.Drawing.Point(109, 87);
+            this.AsoStorageOutUnitPrice.Location = new System.Drawing.Point(109, 94);
             this.AsoStorageOutUnitPrice.Name = "AsoStorageOutUnitPrice";
             this.AsoStorageOutUnitPrice.Size = new System.Drawing.Size(124, 23);
             this.AsoStorageOutUnitPrice.TabIndex = 25;
@@ -2489,7 +2490,7 @@
             // formLabel32
             // 
             this.formLabel32.AutoSize = true;
-            this.formLabel32.Location = new System.Drawing.Point(40, 90);
+            this.formLabel32.Location = new System.Drawing.Point(40, 98);
             this.formLabel32.Name = "formLabel32";
             this.formLabel32.Size = new System.Drawing.Size(49, 14);
             this.formLabel32.TabIndex = 24;
@@ -2498,7 +2499,7 @@
             // formLabel33
             // 
             this.formLabel33.AutoSize = true;
-            this.formLabel33.Location = new System.Drawing.Point(487, 61);
+            this.formLabel33.Location = new System.Drawing.Point(487, 66);
             this.formLabel33.Name = "formLabel33";
             this.formLabel33.Size = new System.Drawing.Size(35, 14);
             this.formLabel33.TabIndex = 20;
@@ -2507,7 +2508,7 @@
             // formLabel34
             // 
             this.formLabel34.AutoSize = true;
-            this.formLabel34.Location = new System.Drawing.Point(268, 61);
+            this.formLabel34.Location = new System.Drawing.Point(268, 66);
             this.formLabel34.Name = "formLabel34";
             this.formLabel34.Size = new System.Drawing.Size(35, 14);
             this.formLabel34.TabIndex = 18;
@@ -2516,7 +2517,7 @@
             // AsoStorageOutProductName
             // 
             this.AsoStorageOutProductName.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsoStorageOutProductName.Location = new System.Drawing.Point(109, 55);
+            this.AsoStorageOutProductName.Location = new System.Drawing.Point(109, 60);
             this.AsoStorageOutProductName.Name = "AsoStorageOutProductName";
             this.AsoStorageOutProductName.ReadOnly = true;
             this.AsoStorageOutProductName.Size = new System.Drawing.Size(124, 23);
@@ -2525,7 +2526,7 @@
             // formLabel35
             // 
             this.formLabel35.AutoSize = true;
-            this.formLabel35.Location = new System.Drawing.Point(40, 55);
+            this.formLabel35.Location = new System.Drawing.Point(40, 60);
             this.formLabel35.Name = "formLabel35";
             this.formLabel35.Size = new System.Drawing.Size(49, 14);
             this.formLabel35.TabIndex = 16;
@@ -2533,7 +2534,7 @@
             // 
             // AsoStorageOutBarcode
             // 
-            this.AsoStorageOutBarcode.Location = new System.Drawing.Point(330, 22);
+            this.AsoStorageOutBarcode.Location = new System.Drawing.Point(330, 24);
             this.AsoStorageOutBarcode.Name = "AsoStorageOutBarcode";
             this.AsoStorageOutBarcode.Size = new System.Drawing.Size(124, 23);
             this.AsoStorageOutBarcode.TabIndex = 15;
@@ -2542,7 +2543,7 @@
             // formLabel36
             // 
             this.formLabel36.AutoSize = true;
-            this.formLabel36.Location = new System.Drawing.Point(267, 25);
+            this.formLabel36.Location = new System.Drawing.Point(267, 27);
             this.formLabel36.Name = "formLabel36";
             this.formLabel36.Size = new System.Drawing.Size(35, 14);
             this.formLabel36.TabIndex = 14;
@@ -2550,7 +2551,7 @@
             // 
             // AsoStorageOutProductNumber
             // 
-            this.AsoStorageOutProductNumber.Location = new System.Drawing.Point(109, 22);
+            this.AsoStorageOutProductNumber.Location = new System.Drawing.Point(109, 24);
             this.AsoStorageOutProductNumber.Name = "AsoStorageOutProductNumber";
             this.AsoStorageOutProductNumber.Size = new System.Drawing.Size(124, 23);
             this.AsoStorageOutProductNumber.TabIndex = 12;
@@ -2559,7 +2560,7 @@
             // formLabel37
             // 
             this.formLabel37.AutoSize = true;
-            this.formLabel37.Location = new System.Drawing.Point(40, 25);
+            this.formLabel37.Location = new System.Drawing.Point(40, 27);
             this.formLabel37.Name = "formLabel37";
             this.formLabel37.Size = new System.Drawing.Size(35, 14);
             this.formLabel37.TabIndex = 11;
@@ -2586,13 +2587,13 @@
             this.AsoAddStorageOutItem.ImageOffset = 0;
             this.AsoAddStorageOutItem.IsPressed = false;
             this.AsoAddStorageOutItem.KeepPress = false;
-            this.AsoAddStorageOutItem.Location = new System.Drawing.Point(271, 125);
+            this.AsoAddStorageOutItem.Location = new System.Drawing.Point(271, 135);
             this.AsoAddStorageOutItem.MaxImageSize = new System.Drawing.Point(0, 0);
             this.AsoAddStorageOutItem.MenuPos = new System.Drawing.Point(0, 0);
             this.AsoAddStorageOutItem.Name = "AsoAddStorageOutItem";
             this.AsoAddStorageOutItem.Radius = 10;
             this.AsoAddStorageOutItem.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.AsoAddStorageOutItem.Size = new System.Drawing.Size(76, 29);
+            this.AsoAddStorageOutItem.Size = new System.Drawing.Size(76, 31);
             this.AsoAddStorageOutItem.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.AsoAddStorageOutItem.SplitDistance = 0;
             this.AsoAddStorageOutItem.TabIndex = 9;
@@ -2622,13 +2623,13 @@
             this.AsoDeleteStorageOutItem.ImageOffset = 0;
             this.AsoDeleteStorageOutItem.IsPressed = false;
             this.AsoDeleteStorageOutItem.KeepPress = false;
-            this.AsoDeleteStorageOutItem.Location = new System.Drawing.Point(366, 125);
+            this.AsoDeleteStorageOutItem.Location = new System.Drawing.Point(366, 135);
             this.AsoDeleteStorageOutItem.MaxImageSize = new System.Drawing.Point(0, 0);
             this.AsoDeleteStorageOutItem.MenuPos = new System.Drawing.Point(0, 0);
             this.AsoDeleteStorageOutItem.Name = "AsoDeleteStorageOutItem";
             this.AsoDeleteStorageOutItem.Radius = 10;
             this.AsoDeleteStorageOutItem.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.AsoDeleteStorageOutItem.Size = new System.Drawing.Size(76, 29);
+            this.AsoDeleteStorageOutItem.Size = new System.Drawing.Size(76, 31);
             this.AsoDeleteStorageOutItem.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.AsoDeleteStorageOutItem.SplitDistance = 0;
             this.AsoDeleteStorageOutItem.TabIndex = 10;
@@ -2647,7 +2648,7 @@
             this.groupBox13.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox13.Location = new System.Drawing.Point(3, 3);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(831, 78);
+            this.groupBox13.Size = new System.Drawing.Size(831, 85);
             this.groupBox13.TabIndex = 1;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "出库单信息";
@@ -2657,7 +2658,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label15.ForeColor = System.Drawing.Color.DarkRed;
-            this.label15.Location = new System.Drawing.Point(249, 38);
+            this.label15.Location = new System.Drawing.Point(249, 41);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(11, 12);
             this.label15.TabIndex = 11;
@@ -2665,7 +2666,7 @@
             // 
             // AsoStorageOutTime
             // 
-            this.AsoStorageOutTime.Location = new System.Drawing.Point(470, 27);
+            this.AsoStorageOutTime.Location = new System.Drawing.Point(470, 29);
             this.AsoStorageOutTime.Name = "AsoStorageOutTime";
             this.AsoStorageOutTime.Size = new System.Drawing.Size(124, 23);
             this.AsoStorageOutTime.TabIndex = 3;
@@ -2674,7 +2675,7 @@
             // formLabel29
             // 
             this.formLabel29.AutoSize = true;
-            this.formLabel29.Location = new System.Drawing.Point(401, 33);
+            this.formLabel29.Location = new System.Drawing.Point(401, 36);
             this.formLabel29.Name = "formLabel29";
             this.formLabel29.Size = new System.Drawing.Size(63, 14);
             this.formLabel29.TabIndex = 2;
@@ -2682,7 +2683,7 @@
             // 
             // AsoStorageOutNumber
             // 
-            this.AsoStorageOutNumber.Location = new System.Drawing.Point(109, 30);
+            this.AsoStorageOutNumber.Location = new System.Drawing.Point(109, 33);
             this.AsoStorageOutNumber.Name = "AsoStorageOutNumber";
             this.AsoStorageOutNumber.Size = new System.Drawing.Size(124, 23);
             this.AsoStorageOutNumber.TabIndex = 1;
@@ -2690,7 +2691,7 @@
             // formLabel30
             // 
             this.formLabel30.AutoSize = true;
-            this.formLabel30.Location = new System.Drawing.Point(40, 33);
+            this.formLabel30.Location = new System.Drawing.Point(40, 36);
             this.formLabel30.Name = "formLabel30";
             this.formLabel30.Size = new System.Drawing.Size(63, 14);
             this.formLabel30.TabIndex = 0;
@@ -2703,7 +2704,7 @@
             this.inventoryPage.Location = new System.Drawing.Point(4, 24);
             this.inventoryPage.Name = "inventoryPage";
             this.inventoryPage.Padding = new System.Windows.Forms.Padding(3);
-            this.inventoryPage.Size = new System.Drawing.Size(837, 372);
+            this.inventoryPage.Size = new System.Drawing.Size(837, 407);
             this.inventoryPage.TabIndex = 7;
             this.inventoryPage.Text = "库存清单  ";
             this.inventoryPage.UseVisualStyleBackColor = true;
@@ -2727,12 +2728,12 @@
             this.dataGridViewTextBoxColumn29});
             this.inventoryDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.inventoryDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.inventoryDataGridView.Location = new System.Drawing.Point(3, 103);
+            this.inventoryDataGridView.Location = new System.Drawing.Point(3, 111);
             this.inventoryDataGridView.MultiSelect = false;
             this.inventoryDataGridView.Name = "inventoryDataGridView";
             this.inventoryDataGridView.RowTemplate.Height = 23;
             this.inventoryDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.inventoryDataGridView.Size = new System.Drawing.Size(831, 266);
+            this.inventoryDataGridView.Size = new System.Drawing.Size(831, 293);
             this.inventoryDataGridView.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn22
@@ -2808,7 +2809,7 @@
             this.groupBox15.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox15.Location = new System.Drawing.Point(3, 3);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(831, 100);
+            this.groupBox15.Size = new System.Drawing.Size(831, 108);
             this.groupBox15.TabIndex = 0;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "查询";
@@ -2820,7 +2821,7 @@
             this.updateStorageInPage.Location = new System.Drawing.Point(4, 24);
             this.updateStorageInPage.Name = "updateStorageInPage";
             this.updateStorageInPage.Padding = new System.Windows.Forms.Padding(3);
-            this.updateStorageInPage.Size = new System.Drawing.Size(837, 372);
+            this.updateStorageInPage.Size = new System.Drawing.Size(837, 407);
             this.updateStorageInPage.TabIndex = 3;
             this.updateStorageInPage.Text = "修改采购入库单  ";
             this.updateStorageInPage.UseVisualStyleBackColor = true;
@@ -2831,9 +2832,9 @@
             this.panel6.Controls.Add(this.dataGridView2);
             this.panel6.Controls.Add(this.groupBox11);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(3, 87);
+            this.panel6.Location = new System.Drawing.Point(3, 94);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(831, 282);
+            this.panel6.Size = new System.Drawing.Size(831, 310);
             this.panel6.TabIndex = 2;
             // 
             // dataGridView2
@@ -2855,11 +2856,11 @@
             this.dataGridViewTextBoxColumn32});
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 167);
+            this.dataGridView2.Location = new System.Drawing.Point(0, 181);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(831, 115);
+            this.dataGridView2.Size = new System.Drawing.Size(831, 129);
             this.dataGridView2.TabIndex = 5;
             // 
             // dataGridViewTextBoxColumn7
@@ -2963,7 +2964,7 @@
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox11.Location = new System.Drawing.Point(0, 0);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(831, 167);
+            this.groupBox11.Size = new System.Drawing.Size(831, 181);
             this.groupBox11.TabIndex = 2;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "添加产品";
@@ -2972,7 +2973,7 @@
             // UsSearchSpeciText
             // 
             this.UsSearchSpeciText.FormattingEnabled = true;
-            this.UsSearchSpeciText.Location = new System.Drawing.Point(330, 52);
+            this.UsSearchSpeciText.Location = new System.Drawing.Point(330, 56);
             this.UsSearchSpeciText.Name = "UsSearchSpeciText";
             this.UsSearchSpeciText.Size = new System.Drawing.Size(124, 22);
             this.UsSearchSpeciText.TabIndex = 32;
@@ -2980,7 +2981,7 @@
             // UsSearchUnit
             // 
             this.UsSearchUnit.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.UsSearchUnit.Location = new System.Drawing.Point(546, 52);
+            this.UsSearchUnit.Location = new System.Drawing.Point(546, 56);
             this.UsSearchUnit.Name = "UsSearchUnit";
             this.UsSearchUnit.ReadOnly = true;
             this.UsSearchUnit.Size = new System.Drawing.Size(124, 23);
@@ -2989,7 +2990,7 @@
             // formLabel21
             // 
             this.formLabel21.AutoSize = true;
-            this.formLabel21.Location = new System.Drawing.Point(487, 58);
+            this.formLabel21.Location = new System.Drawing.Point(487, 63);
             this.formLabel21.Name = "formLabel21";
             this.formLabel21.Size = new System.Drawing.Size(35, 14);
             this.formLabel21.TabIndex = 30;
@@ -2998,7 +2999,7 @@
             // formLabel22
             // 
             this.formLabel22.AutoSize = true;
-            this.formLabel22.Location = new System.Drawing.Point(268, 58);
+            this.formLabel22.Location = new System.Drawing.Point(268, 63);
             this.formLabel22.Name = "formLabel22";
             this.formLabel22.Size = new System.Drawing.Size(35, 14);
             this.formLabel22.TabIndex = 29;
@@ -3007,7 +3008,7 @@
             // UsSearchAmount
             // 
             this.UsSearchAmount.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.UsSearchAmount.Location = new System.Drawing.Point(330, 87);
+            this.UsSearchAmount.Location = new System.Drawing.Point(330, 94);
             this.UsSearchAmount.Name = "UsSearchAmount";
             this.UsSearchAmount.ReadOnly = true;
             this.UsSearchAmount.Size = new System.Drawing.Size(124, 23);
@@ -3016,7 +3017,7 @@
             // formLabel26
             // 
             this.formLabel26.AutoSize = true;
-            this.formLabel26.Location = new System.Drawing.Point(268, 90);
+            this.formLabel26.Location = new System.Drawing.Point(268, 98);
             this.formLabel26.Name = "formLabel26";
             this.formLabel26.Size = new System.Drawing.Size(35, 14);
             this.formLabel26.TabIndex = 26;
@@ -3025,7 +3026,7 @@
             // UsSearchUnitPrice
             // 
             this.UsSearchUnitPrice.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.UsSearchUnitPrice.Location = new System.Drawing.Point(109, 87);
+            this.UsSearchUnitPrice.Location = new System.Drawing.Point(109, 94);
             this.UsSearchUnitPrice.Name = "UsSearchUnitPrice";
             this.UsSearchUnitPrice.ReadOnly = true;
             this.UsSearchUnitPrice.Size = new System.Drawing.Size(124, 23);
@@ -3034,7 +3035,7 @@
             // formLabel20
             // 
             this.formLabel20.AutoSize = true;
-            this.formLabel20.Location = new System.Drawing.Point(47, 90);
+            this.formLabel20.Location = new System.Drawing.Point(47, 98);
             this.formLabel20.Name = "formLabel20";
             this.formLabel20.Size = new System.Drawing.Size(49, 14);
             this.formLabel20.TabIndex = 24;
@@ -3043,7 +3044,7 @@
             // UsSearchProductName
             // 
             this.UsSearchProductName.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.UsSearchProductName.Location = new System.Drawing.Point(109, 55);
+            this.UsSearchProductName.Location = new System.Drawing.Point(109, 60);
             this.UsSearchProductName.Name = "UsSearchProductName";
             this.UsSearchProductName.ReadOnly = true;
             this.UsSearchProductName.Size = new System.Drawing.Size(124, 23);
@@ -3052,7 +3053,7 @@
             // formLabel23
             // 
             this.formLabel23.AutoSize = true;
-            this.formLabel23.Location = new System.Drawing.Point(43, 58);
+            this.formLabel23.Location = new System.Drawing.Point(43, 63);
             this.formLabel23.Name = "formLabel23";
             this.formLabel23.Size = new System.Drawing.Size(49, 14);
             this.formLabel23.TabIndex = 16;
@@ -3061,7 +3062,7 @@
             // UsSearchBarcode
             // 
             this.UsSearchBarcode.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.UsSearchBarcode.Location = new System.Drawing.Point(330, 22);
+            this.UsSearchBarcode.Location = new System.Drawing.Point(330, 24);
             this.UsSearchBarcode.Name = "UsSearchBarcode";
             this.UsSearchBarcode.ReadOnly = true;
             this.UsSearchBarcode.Size = new System.Drawing.Size(124, 23);
@@ -3071,7 +3072,7 @@
             // formLabel24
             // 
             this.formLabel24.AutoSize = true;
-            this.formLabel24.Location = new System.Drawing.Point(267, 25);
+            this.formLabel24.Location = new System.Drawing.Point(267, 27);
             this.formLabel24.Name = "formLabel24";
             this.formLabel24.Size = new System.Drawing.Size(35, 14);
             this.formLabel24.TabIndex = 14;
@@ -3080,7 +3081,7 @@
             // UsSearchProductNumber
             // 
             this.UsSearchProductNumber.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.UsSearchProductNumber.Location = new System.Drawing.Point(109, 22);
+            this.UsSearchProductNumber.Location = new System.Drawing.Point(109, 24);
             this.UsSearchProductNumber.Name = "UsSearchProductNumber";
             this.UsSearchProductNumber.ReadOnly = true;
             this.UsSearchProductNumber.Size = new System.Drawing.Size(124, 23);
@@ -3090,7 +3091,7 @@
             // formLabel25
             // 
             this.formLabel25.AutoSize = true;
-            this.formLabel25.Location = new System.Drawing.Point(40, 25);
+            this.formLabel25.Location = new System.Drawing.Point(40, 27);
             this.formLabel25.Name = "formLabel25";
             this.formLabel25.Size = new System.Drawing.Size(35, 14);
             this.formLabel25.TabIndex = 11;
@@ -3117,13 +3118,13 @@
             this.ribbonMenuButton1.ImageOffset = 0;
             this.ribbonMenuButton1.IsPressed = false;
             this.ribbonMenuButton1.KeepPress = false;
-            this.ribbonMenuButton1.Location = new System.Drawing.Point(271, 125);
+            this.ribbonMenuButton1.Location = new System.Drawing.Point(271, 135);
             this.ribbonMenuButton1.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton1.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton1.Name = "ribbonMenuButton1";
             this.ribbonMenuButton1.Radius = 10;
             this.ribbonMenuButton1.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.ribbonMenuButton1.Size = new System.Drawing.Size(76, 29);
+            this.ribbonMenuButton1.Size = new System.Drawing.Size(76, 31);
             this.ribbonMenuButton1.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.ribbonMenuButton1.SplitDistance = 0;
             this.ribbonMenuButton1.TabIndex = 9;
@@ -3154,13 +3155,13 @@
             this.ribbonMenuButton2.ImageOffset = 0;
             this.ribbonMenuButton2.IsPressed = false;
             this.ribbonMenuButton2.KeepPress = false;
-            this.ribbonMenuButton2.Location = new System.Drawing.Point(366, 125);
+            this.ribbonMenuButton2.Location = new System.Drawing.Point(366, 135);
             this.ribbonMenuButton2.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton2.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton2.Name = "ribbonMenuButton2";
             this.ribbonMenuButton2.Radius = 10;
             this.ribbonMenuButton2.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.ribbonMenuButton2.Size = new System.Drawing.Size(76, 29);
+            this.ribbonMenuButton2.Size = new System.Drawing.Size(76, 31);
             this.ribbonMenuButton2.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.ribbonMenuButton2.SplitDistance = 0;
             this.ribbonMenuButton2.TabIndex = 10;
@@ -3179,7 +3180,7 @@
             this.groupBox10.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox10.Location = new System.Drawing.Point(3, 3);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(831, 84);
+            this.groupBox10.Size = new System.Drawing.Size(831, 91);
             this.groupBox10.TabIndex = 1;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "入库单信息";
@@ -3189,7 +3190,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label13.ForeColor = System.Drawing.Color.DarkRed;
-            this.label13.Location = new System.Drawing.Point(249, 35);
+            this.label13.Location = new System.Drawing.Point(249, 38);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(11, 12);
             this.label13.TabIndex = 12;
@@ -3198,7 +3199,7 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Enabled = false;
-            this.dateTimePicker2.Location = new System.Drawing.Point(470, 27);
+            this.dateTimePicker2.Location = new System.Drawing.Point(470, 29);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(124, 23);
             this.dateTimePicker2.TabIndex = 3;
@@ -3206,7 +3207,7 @@
             // formLabel12
             // 
             this.formLabel12.AutoSize = true;
-            this.formLabel12.Location = new System.Drawing.Point(401, 33);
+            this.formLabel12.Location = new System.Drawing.Point(401, 36);
             this.formLabel12.Name = "formLabel12";
             this.formLabel12.Size = new System.Drawing.Size(63, 14);
             this.formLabel12.TabIndex = 2;
@@ -3215,7 +3216,7 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.textBox2.Location = new System.Drawing.Point(109, 30);
+            this.textBox2.Location = new System.Drawing.Point(109, 33);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(124, 23);
@@ -3224,7 +3225,7 @@
             // formLabel13
             // 
             this.formLabel13.AutoSize = true;
-            this.formLabel13.Location = new System.Drawing.Point(40, 33);
+            this.formLabel13.Location = new System.Drawing.Point(40, 36);
             this.formLabel13.Name = "formLabel13";
             this.formLabel13.Size = new System.Drawing.Size(63, 14);
             this.formLabel13.TabIndex = 0;
@@ -3237,7 +3238,7 @@
             this.updateProductPage.Location = new System.Drawing.Point(4, 24);
             this.updateProductPage.Name = "updateProductPage";
             this.updateProductPage.Padding = new System.Windows.Forms.Padding(3);
-            this.updateProductPage.Size = new System.Drawing.Size(837, 372);
+            this.updateProductPage.Size = new System.Drawing.Size(837, 407);
             this.updateProductPage.TabIndex = 2;
             this.updateProductPage.Text = "修改产品信息  ";
             this.updateProductPage.UseVisualStyleBackColor = true;
@@ -3249,9 +3250,9 @@
             this.groupBox7.Controls.Add(this.dataGridView1);
             this.groupBox7.Controls.Add(this.panel4);
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox7.Location = new System.Drawing.Point(3, 104);
+            this.groupBox7.Location = new System.Drawing.Point(3, 112);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(831, 265);
+            this.groupBox7.Size = new System.Drawing.Size(831, 292);
             this.groupBox7.TabIndex = 3;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "产品规格";
@@ -3271,10 +3272,10 @@
             this.UpSlCreateTime});
             this.UpSpecDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UpSpecDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.UpSpecDataGridView.Location = new System.Drawing.Point(3, 81);
+            this.UpSpecDataGridView.Location = new System.Drawing.Point(3, 86);
             this.UpSpecDataGridView.Name = "UpSpecDataGridView";
             this.UpSpecDataGridView.RowTemplate.Height = 23;
-            this.UpSpecDataGridView.Size = new System.Drawing.Size(825, 181);
+            this.UpSpecDataGridView.Size = new System.Drawing.Size(825, 203);
             this.UpSpecDataGridView.TabIndex = 4;
             this.UpSpecDataGridView.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.UpSpecDataGridView_CellBeginEdit);
             this.UpSpecDataGridView.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.UpSpecDataGridView_CellEndEdit);
@@ -3347,10 +3348,10 @@
             this.dataGridViewCheckBoxColumn1,
             this.dataGridViewTextBoxColumn6});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 81);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 86);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(825, 181);
+            this.dataGridView1.Size = new System.Drawing.Size(825, 203);
             this.dataGridView1.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn1
@@ -3413,7 +3414,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(3, 19);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(825, 62);
+            this.panel4.Size = new System.Drawing.Size(825, 67);
             this.panel4.TabIndex = 2;
             // 
             // UpSave
@@ -3437,13 +3438,13 @@
             this.UpSave.ImageOffset = 0;
             this.UpSave.IsPressed = false;
             this.UpSave.KeepPress = false;
-            this.UpSave.Location = new System.Drawing.Point(599, 17);
+            this.UpSave.Location = new System.Drawing.Point(599, 18);
             this.UpSave.MaxImageSize = new System.Drawing.Point(0, 0);
             this.UpSave.MenuPos = new System.Drawing.Point(0, 0);
             this.UpSave.Name = "UpSave";
             this.UpSave.Radius = 10;
             this.UpSave.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.UpSave.Size = new System.Drawing.Size(101, 29);
+            this.UpSave.Size = new System.Drawing.Size(101, 31);
             this.UpSave.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.UpSave.SplitDistance = 0;
             this.UpSave.TabIndex = 10;
@@ -3473,13 +3474,13 @@
             this.UpAddSpec.ImageOffset = 0;
             this.UpAddSpec.IsPressed = false;
             this.UpAddSpec.KeepPress = false;
-            this.UpAddSpec.Location = new System.Drawing.Point(17, 17);
+            this.UpAddSpec.Location = new System.Drawing.Point(17, 18);
             this.UpAddSpec.MaxImageSize = new System.Drawing.Point(0, 0);
             this.UpAddSpec.MenuPos = new System.Drawing.Point(0, 0);
             this.UpAddSpec.Name = "UpAddSpec";
             this.UpAddSpec.Radius = 10;
             this.UpAddSpec.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.UpAddSpec.Size = new System.Drawing.Size(76, 29);
+            this.UpAddSpec.Size = new System.Drawing.Size(76, 31);
             this.UpAddSpec.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.UpAddSpec.SplitDistance = 0;
             this.UpAddSpec.TabIndex = 7;
@@ -3509,13 +3510,13 @@
             this.UpDeleteSpec.ImageOffset = 0;
             this.UpDeleteSpec.IsPressed = false;
             this.UpDeleteSpec.KeepPress = false;
-            this.UpDeleteSpec.Location = new System.Drawing.Point(103, 17);
+            this.UpDeleteSpec.Location = new System.Drawing.Point(103, 18);
             this.UpDeleteSpec.MaxImageSize = new System.Drawing.Point(0, 0);
             this.UpDeleteSpec.MenuPos = new System.Drawing.Point(0, 0);
             this.UpDeleteSpec.Name = "UpDeleteSpec";
             this.UpDeleteSpec.Radius = 10;
             this.UpDeleteSpec.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.UpDeleteSpec.Size = new System.Drawing.Size(76, 29);
+            this.UpDeleteSpec.Size = new System.Drawing.Size(76, 31);
             this.UpDeleteSpec.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.UpDeleteSpec.SplitDistance = 0;
             this.UpDeleteSpec.TabIndex = 8;
@@ -3542,7 +3543,7 @@
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox6.Location = new System.Drawing.Point(3, 3);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(831, 101);
+            this.groupBox6.Size = new System.Drawing.Size(831, 109);
             this.groupBox6.TabIndex = 1;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "产品基本信息";
@@ -3552,7 +3553,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.Color.DarkRed;
-            this.label7.Location = new System.Drawing.Point(477, 57);
+            this.label7.Location = new System.Drawing.Point(477, 62);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(11, 12);
             this.label7.TabIndex = 14;
@@ -3563,7 +3564,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label8.ForeColor = System.Drawing.Color.DarkRed;
-            this.label8.Location = new System.Drawing.Point(477, 32);
+            this.label8.Location = new System.Drawing.Point(477, 35);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(11, 12);
             this.label8.TabIndex = 13;
@@ -3574,7 +3575,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.Color.DarkRed;
-            this.label9.Location = new System.Drawing.Point(193, 59);
+            this.label9.Location = new System.Drawing.Point(193, 64);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(11, 12);
             this.label9.TabIndex = 12;
@@ -3585,7 +3586,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label10.ForeColor = System.Drawing.Color.DarkRed;
-            this.label10.Location = new System.Drawing.Point(193, 30);
+            this.label10.Location = new System.Drawing.Point(193, 33);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(11, 12);
             this.label10.TabIndex = 10;
@@ -3593,7 +3594,7 @@
             // 
             // UpTaxRate
             // 
-            this.UpTaxRate.Location = new System.Drawing.Point(362, 54);
+            this.UpTaxRate.Location = new System.Drawing.Point(362, 59);
             this.UpTaxRate.Name = "UpTaxRate";
             this.UpTaxRate.Size = new System.Drawing.Size(100, 23);
             this.UpTaxRate.TabIndex = 9;
@@ -3602,7 +3603,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.Location = new System.Drawing.Point(485, 57);
+            this.label11.Location = new System.Drawing.Point(485, 62);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(119, 12);
             this.label11.TabIndex = 8;
@@ -3611,7 +3612,7 @@
             // formLabel6
             // 
             this.formLabel6.AutoSize = true;
-            this.formLabel6.Location = new System.Drawing.Point(297, 57);
+            this.formLabel6.Location = new System.Drawing.Point(297, 62);
             this.formLabel6.Name = "formLabel6";
             this.formLabel6.Size = new System.Drawing.Size(49, 14);
             this.formLabel6.TabIndex = 6;
@@ -3620,7 +3621,7 @@
             // UpCategory
             // 
             this.UpCategory.BackColor = System.Drawing.SystemColors.Window;
-            this.UpCategory.Location = new System.Drawing.Point(362, 27);
+            this.UpCategory.Location = new System.Drawing.Point(362, 29);
             this.UpCategory.Name = "UpCategory";
             this.UpCategory.ReadOnly = true;
             this.UpCategory.Size = new System.Drawing.Size(100, 23);
@@ -3629,14 +3630,14 @@
             // 
             // UpProductNumber
             // 
-            this.UpProductNumber.Location = new System.Drawing.Point(87, 54);
+            this.UpProductNumber.Location = new System.Drawing.Point(87, 59);
             this.UpProductNumber.Name = "UpProductNumber";
             this.UpProductNumber.Size = new System.Drawing.Size(100, 23);
             this.UpProductNumber.TabIndex = 4;
             // 
             // UpProductName
             // 
-            this.UpProductName.Location = new System.Drawing.Point(87, 27);
+            this.UpProductName.Location = new System.Drawing.Point(87, 29);
             this.UpProductName.Name = "UpProductName";
             this.UpProductName.Size = new System.Drawing.Size(100, 23);
             this.UpProductName.TabIndex = 3;
@@ -3644,7 +3645,7 @@
             // formLabel7
             // 
             this.formLabel7.AutoSize = true;
-            this.formLabel7.Location = new System.Drawing.Point(297, 30);
+            this.formLabel7.Location = new System.Drawing.Point(297, 33);
             this.formLabel7.Name = "formLabel7";
             this.formLabel7.Size = new System.Drawing.Size(49, 14);
             this.formLabel7.TabIndex = 2;
@@ -3653,7 +3654,7 @@
             // formLabel8
             // 
             this.formLabel8.AutoSize = true;
-            this.formLabel8.Location = new System.Drawing.Point(22, 57);
+            this.formLabel8.Location = new System.Drawing.Point(22, 62);
             this.formLabel8.Name = "formLabel8";
             this.formLabel8.Size = new System.Drawing.Size(49, 14);
             this.formLabel8.TabIndex = 1;
@@ -3662,7 +3663,7 @@
             // formLabel9
             // 
             this.formLabel9.AutoSize = true;
-            this.formLabel9.Location = new System.Drawing.Point(22, 30);
+            this.formLabel9.Location = new System.Drawing.Point(22, 33);
             this.formLabel9.Name = "formLabel9";
             this.formLabel9.Size = new System.Drawing.Size(49, 14);
             this.formLabel9.TabIndex = 0;
@@ -3670,9 +3671,9 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(845, 424);
+            this.ClientSize = new System.Drawing.Size(845, 459);
             this.Controls.Add(this.extensionTabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;

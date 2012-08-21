@@ -8,3 +8,8 @@ E:\projects\InvoicingManagement\Reference\bin\Debug\Reference.pdb
 E:\projects\InvoicingManagement\Reference\obj\x86\Debug\ResolveAssemblyReference.cache
 E:\projects\InvoicingManagement\Reference\obj\x86\Debug\Reference.dll
 E:\projects\InvoicingManagement\Reference\obj\x86\Debug\Reference.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\Reference\bin\Debug\Reference.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\Reference\bin\Debug\Reference.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\Reference\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\benny\Documents\GitHub\InvoicingManagement\Reference\obj\x86\Debug\Reference.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\Reference\obj\x86\Debug\Reference.pdb

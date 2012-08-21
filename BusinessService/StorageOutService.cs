@@ -77,7 +77,7 @@ namespace BusinessService
                         witem.Specification = list[i].Specification;
                         witem.Amount = 0;
                     }
-                    witem.Amount += list[i].Amount;
+                    witem.Amount -= list[i].Amount;
                     WarehouseItemDao.SaveOrUpdate(witem);
                 }
             }

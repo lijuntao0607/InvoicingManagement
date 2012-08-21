@@ -214,6 +214,8 @@ namespace Winform
                 TreeViewManager.TreeLoad(treeView1);
                 IList<ProductView> list = SystemVariable.ProductService.GetProductViewList(null, null);
                 DataGridViewManager.RebindListDataSource<ProductView>(productListDataGridView, list);
+
+                tbBarcode.Focus();
             }
             catch (Exception ex)
             {
@@ -1470,11 +1472,11 @@ namespace Winform
         private bool ValidateAddStorageIn()
         {
             StringBuilder sb = new StringBuilder();
-            if (string.IsNullOrEmpty(AsNumber.Text))
+            if (string.IsNullOrEmpty(this.AsoStorageOutNumber.Text))
             {
                 sb.Append("入库单号不能为空\n");
             }
-            List<ProductView> list = (List<ProductView>)AsStorageInItemDataGridView.DataSource;
+            List<ProductView> list = (List<ProductView>)AsoStorageOutItemDataGridView.DataSource;
             if (list.Count == 0)
             {
                 sb.Append("至少需要一项入库产品\n");
@@ -1756,7 +1758,7 @@ namespace Winform
                     }
                     SystemVariable.StorageOutService.Add(so, itemList);
                     Toast.Show(SystemConstant.OPERATION_SUCCEED);
-                    AsNumber.Text = string.Empty;
+                    this.AsoStorageOutNumber.Text = string.Empty;
                     DataGridViewManager.RebindListDataSource<ProductView>(AsoStorageOutItemDataGridView, null);
                     InitAddStorageOutItem();
                     extensionTabControl1.TabPages.Remove(addStorageOutPage);
@@ -1841,6 +1843,11 @@ namespace Winform
             {
                 Toast.Show(ex.Message);
             }
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
         }
     }
 }
