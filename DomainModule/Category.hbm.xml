@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="DomainModule.Category,DomainModule" table="TB_Category">
+    <id name="Id" column="ID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="CategoryName" column="CategoryName" type="String" length="50"/>
+    <property name="NodePath" column="NodePath" type="String" length="500"/>
+    <many-to-one name ="Parent" column ="Parent" class ="DomainModule.Category,DomainModule" />
+    <property name="IsDel" column="IsDel" type="Boolean"/>
+    <property name="CreateTime" column="CreateTime" type="DateTime"/>
+  </class>
+</hibernate-mapping>

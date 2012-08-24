@@ -1,0 +1,5 @@
+D:\projects\InvoicingManagement\ServiceInvoker\bin\Debug\ServiceInvoke.dll
+D:\projects\InvoicingManagement\ServiceInvoker\bin\Debug\ServiceInvoke.pdb
+D:\projects\InvoicingManagement\ServiceInvoker\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\InvoicingManagement\ServiceInvoker\obj\Debug\ServiceInvoke.dll
+D:\projects\InvoicingManagement\ServiceInvoker\obj\Debug\ServiceInvoke.pdb

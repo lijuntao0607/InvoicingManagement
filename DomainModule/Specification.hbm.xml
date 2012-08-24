@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="DomainModule.Specification,DomainModule" table="TB_Specification">
+    <id name="Id" column="ID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="Barcode" column="Barcode" type="String" length="50"/>
+    <property name="SpecifiText" column="SpecifiText" type="String" length="50"/>
+    <!--<property name="Unit" column="Unit" type="String" length="50"/>-->
+    <many-to-one name="Unit" lazy ="false" column="Unit" class="DomainModule.Unit,DomainModule"/>
+    <property name="UnitPrice" column="UnitPrice" type="Double"/>
+    <many-to-one name ="Product" class ="DomainModule.ProductInfo,DomainModule" lazy ="false" column ="Product"/>
+
+    <property name="IsDel" column="IsDel" type="Boolean"/>
+    <property name="CreateTime" column="CreateTime" type="DateTime"/>
+  </class>
+</hibernate-mapping>

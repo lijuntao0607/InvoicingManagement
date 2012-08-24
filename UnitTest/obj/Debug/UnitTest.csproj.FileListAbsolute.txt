@@ -1,0 +1,10 @@
+D:\projects\InvoicingManagement\UnitTest\bin\Debug\UnitTest.dll
+D:\projects\InvoicingManagement\UnitTest\bin\Debug\UnitTest.pdb
+D:\projects\InvoicingManagement\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\InvoicingManagement\UnitTest\obj\Debug\UnitTest.dll
+D:\projects\InvoicingManagement\UnitTest\obj\Debug\UnitTest.pdb
+E:\projects\InvoicingManagement\UnitTest\bin\Debug\UnitTest.dll
+E:\projects\InvoicingManagement\UnitTest\bin\Debug\UnitTest.pdb
+E:\projects\InvoicingManagement\UnitTest\obj\Debug\ResolveAssemblyReference.cache
+E:\projects\InvoicingManagement\UnitTest\obj\Debug\UnitTest.dll
+E:\projects\InvoicingManagement\UnitTest\obj\Debug\UnitTest.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="DomainModule.SystemDictionary,DomainModule" table="TB_SystemDictionary"  discriminator-value="SystemDictionary">
+    <id name="Id" column="ID" type="String">
+      <generator class="assigned" />
+    </id>
+    <discriminator column="DictionaryType" type="String"/>
+    <property name="DicName" column="DicName" type="String" length="250"/>
+    <property name="DicNumber" column="DicNumber" type="String" length="50"/>
+    <property name="MnemonicCode" column="MnemonicCode" type="String" length="50"/>
+
+    <property name="CreateTime" column="CreateTime" type="DateTime"/>
+    <property name="IsDel" column="IsDel" type="Boolean"/>
+    <subclass name="DomainModule.Unit,DomainModule" discriminator-value="Unit">
+
+    </subclass>
+
+  </class>
+</hibernate-mapping>

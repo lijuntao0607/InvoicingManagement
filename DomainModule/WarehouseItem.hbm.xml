@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="DomainModule.WarehouseItem,DomainModule" table="TB_WarehouseItem">
+    <id name="Id" column="ID" type="String">
+      <generator class="assigned" />
+    </id>
+    <property name="Amount" column="Amount" type="Double"/>
+    <many-to-one name="Specification" column="Specification" class="DomainModule.Specification,DomainModule" lazy ="false"/>
+    <many-to-one name="Warehouse" column="Warehouse" class="DomainModule.Warehouse,DomainModule" lazy="false"/>
+    <property name="IsDel" column="IsDel" type="Boolean"/>
+    <property name="CreateTime" column="CreateTime" type="DateTime"/>
+  </class>
+</hibernate-mapping>

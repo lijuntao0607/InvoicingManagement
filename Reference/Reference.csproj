@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14F15B6E-3C62-40DF-B7D7-AEE2050A9738}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reference</RootNamespace>
+    <AssemblyName>Reference</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="antlr.runtime.dll" />
+    <Content Include="Antlr3.Runtime.dll" />
+    <Content Include="Common.Logging.dll" />
+    <Content Include="EZWeb.dll" />
+    <Content Include="Iesi.Collections.dll" />
+    <Content Include="Iesi.Collections.pdb" />
+    <Content Include="Iesi.Collections.xml" />
+    <Content Include="Ionic.Zip.dll" />
+    <Content Include="LinFu.DynamicProxy.dll" />
+    <Content Include="LinFu.License.txt" />
+    <Content Include="log4net.dll" />
+    <Content Include="log4net.license.txt" />
+    <Content Include="log4net.xml" />
+    <Content Include="NHibernate.ByteCode.LinFu.dll" />
+    <Content Include="NHibernate.dll" />
+    <Content Include="NHibernate.pdb" />
+    <Content Include="NHibernate.xml" />
+    <Content Include="NPOI.dll" />
+    <Content Include="nunit.core.dll" />
+    <Content Include="nunit.framework.dll" />
+    <Content Include="nunit.framework.license.txt" />
+    <Content Include="nunit.framework.xml" />
+    <Content Include="Remotion.Data.Linq.dll" />
+    <Content Include="Remotion.Data.Linq.pdb" />
+    <Content Include="SharpTestsEx.NUnit.dll" />
+    <Content Include="SharpTestsEx.NUnit.xml" />
+    <Content Include="SharpTestsEx_License.txt" />
+    <Content Include="Spring.Aop.dll" />
+    <Content Include="Spring.Aop.xml" />
+    <Content Include="Spring.Core.dll" />
+    <Content Include="Spring.Core.xml" />
+    <Content Include="SQLite.dll" />
+    <Content Include="SQLite.NET.dll" />
+    <Content Include="SQLite3.dll" />
+    <Content Include="System.Data.SQLite.dll" />
+    <Content Include="System.Linq.Dynamic.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
