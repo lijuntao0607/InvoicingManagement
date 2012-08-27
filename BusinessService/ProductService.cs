@@ -115,7 +115,7 @@ namespace BusinessService
                     " from Specification as s left join s.Product as p left join s.Product.Category as c left join s.Unit as u where p.IsDel=false and s.IsDel=false ";
                 if (category != null)
                 {
-                    queryString += " and s.Product.Category.NodePath like '" + category.Id + "' and ";
+                    queryString += " and (s.Product.Category.NodePath like '" + category.Id + "' or s.Product.Category.Id='"+category.Id+"') ";
                 }
 
                 DataFilterFactory.NewInstance.ProduceQueryString(filters, "s.Product");

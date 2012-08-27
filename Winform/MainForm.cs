@@ -240,6 +240,10 @@ namespace Winform
                 SLShowUnit.DataSource = SystemVariable.SystemDictionarySet[EnumDictionary.Unit];
                 SLShowUnit.ValueMember = "Id";
                 SLShowUnit.DisplayMember = "DicName";
+
+                this.ApUnit.DataSource = SystemVariable.SystemDictionarySet[EnumDictionary.Unit];
+                this.ApUnit.ValueMember = "Id";
+                this.ApUnit.DisplayMember = "DicName";
                 //SLUnit.DataSource = SystemVariable.SystemDictionarySet[EnumDictionary.Unit];
                 //SLUnit.DisplayMember = "DicName";
                 //SLUnit.ValueMember = "Id";
@@ -373,6 +377,20 @@ namespace Winform
                 //IList<SpecificationView> list = (IList<SpecificationView>)SpecDataGridView.DataSource;
                 List<SpecificationView> list = (List<SpecificationView>) this.ApSpecDataGridView .Tag;
                 SpecificationView spec = new SpecificationView();
+                spec.SpecifiText = ApSpeciText.Text;
+                if (string.IsNullOrEmpty(ApUnitPrice.Text))
+                {
+                    spec.UnitPrice = 0;
+
+                }
+                else
+                {
+                    spec.UnitPrice = Convert.ToDouble(ApUnitPrice.Text);
+                }
+                
+
+                spec.UnitId = ApUnit.SelectedValue.ToString();
+                spec.Barcode = ApBarcode.Text;
                 //spec.SpecifiText = "11";
                 //spec.Barcode = "111";
                 //spec.UnitId = "37163f05-48c2-4a1f-88c4-347e05e0fb25";
@@ -1090,7 +1108,13 @@ namespace Winform
         {
             try
             {
-
+                var selectedNode = treeView1.SelectedNode;
+                if (selectedNode != null && selectedNode.Tag != null)
+                {
+                    Category c = (Category)selectedNode.Tag;
+                    IList<ProductView> list = SystemVariable.ProductService.GetProductViewList(c, null);
+                    DataGridViewManager.RebindListDataSource<ProductView>(productListDataGridView, list);
+                }
             }
             catch (Exception ex)
             {
@@ -1383,9 +1407,9 @@ namespace Winform
 
                 };
 
-                //IList<StorageIn> list = SystemVariable.StorageInService.GetList(new List<DataFilter>() {
-                //    df1,df2
-                //});
+                IList<StorageIn> list1 = SystemVariable.StorageInService.GetList(new List<DataFilter>() {
+                    df1,df2
+                });
 
 
                 List<StorageInView> list = SystemVariable.StorageInService.GetView(SystemVariable.LoginUser.Id);

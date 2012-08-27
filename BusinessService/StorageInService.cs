@@ -8,6 +8,7 @@ using DomainModule;
 using Utility;
 using ViewModel;
 using System.Collections;
+using NHibernate;
 
 namespace BusinessService
 {
@@ -139,7 +140,12 @@ namespace BusinessService
             {
                 NHinbernateSessionFactory.OpenSession();
 
-                return StorageInDao.GetList(" from StorageIn as si where si.IsDel=false "+DataFilterFactory.NewInstance.ProduceQueryString(filters,"si"));
+                return StorageInDao.GetList(" from StorageIn as si where si.IsDel=false " + DataFilterFactory.NewInstance.ProduceQueryString(filters, "si"));
+            }
+            catch (HibernateException hex)
+            {
+                NHinbernateSessionFactory.Rollback();
+                throw hex;
             }
             catch (Exception ex)
             {

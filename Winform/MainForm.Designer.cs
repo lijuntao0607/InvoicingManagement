@@ -93,6 +93,14 @@
             this.SLIsDel = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.SLCreateTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.ApUnit = new System.Windows.Forms.ComboBox();
+            this.ApBarcode = new System.Windows.Forms.TextBox();
+            this.ApSpeciText = new System.Windows.Forms.TextBox();
+            this.ApUnitPrice = new WinformControls.NumberInputBox(this.components);
+            this.formLabel41 = new WinformControls.FormLabel();
+            this.formLabel40 = new WinformControls.FormLabel();
+            this.formLabel39 = new WinformControls.FormLabel();
+            this.formLabel38 = new WinformControls.FormLabel();
             this.btnSaveClose = new RibbonStyle.RibbonMenuButton();
             this.btnSaveAndContinue = new RibbonStyle.RibbonMenuButton();
             this.btnAddSpec = new RibbonStyle.RibbonMenuButton();
@@ -964,10 +972,10 @@
             this.SLCreateTime});
             this.ApSpecDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ApSpecDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.ApSpecDataGridView.Location = new System.Drawing.Point(3, 81);
+            this.ApSpecDataGridView.Location = new System.Drawing.Point(3, 137);
             this.ApSpecDataGridView.Name = "ApSpecDataGridView";
             this.ApSpecDataGridView.RowTemplate.Height = 23;
-            this.ApSpecDataGridView.Size = new System.Drawing.Size(831, 187);
+            this.ApSpecDataGridView.Size = new System.Drawing.Size(831, 131);
             this.ApSpecDataGridView.TabIndex = 3;
             this.ApSpecDataGridView.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.SpecDataGridView_CellBeginEdit);
             this.ApSpecDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SpecDataGridView_CellClick);
@@ -1030,6 +1038,14 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.ApUnit);
+            this.panel3.Controls.Add(this.ApBarcode);
+            this.panel3.Controls.Add(this.ApSpeciText);
+            this.panel3.Controls.Add(this.ApUnitPrice);
+            this.panel3.Controls.Add(this.formLabel41);
+            this.panel3.Controls.Add(this.formLabel40);
+            this.panel3.Controls.Add(this.formLabel39);
+            this.panel3.Controls.Add(this.formLabel38);
             this.panel3.Controls.Add(this.btnSaveClose);
             this.panel3.Controls.Add(this.btnSaveAndContinue);
             this.panel3.Controls.Add(this.btnAddSpec);
@@ -1037,8 +1053,73 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 19);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(831, 62);
+            this.panel3.Size = new System.Drawing.Size(831, 118);
             this.panel3.TabIndex = 2;
+            // 
+            // ApUnit
+            // 
+            this.ApUnit.FormattingEnabled = true;
+            this.ApUnit.Location = new System.Drawing.Point(359, 11);
+            this.ApUnit.Name = "ApUnit";
+            this.ApUnit.Size = new System.Drawing.Size(121, 22);
+            this.ApUnit.TabIndex = 18;
+            // 
+            // ApBarcode
+            // 
+            this.ApBarcode.Location = new System.Drawing.Point(84, 38);
+            this.ApBarcode.Name = "ApBarcode";
+            this.ApBarcode.Size = new System.Drawing.Size(121, 23);
+            this.ApBarcode.TabIndex = 17;
+            // 
+            // ApSpeciText
+            // 
+            this.ApSpeciText.Location = new System.Drawing.Point(84, 11);
+            this.ApSpeciText.Name = "ApSpeciText";
+            this.ApSpeciText.Size = new System.Drawing.Size(121, 23);
+            this.ApSpeciText.TabIndex = 16;
+            // 
+            // ApUnitPrice
+            // 
+            this.ApUnitPrice.Location = new System.Drawing.Point(359, 38);
+            this.ApUnitPrice.Name = "ApUnitPrice";
+            this.ApUnitPrice.Size = new System.Drawing.Size(121, 23);
+            this.ApUnitPrice.TabIndex = 15;
+            // 
+            // formLabel41
+            // 
+            this.formLabel41.AutoSize = true;
+            this.formLabel41.Location = new System.Drawing.Point(294, 41);
+            this.formLabel41.Name = "formLabel41";
+            this.formLabel41.Size = new System.Drawing.Size(63, 14);
+            this.formLabel41.TabIndex = 14;
+            this.formLabel41.Text = "单    价";
+            // 
+            // formLabel40
+            // 
+            this.formLabel40.AutoSize = true;
+            this.formLabel40.Location = new System.Drawing.Point(19, 41);
+            this.formLabel40.Name = "formLabel40";
+            this.formLabel40.Size = new System.Drawing.Size(63, 14);
+            this.formLabel40.TabIndex = 13;
+            this.formLabel40.Text = "条 形 码";
+            // 
+            // formLabel39
+            // 
+            this.formLabel39.AutoSize = true;
+            this.formLabel39.Location = new System.Drawing.Point(294, 14);
+            this.formLabel39.Name = "formLabel39";
+            this.formLabel39.Size = new System.Drawing.Size(63, 14);
+            this.formLabel39.TabIndex = 12;
+            this.formLabel39.Text = "计量单位";
+            // 
+            // formLabel38
+            // 
+            this.formLabel38.AutoSize = true;
+            this.formLabel38.Location = new System.Drawing.Point(19, 14);
+            this.formLabel38.Name = "formLabel38";
+            this.formLabel38.Size = new System.Drawing.Size(63, 14);
+            this.formLabel38.TabIndex = 11;
+            this.formLabel38.Text = "产品规格";
             // 
             // btnSaveClose
             // 
@@ -1061,7 +1142,7 @@
             this.btnSaveClose.ImageOffset = 0;
             this.btnSaveClose.IsPressed = false;
             this.btnSaveClose.KeepPress = false;
-            this.btnSaveClose.Location = new System.Drawing.Point(599, 17);
+            this.btnSaveClose.Location = new System.Drawing.Point(600, 70);
             this.btnSaveClose.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSaveClose.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSaveClose.Name = "btnSaveClose";
@@ -1098,7 +1179,7 @@
             this.btnSaveAndContinue.ImageOffset = 0;
             this.btnSaveAndContinue.IsPressed = false;
             this.btnSaveAndContinue.KeepPress = false;
-            this.btnSaveAndContinue.Location = new System.Drawing.Point(492, 17);
+            this.btnSaveAndContinue.Location = new System.Drawing.Point(493, 70);
             this.btnSaveAndContinue.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSaveAndContinue.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSaveAndContinue.Name = "btnSaveAndContinue";
@@ -1134,7 +1215,7 @@
             this.btnAddSpec.ImageOffset = 0;
             this.btnAddSpec.IsPressed = false;
             this.btnAddSpec.KeepPress = false;
-            this.btnAddSpec.Location = new System.Drawing.Point(17, 17);
+            this.btnAddSpec.Location = new System.Drawing.Point(22, 70);
             this.btnAddSpec.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnAddSpec.MenuPos = new System.Drawing.Point(0, 0);
             this.btnAddSpec.Name = "btnAddSpec";
@@ -1170,7 +1251,7 @@
             this.btnDeleteSpec.ImageOffset = 0;
             this.btnDeleteSpec.IsPressed = false;
             this.btnDeleteSpec.KeepPress = false;
-            this.btnDeleteSpec.Location = new System.Drawing.Point(103, 17);
+            this.btnDeleteSpec.Location = new System.Drawing.Point(125, 70);
             this.btnDeleteSpec.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnDeleteSpec.MenuPos = new System.Drawing.Point(0, 0);
             this.btnDeleteSpec.Name = "btnDeleteSpec";
@@ -1213,7 +1294,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(494, 59);
+            this.label1.Location = new System.Drawing.Point(518, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 12);
             this.label1.TabIndex = 15;
@@ -1224,7 +1305,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(477, 57);
+            this.label3.Location = new System.Drawing.Point(489, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(11, 12);
             this.label3.TabIndex = 14;
@@ -1235,7 +1316,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.Color.DarkRed;
-            this.label5.Location = new System.Drawing.Point(477, 32);
+            this.label5.Location = new System.Drawing.Point(489, 30);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(11, 12);
             this.label5.TabIndex = 13;
@@ -1246,7 +1327,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.DarkRed;
-            this.label4.Location = new System.Drawing.Point(193, 59);
+            this.label4.Location = new System.Drawing.Point(220, 59);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(11, 12);
             this.label4.TabIndex = 12;
@@ -1257,7 +1338,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(193, 30);
+            this.label2.Location = new System.Drawing.Point(220, 32);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(11, 12);
             this.label2.TabIndex = 10;
@@ -1267,7 +1348,7 @@
             // 
             this.ApTaxRate.Location = new System.Drawing.Point(362, 54);
             this.ApTaxRate.Name = "ApTaxRate";
-            this.ApTaxRate.Size = new System.Drawing.Size(100, 23);
+            this.ApTaxRate.Size = new System.Drawing.Size(121, 23);
             this.ApTaxRate.TabIndex = 9;
             // 
             // formLabel4
@@ -1285,7 +1366,7 @@
             this.ApCategory.Location = new System.Drawing.Point(362, 27);
             this.ApCategory.Name = "ApCategory";
             this.ApCategory.ReadOnly = true;
-            this.ApCategory.Size = new System.Drawing.Size(100, 23);
+            this.ApCategory.Size = new System.Drawing.Size(121, 23);
             this.ApCategory.TabIndex = 5;
             this.ApCategory.Enter += new System.EventHandler(this.tbCategory_Enter);
             this.ApCategory.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ApCategory_KeyDown);
@@ -1294,14 +1375,14 @@
             // 
             this.ApProductNumber.Location = new System.Drawing.Point(87, 54);
             this.ApProductNumber.Name = "ApProductNumber";
-            this.ApProductNumber.Size = new System.Drawing.Size(100, 23);
+            this.ApProductNumber.Size = new System.Drawing.Size(121, 23);
             this.ApProductNumber.TabIndex = 4;
             // 
             // ApProductName
             // 
             this.ApProductName.Location = new System.Drawing.Point(87, 27);
             this.ApProductName.Name = "ApProductName";
-            this.ApProductName.Size = new System.Drawing.Size(100, 23);
+            this.ApProductName.Size = new System.Drawing.Size(121, 23);
             this.ApProductName.TabIndex = 3;
             // 
             // formLabel3
@@ -1529,7 +1610,6 @@
             this.btnSearchStorageIn.Text = "查询";
             this.btnSearchStorageIn.Title = "";
             this.btnSearchStorageIn.UseVisualStyleBackColor = true;
-            this.btnSearchStorageIn.Visible = false;
             this.btnSearchStorageIn.Click += new System.EventHandler(this.btnSearchStorageIn_Click);
             // 
             // SilSearchEndTime
@@ -1538,7 +1618,6 @@
             this.SilSearchEndTime.Name = "SilSearchEndTime";
             this.SilSearchEndTime.Size = new System.Drawing.Size(132, 23);
             this.SilSearchEndTime.TabIndex = 3;
-            this.SilSearchEndTime.Visible = false;
             // 
             // label6
             // 
@@ -1556,7 +1635,6 @@
             this.SilSearchStartTime.Name = "SilSearchStartTime";
             this.SilSearchStartTime.Size = new System.Drawing.Size(132, 23);
             this.SilSearchStartTime.TabIndex = 1;
-            this.SilSearchStartTime.Visible = false;
             // 
             // formLabel5
             // 
@@ -3619,6 +3697,7 @@
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ApSpecDataGridView)).EndInit();
             this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.listStorageInPage.ResumeLayout(false);
@@ -3950,5 +4029,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn29;
         private System.Windows.Forms.GroupBox groupBox15;
+        private WinformControls.FormLabel formLabel41;
+        private WinformControls.FormLabel formLabel40;
+        private WinformControls.FormLabel formLabel39;
+        private WinformControls.FormLabel formLabel38;
+        private System.Windows.Forms.ComboBox ApUnit;
+        private System.Windows.Forms.TextBox ApBarcode;
+        private System.Windows.Forms.TextBox ApSpeciText;
+        private WinformControls.NumberInputBox ApUnitPrice;
     }
 }
