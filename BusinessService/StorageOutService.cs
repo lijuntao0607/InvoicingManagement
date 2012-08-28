@@ -231,6 +231,51 @@ namespace BusinessService
             }
         }
 
+        public string GetStorageOutNumber()
+        {
+            try
+            {
+                NHinbernateSessionFactory.OpenSession();
+
+                string oldNumber = StorageOutDao.Unique("select si.ListNumber from StorageOut as si order by si.CreateTime desc").ToString().Trim ();
+                string   dt =  DateTime.Now.ToShortDateString ();
+                //dt = dt.Substring(7, 4) + dt.Substring(4, 2) + dt.Substring(1, 2);
+                List<string> myList = new List<string>(dt.Split('/'));
+                if( myList[0].Length==1)
+                     dt = myList[2] + "0"+ myList[0] + myList[1];
+                else
+
+                     dt = myList[2] +  myList[0] + myList[1];
+
+                if ( (oldNumber == null) || (oldNumber==""))
+                {
+                    return dt + "01";
+                }
+                else
+                {
+                    if (oldNumber.Substring(0, 8) == dt)
+                        if (Int32.Parse(oldNumber.Substring(8, oldNumber.Length - 8)) > 9)
+                            return dt + (Int32.Parse(oldNumber.Substring(8, oldNumber.Length - 8)) + 1);
+                        else
+                            return dt + "0" + (Int32.Parse(oldNumber.Substring(8, oldNumber.Length - 8)) + 1);
+                    else
+                        return dt + "01";
+
+                }
+
+                //\\return oldNumber;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                NHinbernateSessionFactory.Commit();
+            }
+        }
+    
+
 
 
     }

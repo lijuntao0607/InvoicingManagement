@@ -22,5 +22,6 @@ namespace BusinessServiceInterface
         List<StorageOutView> GetView();
         List<StorageOutView> GetView(string userId);
         List<ProductView> GetItemView(string id);
+        string GetStorageOutNumber();
     }
 }

@@ -757,13 +757,16 @@ namespace Winform
         {
             try
             {
+                AsNumber.Text = SystemVariable.StorageInService.GetStorageInNumber();
                 if (AsStorageInItemDataGridView.Tag == null)
                 {
                     IList<ProductView> list = new List<ProductView>();
                     AsStorageInItemDataGridView.Tag = list;
                     DataGridViewManager.RebindListDataSource<ProductView>(AsStorageInItemDataGridView, list);
+                    
                 }
-
+                AsProductBarcode.Focus();
+                
             }
             catch (Exception ex)
             {
@@ -783,8 +786,45 @@ namespace Winform
                     if (spec != null)
                     {
                         AsiSearchProductPanelShowProduct(spec);
+                        IList<ProductView> list = (IList<ProductView>)AsStorageInItemDataGridView.DataSource;
+                        // Specification spec = (Specification)AsProductBarcode.Tag;
+                        int sameProductIndex = -1;
+                        if (spec != null)
+                        {
+                            for (int i = 0; i < list.Count; i++)
+                            {
+                                if (list[i].SpecId == spec.Id)
+                                {
+                                    sameProductIndex = i;
+                                    break;
+                                }
+                            }
+                        }
+                        if (sameProductIndex != -1)
+                        {
+                            list[sameProductIndex].Amount += Convert.ToInt32(AsProductAmount.Text);
+                            DataGridViewManager.RebindListDataSource<ProductView>(AsStorageInItemDataGridView, list);
+                        }
+                        else
+                        {
+                            AddStorageInAddItem();
+                        }
+                        InitAddStorageInItem();
+                        AsProductBarcode.Focus();
+
+                    }
+                   
+                }
+                else
+                {
+                    if (e.KeyChar == '\r')
+                    {
+                        List<ProductView> list = (List<ProductView>)AsStorageInItemDataGridView.DataSource; 
+                        if (list.Count > 0)
+                            SaveStorageIn_Click();
                     }
                 }
+
             }
             catch (Exception ex)
             {
@@ -892,7 +932,9 @@ namespace Winform
         {
             try
             {
-                IList<ProductView> list = (IList<ProductView>)AsStorageInItemDataGridView.DataSource;
+                TabControlManager.ShowPage(extensionTabControl1, AddProductPage);
+
+               /* IList<ProductView> list = (IList<ProductView>)AsStorageInItemDataGridView.DataSource;
                 Specification spec = (Specification)AsProductBarcode.Tag;
                 int sameProductIndex = -1;
                 if (spec != null)
@@ -916,6 +958,7 @@ namespace Winform
                     AddStorageInAddItem();
                 }
                 InitAddStorageInItem();
+                AsProductBarcode.Focus();*/
                 //DataGridViewManager.RebindListDataSource<ProductView>(AsStorageInItemDataGridView, list);
                 //IList<ProductView> list = (IList<ProductView>)AsStorageInItemDataGridView.Tag;
                 
@@ -935,7 +978,11 @@ namespace Winform
                     IList<ProductView> list = (IList<ProductView>)AsStorageInItemDataGridView.Tag;
                     //string id = AsStorageInItemDataGridView.SelectedRows[0].Cells["Id"].Value.ToString();
                     //productListDataGridView.Rows.Remove(productListDataGridView.SelectedRows[0]);
-                    list.RemoveAt(AsStorageInItemDataGridView.SelectedRows[0].Index);
+                    if (list.Count ()>0) {
+                        list.RemoveAt(AsStorageInItemDataGridView.SelectedRows[0].Index);
+                        DataGridViewManager.RebindListDataSource<ProductView>(AsStorageInItemDataGridView, list);
+                        AsProductBarcode.Focus();
+                    }
                 }
                 else
                 {
@@ -1110,12 +1157,31 @@ namespace Winform
         {
             try
             {
-                var selectedNode = treeView1.SelectedNode;
-                if (selectedNode != null && selectedNode.Tag != null)
+                //var selectedNode = treeView1.SelectedNode;
+                //if (selectedNode != null && selectedNode.Tag != null)
+                //{
+                //    Category c = (Category)selectedNode.Tag;
+                //    IList<ProductView> list = SystemVariable.ProductService.GetProductViewList(c, null);
+                //    DataGridViewManager.RebindListDataSource<ProductView>(productListDataGridView, list);
+                //}
+                if (!string.IsNullOrEmpty(this.tbBarcode.Text))
                 {
-                    Category c = (Category)selectedNode.Tag;
-                    IList<ProductView> list = SystemVariable.ProductService.GetProductViewList(c, null);
-                    DataGridViewManager.RebindListDataSource<ProductView>(productListDataGridView, list);
+                    //AsProductName.Tag = null;
+                    Specification spec = SystemVariable.ProductService.GetByBarcode(tbBarcode.Text);
+                    tbBarcode.Tag = spec;
+                    if (spec != null)
+                    {
+
+                        IList<ProductView> list = (IList<ProductView>)productListDataGridView.DataSource;
+                        list.Clear();
+                        list.Add(new ProductView(spec));
+                        DataGridViewManager.RebindListDataSource<ProductView>(productListDataGridView, list);
+                        tbBarcode.Text = "";
+                        tbBarcode.Focus();
+
+
+                    }
+
                 }
             }
             catch (Exception ex)
@@ -1390,7 +1456,7 @@ namespace Winform
         {
             try
             {
-                Toast.Show("Transaction初始化错误");
+                //Toast.Show("Transaction初始化错误");
                 DateTime startDate = SilSearchStartTime.Value;
                 DateTime endDate = SilSearchEndTime.Value;
                 DataFilter df1 = new DataFilter() {
@@ -1462,7 +1528,7 @@ namespace Winform
 
         private void AsStorageInItemDataGridView_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
-            Toast.Show("数据格式不正确");
+           // Toast.Show("数据格式不正确");
         }
 
         private void AsStorageInItemDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -1472,12 +1538,12 @@ namespace Winform
         private bool ValidateAddStorageIn()
         {
             StringBuilder sb = new StringBuilder();
-            if (string.IsNullOrEmpty(this.AsoStorageOutNumber.Text))
-            {
+            if (string.IsNullOrEmpty(this.AsNumber.Text))
+            { 
                 sb.Append("入库单号不能为空\n");
             }
-            List<ProductView> list = (List<ProductView>)AsoStorageOutItemDataGridView.DataSource;
-            if (list.Count == 0)
+            List<ProductView> list = (List<ProductView>)AsStorageInItemDataGridView.DataSource;
+            if (list.Count() == 0)
             {
                 sb.Append("至少需要一项入库产品\n");
             }
@@ -1489,6 +1555,18 @@ namespace Winform
             return true;
         }
         private void btnSaveStorageIn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SaveStorageIn_Click();
+            }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message);
+            }
+        }
+
+        private void SaveStorageIn_Click()
         {
             try
             {
@@ -1505,17 +1583,25 @@ namespace Winform
                         StorageInItem item = new StorageInItem();
                         item.Amount = list[i].Amount;
                         item.List = si;
-                        item.Specification = new Specification() { Id = list[i].SpecId  };
+                        item.Specification = new Specification() { Id = list[i].SpecId };
                         item.TaxRate = list[i].TaxRate;
                         item.UnitPrice = list[i].UnitPrice.Value;
                         itemList.Add(item);
+
                     }
-                    SystemVariable .StorageInService .Add (si,itemList);
-                    Toast.Show(SystemConstant.OPERATION_SUCCEED);
+
+
+                    SystemVariable.StorageInService.Add(si, itemList);
+                    Toast.Show(SystemConstant.OPERATION_IN_STORAGE_SUCCEED);
                     AsNumber.Text = string.Empty;
                     DataGridViewManager.RebindListDataSource<ProductView>(AsStorageInItemDataGridView, null);
+                    list.Clear();
                     InitAddStorageInItem();
-                    extensionTabControl1.TabPages.Remove(addStorageInPage);
+                    //extensionTabControl1.TabPages.Remove(addStorageInPage);
+                    //TabControlManager.ShowPage(extensionTabControl1, listStorageInPage );
+                    AsNumber.Text = SystemVariable.StorageInService.GetStorageInNumber();
+                    AsProductBarcode.Focus();
+
 
                 }
             }
@@ -1524,7 +1610,6 @@ namespace Winform
                 Toast.Show(ex.Message);
             }
         }
-
         private void listStorageInPage_Enter(object sender, EventArgs e)
         {
 
@@ -1733,15 +1818,14 @@ namespace Winform
                 Toast.Show(ex.Message);
             }
         }
-
-        private void AsoSaveStorageOut_Click(object sender, EventArgs e)
+        private void AsoSaveStorageOut2()
         {
             try
             {
-                if (ValidateAddStorageIn())
+                if (ValidateAddStorageOut())
                 {
                     StorageOut so = new StorageOut();
-                    so.ListNumber = AsNumber.Text;
+                    so.ListNumber = this.AsoStorageOutNumber.Text;
                     so.StorageInTime = AsStorageInTime.Value;
                     so.User = SystemVariable.LoginUser;
                     List<ProductView> list = (List<ProductView>)AsoStorageOutItemDataGridView.DataSource;
@@ -1760,11 +1844,29 @@ namespace Winform
                     Toast.Show(SystemConstant.OPERATION_SUCCEED);
                     this.AsoStorageOutNumber.Text = string.Empty;
                     DataGridViewManager.RebindListDataSource<ProductView>(AsoStorageOutItemDataGridView, null);
+                    list.Clear();
                     InitAddStorageOutItem();
-                    extensionTabControl1.TabPages.Remove(addStorageOutPage);
+                   // extensionTabControl1.TabPages.Remove(addStorageOutPage);
+                    AsoStorageOutNumber.Text = SystemVariable.StorageOutService.GetStorageOutNumber();
+                    AsoStorageOutBarcode.Focus();
+                   
 
                 }
             }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message);
+            }
+        }
+
+        private void AsoSaveStorageOut_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                AsoSaveStorageOut2();
+
+                }
+            
             catch (Exception ex)
             {
                 Toast.Show(ex.Message);
@@ -1810,12 +1912,16 @@ namespace Winform
         {
             try
             {
+                AsoStorageOutNumber.Text = SystemVariable.StorageOutService.GetStorageOutNumber();
                 if (AsoStorageOutItemDataGridView.Tag == null)
                 {
                     IList<ProductView> list = new List<ProductView>();
                     AsoStorageOutItemDataGridView.Tag = list;
                     DataGridViewManager.RebindListDataSource<ProductView>(AsoStorageOutItemDataGridView, list);
                 }
+
+                
+                
 
             }
             catch (Exception ex)
@@ -1828,7 +1934,7 @@ namespace Winform
         {
             try
             {
-                if (e.KeyChar == '\r' && !string.IsNullOrEmpty(this.AsoStorageOutBarcode .Text))
+                if (e.KeyChar == '\r' && !string.IsNullOrEmpty(this.AsoStorageOutBarcode.Text))
                 {
                     //AsProductName.Tag = null;
                     Specification spec = SystemVariable.ProductService.GetByBarcode(AsoStorageOutBarcode.Text);
@@ -1836,18 +1942,188 @@ namespace Winform
                     if (spec != null)
                     {
                         AsoSearchProductPanelShowProduct(spec);
+                        addStorageOutItem();
+
+
                     }
                 }
+                else
+                {
+                    if (e.KeyChar == '\r')
+                    {
+                        List<ProductView> list = (List<ProductView>)AsoStorageOutItemDataGridView.DataSource; 
+                        if (list.Count > 0)
+                            AsoSaveStorageOut2();
+                    }
+                }
+
+            
+
             }
             catch (Exception ex)
             {
                 Toast.Show(ex.Message);
             }
         }
+     
+
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
 
         }
+
+        private void AsProductBarcode_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void extensionTabControl1_Selected(object sender, TabControlEventArgs e)
+        {
+            if (e.TabPage== addStorageInPage)
+            {
+                this.ActiveControl = this.addStorageInPage;
+                this.ActiveControl = this.AsProductBarcode;
+                this.AsProductBarcode.Focus();
+            }
+        }
+
+        private void groupBox9_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void extensionTabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (extensionTabControl1.SelectedTab == addStorageInPage)
+            {
+                this.ActiveControl = this.addStorageInPage;
+                this.ActiveControl = this.AsProductBarcode;
+                this.AsProductBarcode.Focus();
+            }
+            else
+                if (extensionTabControl1.SelectedTab == addStorageOutPage)
+                {
+                    this.ActiveControl = this.addStorageOutPage;
+                    this.ActiveControl = this.AsoStorageOutBarcode;
+                    this.AsoStorageOutBarcode.Focus();
+                }
+                else
+                    if (extensionTabControl1.SelectedTab == ProductListPage )
+                    {
+                        this.ActiveControl = this.ProductListPage ;
+                        this.ActiveControl = this.tbBarcode ;
+                        this.tbBarcode.Focus();
+                    }
+        }
+
+        private void AsProductUnit_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AsNumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveStorageOutItem()
+        {
+
+        }
+        private void addStorageOutItem()
+        {
+            try
+            {
+                IList<ProductView> list = (IList<ProductView>)AsoStorageOutItemDataGridView.DataSource;
+                Specification spec = (Specification)AsoStorageOutBarcode.Tag;
+                int sameProductIndex = -1;
+                //如果出库单明细允许存在两条相同的产品记录,那么请注释下面一段代码
+                //if (spec != null)
+                //{
+                //    for (int i = 0; i < list.Count; i++)
+                //    {
+                //        if (list[i].SpecId == spec.Id)
+                //        {
+                //            sameProductIndex = i;
+                //            break;
+                //        }
+                //    }
+                //}
+                // 一段代码结束
+                if (sameProductIndex != -1)
+                {
+                    list[sameProductIndex].Amount += Convert.ToInt32(AsoStorageOutAmount.Text);
+                    DataGridViewManager.RebindListDataSource<ProductView>(AsoStorageOutItemDataGridView, list);
+                }
+                else
+                {
+                    AddStorageOutAddItem();
+                }
+                InitAddStorageOutItem();
+                //DataGridViewManager.RebindListDataSource<ProductView>(AsStorageInItemDataGridView, list);
+                //IList<ProductView> list = (IList<ProductView>)AsStorageInItemDataGridView.Tag;
+            }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message);
+            }
+    }
+        private bool ValidateAddStorageOut()
+        {
+            StringBuilder sb = new StringBuilder();
+            if (string.IsNullOrEmpty(this.AsoStorageOutNumber.Text))
+            {
+                sb.Append("出库单号不能为空\n");
+            }
+            List<ProductView> list = (List<ProductView>)AsoStorageOutItemDataGridView.DataSource;
+            if (list.Count() == 0)
+            {
+                sb.Append("至少需要一项出库产品\n");
+            }
+            if (sb.Length > 0)
+            {
+                Toast.Show(sb.ToString());
+                return false;
+            }
+            return true;
+        }
+
+        private void tbBarcode_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == '\r' && !string.IsNullOrEmpty(this.tbBarcode.Text))
+            {
+                //AsProductName.Tag = null;
+                Specification spec = SystemVariable.ProductService.GetByBarcode(tbBarcode.Text);
+                tbBarcode.Tag = spec;
+                if (spec != null)
+                {
+                    
+                    IList<ProductView> list = (IList<ProductView>)productListDataGridView.DataSource ;
+                    list.Clear();
+                    list.Add(new ProductView(spec));
+                    DataGridViewManager.RebindListDataSource<ProductView>(productListDataGridView, list);
+                    tbBarcode.Text = "";
+                    tbBarcode.Focus();
+
+
+                }
+
+            }
+            //else
+            //{
+            //    if (e.KeyChar == '\r')
+            //    {
+            //        List<ProductView> list = (List<ProductView>)AsStorageInItemDataGridView.DataSource;
+            //        if (list.Count > 0)
+            //            SaveStorageIn_Click();
+            //    }
+            //}
+        }
+
+
+
+
+        
     }
 }

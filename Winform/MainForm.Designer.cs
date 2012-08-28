@@ -152,30 +152,29 @@
             this.AsProductListUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AsProductListIsDel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AsProductListCreateTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.btnSaveStorageIn = new RibbonStyle.RibbonMenuButton();
-            this.AsProductSpeciText = new System.Windows.Forms.ComboBox();
-            this.AsProductUnit = new WinformControls.NumberInputBox(this.components);
-            this.AsProductAmount = new WinformControls.NumberInputBox(this.components);
-            this.formLabel14 = new WinformControls.FormLabel();
-            this.AsProductUnitPrice = new WinformControls.NumberInputBox(this.components);
-            this.formLabel15 = new WinformControls.FormLabel();
-            this.formLabel16 = new WinformControls.FormLabel();
-            this.formLabel17 = new WinformControls.FormLabel();
-            this.AsProductName = new System.Windows.Forms.TextBox();
-            this.formLabel18 = new WinformControls.FormLabel();
-            this.AsProductBarcode = new System.Windows.Forms.TextBox();
-            this.formLabel19 = new WinformControls.FormLabel();
-            this.AsProductNumber = new System.Windows.Forms.TextBox();
-            this.formLabel27 = new WinformControls.FormLabel();
-            this.btnAddStorageInItem = new RibbonStyle.RibbonMenuButton();
-            this.btnDeleteStorageInItem = new RibbonStyle.RibbonMenuButton();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.formLabel15 = new WinformControls.FormLabel();
+            this.AsProductUnitPrice = new WinformControls.NumberInputBox(this.components);
+            this.AsProductUnit = new WinformControls.NumberInputBox(this.components);
+            this.AsProductSpeciText = new System.Windows.Forms.ComboBox();
+            this.formLabel18 = new WinformControls.FormLabel();
+            this.AsProductName = new System.Windows.Forms.TextBox();
+            this.formLabel16 = new WinformControls.FormLabel();
+            this.btnSaveStorageIn = new RibbonStyle.RibbonMenuButton();
             this.label12 = new System.Windows.Forms.Label();
             this.AsStorageInTime = new System.Windows.Forms.DateTimePicker();
+            this.formLabel17 = new WinformControls.FormLabel();
             this.formLabel11 = new WinformControls.FormLabel();
+            this.AsProductAmount = new WinformControls.NumberInputBox(this.components);
             this.AsNumber = new System.Windows.Forms.TextBox();
+            this.formLabel14 = new WinformControls.FormLabel();
             this.formLabel10 = new WinformControls.FormLabel();
+            this.formLabel27 = new WinformControls.FormLabel();
+            this.AsProductNumber = new System.Windows.Forms.TextBox();
+            this.AsProductBarcode = new System.Windows.Forms.TextBox();
+            this.formLabel19 = new WinformControls.FormLabel();
+            this.btnDeleteStorageInItem = new RibbonStyle.RibbonMenuButton();
+            this.btnAddStorageInItem = new RibbonStyle.RibbonMenuButton();
             this.listStorageOutPage = new System.Windows.Forms.TabPage();
             this.StorageOutList = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -207,30 +206,29 @@
             this.AsoProductListUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AsoProductListIsDel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AsoProductListCreateTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.AsoSaveStorageOut = new RibbonStyle.RibbonMenuButton();
-            this.AsoStorageOutSpeciText = new System.Windows.Forms.ComboBox();
-            this.AsoStorageOutUnit = new WinformControls.NumberInputBox(this.components);
-            this.AsoStorageOutAmount = new WinformControls.NumberInputBox(this.components);
-            this.formLabel31 = new WinformControls.FormLabel();
-            this.AsoStorageOutUnitPrice = new WinformControls.NumberInputBox(this.components);
-            this.formLabel32 = new WinformControls.FormLabel();
-            this.formLabel33 = new WinformControls.FormLabel();
-            this.formLabel34 = new WinformControls.FormLabel();
-            this.AsoStorageOutProductName = new System.Windows.Forms.TextBox();
-            this.formLabel35 = new WinformControls.FormLabel();
-            this.AsoStorageOutBarcode = new System.Windows.Forms.TextBox();
-            this.formLabel36 = new WinformControls.FormLabel();
-            this.AsoStorageOutProductNumber = new System.Windows.Forms.TextBox();
-            this.formLabel37 = new WinformControls.FormLabel();
-            this.AsoAddStorageOutItem = new RibbonStyle.RibbonMenuButton();
-            this.AsoDeleteStorageOutItem = new RibbonStyle.RibbonMenuButton();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.formLabel32 = new WinformControls.FormLabel();
+            this.AsoStorageOutUnitPrice = new WinformControls.NumberInputBox(this.components);
+            this.AsoStorageOutSpeciText = new System.Windows.Forms.ComboBox();
+            this.AsoSaveStorageOut = new RibbonStyle.RibbonMenuButton();
+            this.formLabel34 = new WinformControls.FormLabel();
             this.label15 = new System.Windows.Forms.Label();
             this.AsoStorageOutTime = new System.Windows.Forms.DateTimePicker();
+            this.AsoStorageOutUnit = new WinformControls.NumberInputBox(this.components);
+            this.formLabel35 = new WinformControls.FormLabel();
+            this.AsoStorageOutProductName = new System.Windows.Forms.TextBox();
             this.formLabel29 = new WinformControls.FormLabel();
+            this.formLabel33 = new WinformControls.FormLabel();
+            this.formLabel37 = new WinformControls.FormLabel();
+            this.AsoStorageOutProductNumber = new System.Windows.Forms.TextBox();
+            this.formLabel31 = new WinformControls.FormLabel();
+            this.AsoStorageOutAmount = new WinformControls.NumberInputBox(this.components);
+            this.AsoAddStorageOutItem = new RibbonStyle.RibbonMenuButton();
             this.AsoStorageOutNumber = new System.Windows.Forms.TextBox();
+            this.AsoDeleteStorageOutItem = new RibbonStyle.RibbonMenuButton();
             this.formLabel30 = new WinformControls.FormLabel();
+            this.formLabel36 = new WinformControls.FormLabel();
+            this.AsoStorageOutBarcode = new System.Windows.Forms.TextBox();
             this.inventoryPage = new System.Windows.Forms.TabPage();
             this.inventoryDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -342,7 +340,6 @@
             this.addStorageInPage.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AsStorageInItemDataGridView)).BeginInit();
-            this.groupBox9.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.listStorageOutPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.StorageOutList)).BeginInit();
@@ -350,7 +347,6 @@
             this.addStorageOutPage.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AsoStorageOutItemDataGridView)).BeginInit();
-            this.groupBox14.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.inventoryPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.inventoryDataGridView)).BeginInit();
@@ -378,7 +374,7 @@
             this.ReportToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(845, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(890, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -548,26 +544,26 @@
             this.DeleteCategoryMenuItem});
             this.CategoryTreeContextMenuStrip.Name = "CategoryTreeContextMenuStrip";
             this.CategoryTreeContextMenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.CategoryTreeContextMenuStrip.Size = new System.Drawing.Size(119, 70);
+            this.CategoryTreeContextMenuStrip.Size = new System.Drawing.Size(123, 70);
             // 
             // AddCategoryMenuItem
             // 
             this.AddCategoryMenuItem.Name = "AddCategoryMenuItem";
-            this.AddCategoryMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.AddCategoryMenuItem.Size = new System.Drawing.Size(122, 22);
             this.AddCategoryMenuItem.Text = "添加类别";
             this.AddCategoryMenuItem.Click += new System.EventHandler(this.AddCategoryMenuItem_Click);
             // 
             // RenameMenuItem
             // 
             this.RenameMenuItem.Name = "RenameMenuItem";
-            this.RenameMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.RenameMenuItem.Size = new System.Drawing.Size(122, 22);
             this.RenameMenuItem.Text = "重命名";
             this.RenameMenuItem.Click += new System.EventHandler(this.RenameMenuItem_Click);
             // 
             // DeleteCategoryMenuItem
             // 
             this.DeleteCategoryMenuItem.Name = "DeleteCategoryMenuItem";
-            this.DeleteCategoryMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.DeleteCategoryMenuItem.Size = new System.Drawing.Size(122, 22);
             this.DeleteCategoryMenuItem.Text = "删除类别";
             this.DeleteCategoryMenuItem.Click += new System.EventHandler(this.DeleteCategoryMenuItem_Click);
             // 
@@ -589,8 +585,10 @@
             this.extensionTabControl1.Location = new System.Drawing.Point(0, 24);
             this.extensionTabControl1.Name = "extensionTabControl1";
             this.extensionTabControl1.SelectedIndex = 0;
-            this.extensionTabControl1.Size = new System.Drawing.Size(845, 435);
+            this.extensionTabControl1.Size = new System.Drawing.Size(890, 454);
             this.extensionTabControl1.TabIndex = 1;
+            this.extensionTabControl1.SelectedIndexChanged += new System.EventHandler(this.extensionTabControl1_SelectedIndexChanged);
+            this.extensionTabControl1.Selected += new System.Windows.Forms.TabControlEventHandler(this.extensionTabControl1_Selected);
             // 
             // ProductListPage
             // 
@@ -599,7 +597,7 @@
             this.ProductListPage.Location = new System.Drawing.Point(4, 24);
             this.ProductListPage.Name = "ProductListPage";
             this.ProductListPage.Padding = new System.Windows.Forms.Padding(3);
-            this.ProductListPage.Size = new System.Drawing.Size(837, 407);
+            this.ProductListPage.Size = new System.Drawing.Size(882, 426);
             this.ProductListPage.TabIndex = 0;
             this.ProductListPage.Text = "产品列表  ";
             this.ProductListPage.UseVisualStyleBackColor = true;
@@ -612,7 +610,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(163, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(671, 401);
+            this.panel1.Size = new System.Drawing.Size(716, 420);
             this.panel1.TabIndex = 3;
             // 
             // panel2
@@ -620,9 +618,9 @@
             this.panel2.Controls.Add(this.productListDataGridView);
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 72);
+            this.panel2.Location = new System.Drawing.Point(0, 53);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(671, 329);
+            this.panel2.Size = new System.Drawing.Size(716, 367);
             this.panel2.TabIndex = 2;
             // 
             // productListDataGridView
@@ -647,7 +645,7 @@
             this.productListDataGridView.Name = "productListDataGridView";
             this.productListDataGridView.RowTemplate.Height = 23;
             this.productListDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.productListDataGridView.Size = new System.Drawing.Size(671, 249);
+            this.productListDataGridView.Size = new System.Drawing.Size(716, 287);
             this.productListDataGridView.TabIndex = 3;
             // 
             // PlId
@@ -721,7 +719,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(671, 80);
+            this.groupBox2.Size = new System.Drawing.Size(716, 80);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "操作";
@@ -844,7 +842,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(671, 72);
+            this.groupBox1.Size = new System.Drawing.Size(716, 53);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "查询";
@@ -870,7 +868,7 @@
             this.ribbonMenuButton6.ImageOffset = 0;
             this.ribbonMenuButton6.IsPressed = false;
             this.ribbonMenuButton6.KeepPress = false;
-            this.ribbonMenuButton6.Location = new System.Drawing.Point(323, 13);
+            this.ribbonMenuButton6.Location = new System.Drawing.Point(193, 16);
             this.ribbonMenuButton6.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton6.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton6.Name = "ribbonMenuButton6";
@@ -891,6 +889,7 @@
             this.tbBarcode.Name = "tbBarcode";
             this.tbBarcode.Size = new System.Drawing.Size(100, 23);
             this.tbBarcode.TabIndex = 1;
+            this.tbBarcode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbBarcode_KeyPress);
             // 
             // lblBarcode
             // 
@@ -903,19 +902,21 @@
             // 
             // tbProduct
             // 
-            this.tbProduct.Location = new System.Drawing.Point(193, 19);
+            this.tbProduct.Location = new System.Drawing.Point(405, 19);
             this.tbProduct.Name = "tbProduct";
             this.tbProduct.Size = new System.Drawing.Size(100, 23);
             this.tbProduct.TabIndex = 2;
+            this.tbProduct.Visible = false;
             // 
             // lblProductNumber
             // 
             this.lblProductNumber.AutoSize = true;
-            this.lblProductNumber.Location = new System.Drawing.Point(152, 22);
+            this.lblProductNumber.Location = new System.Drawing.Point(364, 19);
             this.lblProductNumber.Name = "lblProductNumber";
             this.lblProductNumber.Size = new System.Drawing.Size(35, 14);
             this.lblProductNumber.TabIndex = 0;
             this.lblProductNumber.Text = "货号";
+            this.lblProductNumber.Visible = false;
             // 
             // treeView1
             // 
@@ -927,7 +928,7 @@
             treeNode1.Text = "产品类别";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode1});
-            this.treeView1.Size = new System.Drawing.Size(160, 401);
+            this.treeView1.Size = new System.Drawing.Size(160, 420);
             this.treeView1.TabIndex = 0;
             this.treeView1.BeforeLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.treeView1_BeforeLabelEdit);
             this.treeView1.AfterLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.treeView1_AfterLabelEdit);
@@ -940,7 +941,7 @@
             this.AddProductPage.Controls.Add(this.groupBox3);
             this.AddProductPage.Location = new System.Drawing.Point(4, 24);
             this.AddProductPage.Name = "AddProductPage";
-            this.AddProductPage.Size = new System.Drawing.Size(837, 407);
+            this.AddProductPage.Size = new System.Drawing.Size(882, 426);
             this.AddProductPage.TabIndex = 0;
             this.AddProductPage.Text = "添加产品  ";
             this.AddProductPage.UseVisualStyleBackColor = true;
@@ -953,7 +954,7 @@
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Location = new System.Drawing.Point(0, 109);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(837, 298);
+            this.groupBox5.Size = new System.Drawing.Size(882, 317);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "产品规格";
@@ -976,7 +977,7 @@
             this.ApSpecDataGridView.Location = new System.Drawing.Point(3, 147);
             this.ApSpecDataGridView.Name = "ApSpecDataGridView";
             this.ApSpecDataGridView.RowTemplate.Height = 23;
-            this.ApSpecDataGridView.Size = new System.Drawing.Size(831, 148);
+            this.ApSpecDataGridView.Size = new System.Drawing.Size(876, 167);
             this.ApSpecDataGridView.TabIndex = 3;
             this.ApSpecDataGridView.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.SpecDataGridView_CellBeginEdit);
             this.ApSpecDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SpecDataGridView_CellClick);
@@ -1054,7 +1055,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 19);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(831, 128);
+            this.panel3.Size = new System.Drawing.Size(876, 128);
             this.panel3.TabIndex = 2;
             // 
             // ApUnit
@@ -1285,7 +1286,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(837, 109);
+            this.groupBox3.Size = new System.Drawing.Size(882, 109);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "产品基本信息";
@@ -1420,7 +1421,7 @@
             this.listStorageInPage.Location = new System.Drawing.Point(4, 24);
             this.listStorageInPage.Name = "listStorageInPage";
             this.listStorageInPage.Padding = new System.Windows.Forms.Padding(3);
-            this.listStorageInPage.Size = new System.Drawing.Size(837, 407);
+            this.listStorageInPage.Size = new System.Drawing.Size(882, 426);
             this.listStorageInPage.TabIndex = 4;
             this.listStorageInPage.Text = "采购入库单  ";
             this.listStorageInPage.UseVisualStyleBackColor = true;
@@ -1440,7 +1441,7 @@
             this.StorageInListDataGridView.Location = new System.Drawing.Point(3, 88);
             this.StorageInListDataGridView.Name = "StorageInListDataGridView";
             this.StorageInListDataGridView.RowTemplate.Height = 23;
-            this.StorageInListDataGridView.Size = new System.Drawing.Size(831, 316);
+            this.StorageInListDataGridView.Size = new System.Drawing.Size(876, 335);
             this.StorageInListDataGridView.TabIndex = 1;
             // 
             // StlId
@@ -1500,7 +1501,7 @@
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox4.Location = new System.Drawing.Point(3, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(831, 85);
+            this.groupBox4.Size = new System.Drawing.Size(876, 85);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "查询";
@@ -1526,7 +1527,7 @@
             this.ribbonMenuButton9.ImageOffset = 0;
             this.ribbonMenuButton9.IsPressed = false;
             this.ribbonMenuButton9.KeepPress = false;
-            this.ribbonMenuButton9.Location = new System.Drawing.Point(615, 31);
+            this.ribbonMenuButton9.Location = new System.Drawing.Point(516, 34);
             this.ribbonMenuButton9.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton9.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton9.Name = "ribbonMenuButton9";
@@ -1562,7 +1563,7 @@
             this.ribbonMenuButton7.ImageOffset = 0;
             this.ribbonMenuButton7.IsPressed = false;
             this.ribbonMenuButton7.KeepPress = false;
-            this.ribbonMenuButton7.Location = new System.Drawing.Point(533, 31);
+            this.ribbonMenuButton7.Location = new System.Drawing.Point(434, 34);
             this.ribbonMenuButton7.MaxImageSize = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton7.MenuPos = new System.Drawing.Point(0, 0);
             this.ribbonMenuButton7.Name = "ribbonMenuButton7";
@@ -1598,7 +1599,7 @@
             this.btnSearchStorageIn.ImageOffset = 0;
             this.btnSearchStorageIn.IsPressed = false;
             this.btnSearchStorageIn.KeepPress = false;
-            this.btnSearchStorageIn.Location = new System.Drawing.Point(451, 31);
+            this.btnSearchStorageIn.Location = new System.Drawing.Point(352, 34);
             this.btnSearchStorageIn.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSearchStorageIn.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSearchStorageIn.Name = "btnSearchStorageIn";
@@ -1615,37 +1616,35 @@
             // 
             // SilSearchEndTime
             // 
-            this.SilSearchEndTime.Location = new System.Drawing.Point(288, 34);
+            this.SilSearchEndTime.Location = new System.Drawing.Point(89, 62);
             this.SilSearchEndTime.Name = "SilSearchEndTime";
-            this.SilSearchEndTime.Size = new System.Drawing.Size(132, 23);
+            this.SilSearchEndTime.Size = new System.Drawing.Size(238, 23);
             this.SilSearchEndTime.TabIndex = 3;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(261, 40);
+            this.label6.Location = new System.Drawing.Point(62, 68);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(21, 14);
             this.label6.TabIndex = 2;
             this.label6.Text = "至";
-            this.label6.Visible = false;
             // 
             // SilSearchStartTime
             // 
-            this.SilSearchStartTime.Location = new System.Drawing.Point(123, 34);
+            this.SilSearchStartTime.Location = new System.Drawing.Point(89, 34);
             this.SilSearchStartTime.Name = "SilSearchStartTime";
-            this.SilSearchStartTime.Size = new System.Drawing.Size(132, 23);
+            this.SilSearchStartTime.Size = new System.Drawing.Size(238, 23);
             this.SilSearchStartTime.TabIndex = 1;
             // 
             // formLabel5
             // 
             this.formLabel5.AutoSize = true;
-            this.formLabel5.Location = new System.Drawing.Point(31, 40);
+            this.formLabel5.Location = new System.Drawing.Point(6, 34);
             this.formLabel5.Name = "formLabel5";
             this.formLabel5.Size = new System.Drawing.Size(77, 14);
             this.formLabel5.TabIndex = 0;
             this.formLabel5.Text = "入库时间段";
-            this.formLabel5.Visible = false;
             // 
             // addStorageInPage
             // 
@@ -1654,7 +1653,7 @@
             this.addStorageInPage.Location = new System.Drawing.Point(4, 24);
             this.addStorageInPage.Name = "addStorageInPage";
             this.addStorageInPage.Padding = new System.Windows.Forms.Padding(3);
-            this.addStorageInPage.Size = new System.Drawing.Size(837, 407);
+            this.addStorageInPage.Size = new System.Drawing.Size(882, 426);
             this.addStorageInPage.TabIndex = 1;
             this.addStorageInPage.Text = "添加采购入库  ";
             this.addStorageInPage.UseVisualStyleBackColor = true;
@@ -1663,11 +1662,10 @@
             // panel5
             // 
             this.panel5.Controls.Add(this.AsStorageInItemDataGridView);
-            this.panel5.Controls.Add(this.groupBox9);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 88);
+            this.panel5.Location = new System.Drawing.Point(3, 135);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(831, 316);
+            this.panel5.Size = new System.Drawing.Size(876, 288);
             this.panel5.TabIndex = 1;
             // 
             // AsStorageInItemDataGridView
@@ -1689,11 +1687,11 @@
             this.AsProductListCreateTime});
             this.AsStorageInItemDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AsStorageInItemDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.AsStorageInItemDataGridView.Location = new System.Drawing.Point(0, 181);
+            this.AsStorageInItemDataGridView.Location = new System.Drawing.Point(0, 0);
             this.AsStorageInItemDataGridView.Name = "AsStorageInItemDataGridView";
             this.AsStorageInItemDataGridView.RowTemplate.Height = 23;
             this.AsStorageInItemDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AsStorageInItemDataGridView.Size = new System.Drawing.Size(831, 135);
+            this.AsStorageInItemDataGridView.Size = new System.Drawing.Size(876, 288);
             this.AsStorageInItemDataGridView.TabIndex = 4;
             this.AsStorageInItemDataGridView.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.AsStorageInItemDataGridView_CellBeginEdit);
             this.AsStorageInItemDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AsStorageInItemDataGridView_CellContentClick);
@@ -1780,32 +1778,108 @@
             this.AsProductListCreateTime.Name = "AsProductListCreateTime";
             this.AsProductListCreateTime.Visible = false;
             // 
-            // groupBox9
+            // groupBox8
             // 
-            this.groupBox9.Controls.Add(this.btnSaveStorageIn);
-            this.groupBox9.Controls.Add(this.AsProductSpeciText);
-            this.groupBox9.Controls.Add(this.AsProductUnit);
-            this.groupBox9.Controls.Add(this.AsProductAmount);
-            this.groupBox9.Controls.Add(this.formLabel14);
-            this.groupBox9.Controls.Add(this.AsProductUnitPrice);
-            this.groupBox9.Controls.Add(this.formLabel15);
-            this.groupBox9.Controls.Add(this.formLabel16);
-            this.groupBox9.Controls.Add(this.formLabel17);
-            this.groupBox9.Controls.Add(this.AsProductName);
-            this.groupBox9.Controls.Add(this.formLabel18);
-            this.groupBox9.Controls.Add(this.AsProductBarcode);
-            this.groupBox9.Controls.Add(this.formLabel19);
-            this.groupBox9.Controls.Add(this.AsProductNumber);
-            this.groupBox9.Controls.Add(this.formLabel27);
-            this.groupBox9.Controls.Add(this.btnAddStorageInItem);
-            this.groupBox9.Controls.Add(this.btnDeleteStorageInItem);
-            this.groupBox9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox9.Location = new System.Drawing.Point(0, 0);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(831, 181);
-            this.groupBox9.TabIndex = 3;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "添加采购产品";
+            this.groupBox8.Controls.Add(this.formLabel15);
+            this.groupBox8.Controls.Add(this.AsProductUnitPrice);
+            this.groupBox8.Controls.Add(this.AsProductUnit);
+            this.groupBox8.Controls.Add(this.AsProductSpeciText);
+            this.groupBox8.Controls.Add(this.formLabel18);
+            this.groupBox8.Controls.Add(this.AsProductName);
+            this.groupBox8.Controls.Add(this.formLabel16);
+            this.groupBox8.Controls.Add(this.btnSaveStorageIn);
+            this.groupBox8.Controls.Add(this.label12);
+            this.groupBox8.Controls.Add(this.AsStorageInTime);
+            this.groupBox8.Controls.Add(this.formLabel17);
+            this.groupBox8.Controls.Add(this.formLabel11);
+            this.groupBox8.Controls.Add(this.AsProductAmount);
+            this.groupBox8.Controls.Add(this.AsNumber);
+            this.groupBox8.Controls.Add(this.formLabel14);
+            this.groupBox8.Controls.Add(this.formLabel10);
+            this.groupBox8.Controls.Add(this.formLabel27);
+            this.groupBox8.Controls.Add(this.AsProductNumber);
+            this.groupBox8.Controls.Add(this.AsProductBarcode);
+            this.groupBox8.Controls.Add(this.formLabel19);
+            this.groupBox8.Controls.Add(this.btnDeleteStorageInItem);
+            this.groupBox8.Controls.Add(this.btnAddStorageInItem);
+            this.groupBox8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox8.Location = new System.Drawing.Point(3, 3);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(876, 132);
+            this.groupBox8.TabIndex = 0;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "入库单信息";
+            // 
+            // formLabel15
+            // 
+            this.formLabel15.AutoSize = true;
+            this.formLabel15.Location = new System.Drawing.Point(422, 105);
+            this.formLabel15.Name = "formLabel15";
+            this.formLabel15.Size = new System.Drawing.Size(49, 14);
+            this.formLabel15.TabIndex = 24;
+            this.formLabel15.Text = "进货价";
+            this.formLabel15.Visible = false;
+            // 
+            // AsProductUnitPrice
+            // 
+            this.AsProductUnitPrice.Location = new System.Drawing.Point(477, 102);
+            this.AsProductUnitPrice.Name = "AsProductUnitPrice";
+            this.AsProductUnitPrice.Size = new System.Drawing.Size(124, 23);
+            this.AsProductUnitPrice.TabIndex = 25;
+            this.AsProductUnitPrice.Visible = false;
+            // 
+            // AsProductUnit
+            // 
+            this.AsProductUnit.BackColor = System.Drawing.SystemColors.Window;
+            this.AsProductUnit.Location = new System.Drawing.Point(663, 88);
+            this.AsProductUnit.Name = "AsProductUnit";
+            this.AsProductUnit.ReadOnly = true;
+            this.AsProductUnit.Size = new System.Drawing.Size(124, 23);
+            this.AsProductUnit.TabIndex = 27;
+            this.AsProductUnit.Visible = false;
+            this.AsProductUnit.TextChanged += new System.EventHandler(this.AsProductUnit_TextChanged);
+            // 
+            // AsProductSpeciText
+            // 
+            this.AsProductSpeciText.Enabled = false;
+            this.AsProductSpeciText.FormattingEnabled = true;
+            this.AsProductSpeciText.Location = new System.Drawing.Point(663, 60);
+            this.AsProductSpeciText.Name = "AsProductSpeciText";
+            this.AsProductSpeciText.Size = new System.Drawing.Size(124, 22);
+            this.AsProductSpeciText.TabIndex = 28;
+            this.AsProductSpeciText.Visible = false;
+            this.AsProductSpeciText.SelectedValueChanged += new System.EventHandler(this.AsProductSpeciText_SelectedValueChanged);
+            // 
+            // formLabel18
+            // 
+            this.formLabel18.AutoSize = true;
+            this.formLabel18.Location = new System.Drawing.Point(237, 109);
+            this.formLabel18.Name = "formLabel18";
+            this.formLabel18.Size = new System.Drawing.Size(49, 14);
+            this.formLabel18.TabIndex = 16;
+            this.formLabel18.Text = "产品名";
+            this.formLabel18.Visible = false;
+            // 
+            // AsProductName
+            // 
+            this.AsProductName.BackColor = System.Drawing.SystemColors.Window;
+            this.AsProductName.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.AsProductName.Location = new System.Drawing.Point(292, 100);
+            this.AsProductName.Name = "AsProductName";
+            this.AsProductName.ReadOnly = true;
+            this.AsProductName.Size = new System.Drawing.Size(124, 23);
+            this.AsProductName.TabIndex = 17;
+            this.AsProductName.Visible = false;
+            // 
+            // formLabel16
+            // 
+            this.formLabel16.AutoSize = true;
+            this.formLabel16.Location = new System.Drawing.Point(622, 91);
+            this.formLabel16.Name = "formLabel16";
+            this.formLabel16.Size = new System.Drawing.Size(35, 14);
+            this.formLabel16.TabIndex = 20;
+            this.formLabel16.Text = "单位";
+            this.formLabel16.Visible = false;
             // 
             // btnSaveStorageIn
             // 
@@ -1828,7 +1902,7 @@
             this.btnSaveStorageIn.ImageOffset = 0;
             this.btnSaveStorageIn.IsPressed = false;
             this.btnSaveStorageIn.KeepPress = false;
-            this.btnSaveStorageIn.Location = new System.Drawing.Point(582, 135);
+            this.btnSaveStorageIn.Location = new System.Drawing.Point(47, 94);
             this.btnSaveStorageIn.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnSaveStorageIn.MenuPos = new System.Drawing.Point(0, 0);
             this.btnSaveStorageIn.Name = "btnSaveStorageIn";
@@ -1843,162 +1917,114 @@
             this.btnSaveStorageIn.UseVisualStyleBackColor = true;
             this.btnSaveStorageIn.Click += new System.EventHandler(this.btnSaveStorageIn_Click);
             // 
-            // AsProductSpeciText
+            // label12
             // 
-            this.AsProductSpeciText.Enabled = false;
-            this.AsProductSpeciText.FormattingEnabled = true;
-            this.AsProductSpeciText.Location = new System.Drawing.Point(330, 60);
-            this.AsProductSpeciText.Name = "AsProductSpeciText";
-            this.AsProductSpeciText.Size = new System.Drawing.Size(124, 22);
-            this.AsProductSpeciText.TabIndex = 28;
-            this.AsProductSpeciText.SelectedValueChanged += new System.EventHandler(this.AsProductSpeciText_SelectedValueChanged);
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label12.ForeColor = System.Drawing.Color.DarkRed;
+            this.label12.Location = new System.Drawing.Point(249, 41);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(11, 12);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "*";
             // 
-            // AsProductUnit
+            // AsStorageInTime
             // 
-            this.AsProductUnit.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsProductUnit.Location = new System.Drawing.Point(546, 60);
-            this.AsProductUnit.Name = "AsProductUnit";
-            this.AsProductUnit.ReadOnly = true;
-            this.AsProductUnit.Size = new System.Drawing.Size(124, 23);
-            this.AsProductUnit.TabIndex = 27;
+            this.AsStorageInTime.Location = new System.Drawing.Point(375, 33);
+            this.AsStorageInTime.Name = "AsStorageInTime";
+            this.AsStorageInTime.Size = new System.Drawing.Size(226, 23);
+            this.AsStorageInTime.TabIndex = 3;
+            this.AsStorageInTime.Value = new System.DateTime(2012, 8, 21, 1, 12, 1, 0);
+            // 
+            // formLabel17
+            // 
+            this.formLabel17.AutoSize = true;
+            this.formLabel17.Location = new System.Drawing.Point(622, 60);
+            this.formLabel17.Name = "formLabel17";
+            this.formLabel17.Size = new System.Drawing.Size(35, 14);
+            this.formLabel17.TabIndex = 18;
+            this.formLabel17.Text = "规格";
+            this.formLabel17.Visible = false;
+            // 
+            // formLabel11
+            // 
+            this.formLabel11.AutoSize = true;
+            this.formLabel11.Location = new System.Drawing.Point(268, 38);
+            this.formLabel11.Name = "formLabel11";
+            this.formLabel11.Size = new System.Drawing.Size(63, 14);
+            this.formLabel11.TabIndex = 2;
+            this.formLabel11.Text = "入库日期";
             // 
             // AsProductAmount
             // 
-            this.AsProductAmount.Location = new System.Drawing.Point(330, 94);
+            this.AsProductAmount.Location = new System.Drawing.Point(330, 65);
             this.AsProductAmount.Name = "AsProductAmount";
             this.AsProductAmount.Size = new System.Drawing.Size(124, 23);
             this.AsProductAmount.TabIndex = 27;
             // 
+            // AsNumber
+            // 
+            this.AsNumber.Enabled = false;
+            this.AsNumber.Location = new System.Drawing.Point(109, 33);
+            this.AsNumber.Name = "AsNumber";
+            this.AsNumber.Size = new System.Drawing.Size(124, 23);
+            this.AsNumber.TabIndex = 1;
+            this.AsNumber.TextChanged += new System.EventHandler(this.AsNumber_TextChanged);
+            // 
             // formLabel14
             // 
             this.formLabel14.AutoSize = true;
-            this.formLabel14.Location = new System.Drawing.Point(268, 98);
+            this.formLabel14.Location = new System.Drawing.Point(268, 68);
             this.formLabel14.Name = "formLabel14";
             this.formLabel14.Size = new System.Drawing.Size(35, 14);
             this.formLabel14.TabIndex = 26;
             this.formLabel14.Text = "数量";
             // 
-            // AsProductUnitPrice
+            // formLabel10
             // 
-            this.AsProductUnitPrice.Location = new System.Drawing.Point(109, 94);
-            this.AsProductUnitPrice.Name = "AsProductUnitPrice";
-            this.AsProductUnitPrice.Size = new System.Drawing.Size(124, 23);
-            this.AsProductUnitPrice.TabIndex = 25;
+            this.formLabel10.AutoSize = true;
+            this.formLabel10.Location = new System.Drawing.Point(40, 36);
+            this.formLabel10.Name = "formLabel10";
+            this.formLabel10.Size = new System.Drawing.Size(63, 14);
+            this.formLabel10.TabIndex = 0;
+            this.formLabel10.Text = "入库单号";
             // 
-            // formLabel15
+            // formLabel27
             // 
-            this.formLabel15.AutoSize = true;
-            this.formLabel15.Location = new System.Drawing.Point(40, 98);
-            this.formLabel15.Name = "formLabel15";
-            this.formLabel15.Size = new System.Drawing.Size(49, 14);
-            this.formLabel15.TabIndex = 24;
-            this.formLabel15.Text = "进货价";
+            this.formLabel27.AutoSize = true;
+            this.formLabel27.Location = new System.Drawing.Point(622, 33);
+            this.formLabel27.Name = "formLabel27";
+            this.formLabel27.Size = new System.Drawing.Size(35, 14);
+            this.formLabel27.TabIndex = 11;
+            this.formLabel27.Text = "货号";
+            this.formLabel27.Visible = false;
             // 
-            // formLabel16
+            // AsProductNumber
             // 
-            this.formLabel16.AutoSize = true;
-            this.formLabel16.Location = new System.Drawing.Point(487, 66);
-            this.formLabel16.Name = "formLabel16";
-            this.formLabel16.Size = new System.Drawing.Size(35, 14);
-            this.formLabel16.TabIndex = 20;
-            this.formLabel16.Text = "单位";
-            // 
-            // formLabel17
-            // 
-            this.formLabel17.AutoSize = true;
-            this.formLabel17.Location = new System.Drawing.Point(268, 66);
-            this.formLabel17.Name = "formLabel17";
-            this.formLabel17.Size = new System.Drawing.Size(35, 14);
-            this.formLabel17.TabIndex = 18;
-            this.formLabel17.Text = "规格";
-            // 
-            // AsProductName
-            // 
-            this.AsProductName.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsProductName.Location = new System.Drawing.Point(109, 60);
-            this.AsProductName.Name = "AsProductName";
-            this.AsProductName.ReadOnly = true;
-            this.AsProductName.Size = new System.Drawing.Size(124, 23);
-            this.AsProductName.TabIndex = 17;
-            // 
-            // formLabel18
-            // 
-            this.formLabel18.AutoSize = true;
-            this.formLabel18.Location = new System.Drawing.Point(40, 60);
-            this.formLabel18.Name = "formLabel18";
-            this.formLabel18.Size = new System.Drawing.Size(49, 14);
-            this.formLabel18.TabIndex = 16;
-            this.formLabel18.Text = "产品名";
+            this.AsProductNumber.Location = new System.Drawing.Point(663, 30);
+            this.AsProductNumber.Name = "AsProductNumber";
+            this.AsProductNumber.Size = new System.Drawing.Size(124, 23);
+            this.AsProductNumber.TabIndex = 12;
+            this.AsProductNumber.Visible = false;
+            this.AsProductNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AsProductNumber_KeyPress);
             // 
             // AsProductBarcode
             // 
-            this.AsProductBarcode.Location = new System.Drawing.Point(330, 24);
+            this.AsProductBarcode.Location = new System.Drawing.Point(109, 65);
             this.AsProductBarcode.Name = "AsProductBarcode";
             this.AsProductBarcode.Size = new System.Drawing.Size(124, 23);
             this.AsProductBarcode.TabIndex = 15;
+            this.AsProductBarcode.TextChanged += new System.EventHandler(this.AsProductBarcode_TextChanged);
             this.AsProductBarcode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AsProductBarcode_KeyPress);
             // 
             // formLabel19
             // 
             this.formLabel19.AutoSize = true;
-            this.formLabel19.Location = new System.Drawing.Point(267, 27);
+            this.formLabel19.Location = new System.Drawing.Point(40, 74);
             this.formLabel19.Name = "formLabel19";
             this.formLabel19.Size = new System.Drawing.Size(35, 14);
             this.formLabel19.TabIndex = 14;
             this.formLabel19.Text = "条码";
-            // 
-            // AsProductNumber
-            // 
-            this.AsProductNumber.Location = new System.Drawing.Point(109, 24);
-            this.AsProductNumber.Name = "AsProductNumber";
-            this.AsProductNumber.Size = new System.Drawing.Size(124, 23);
-            this.AsProductNumber.TabIndex = 12;
-            this.AsProductNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AsProductNumber_KeyPress);
-            // 
-            // formLabel27
-            // 
-            this.formLabel27.AutoSize = true;
-            this.formLabel27.Location = new System.Drawing.Point(40, 27);
-            this.formLabel27.Name = "formLabel27";
-            this.formLabel27.Size = new System.Drawing.Size(35, 14);
-            this.formLabel27.TabIndex = 11;
-            this.formLabel27.Text = "货号";
-            // 
-            // btnAddStorageInItem
-            // 
-            this.btnAddStorageInItem.Arrow = RibbonStyle.RibbonMenuButton.e_arrow.None;
-            this.btnAddStorageInItem.BackColor = System.Drawing.Color.Transparent;
-            this.btnAddStorageInItem.ColorBase = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(209)))), ((int)(((byte)(240)))));
-            this.btnAddStorageInItem.ColorBaseStroke = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(187)))), ((int)(((byte)(213)))));
-            this.btnAddStorageInItem.ColorOn = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(214)))), ((int)(((byte)(78)))));
-            this.btnAddStorageInItem.ColorOnStroke = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(177)))), ((int)(((byte)(118)))));
-            this.btnAddStorageInItem.ColorPress = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnAddStorageInItem.ColorPressStroke = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnAddStorageInItem.FadingSpeed = 20;
-            this.btnAddStorageInItem.FlatAppearance.BorderSize = 0;
-            this.btnAddStorageInItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddStorageInItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStorageInItem.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btnAddStorageInItem.GroupPos = RibbonStyle.RibbonMenuButton.e_groupPos.None;
-            this.btnAddStorageInItem.Image = global::Winform.Properties.Resources.add;
-            this.btnAddStorageInItem.ImageLocation = RibbonStyle.RibbonMenuButton.e_imagelocation.Left;
-            this.btnAddStorageInItem.ImageOffset = 0;
-            this.btnAddStorageInItem.IsPressed = false;
-            this.btnAddStorageInItem.KeepPress = false;
-            this.btnAddStorageInItem.Location = new System.Drawing.Point(271, 135);
-            this.btnAddStorageInItem.MaxImageSize = new System.Drawing.Point(0, 0);
-            this.btnAddStorageInItem.MenuPos = new System.Drawing.Point(0, 0);
-            this.btnAddStorageInItem.Name = "btnAddStorageInItem";
-            this.btnAddStorageInItem.Radius = 10;
-            this.btnAddStorageInItem.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.btnAddStorageInItem.Size = new System.Drawing.Size(76, 31);
-            this.btnAddStorageInItem.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
-            this.btnAddStorageInItem.SplitDistance = 0;
-            this.btnAddStorageInItem.TabIndex = 9;
-            this.btnAddStorageInItem.Text = "添加";
-            this.btnAddStorageInItem.Title = "";
-            this.btnAddStorageInItem.UseVisualStyleBackColor = true;
-            this.btnAddStorageInItem.Click += new System.EventHandler(this.btnAddStorageInItem_Click);
             // 
             // btnDeleteStorageInItem
             // 
@@ -2021,7 +2047,7 @@
             this.btnDeleteStorageInItem.ImageOffset = 0;
             this.btnDeleteStorageInItem.IsPressed = false;
             this.btnDeleteStorageInItem.KeepPress = false;
-            this.btnDeleteStorageInItem.Location = new System.Drawing.Point(366, 135);
+            this.btnDeleteStorageInItem.Location = new System.Drawing.Point(141, 94);
             this.btnDeleteStorageInItem.MaxImageSize = new System.Drawing.Point(0, 0);
             this.btnDeleteStorageInItem.MenuPos = new System.Drawing.Point(0, 0);
             this.btnDeleteStorageInItem.Name = "btnDeleteStorageInItem";
@@ -2036,64 +2062,41 @@
             this.btnDeleteStorageInItem.UseVisualStyleBackColor = true;
             this.btnDeleteStorageInItem.Click += new System.EventHandler(this.btnDeleteStorageInItem_Click);
             // 
-            // groupBox8
+            // btnAddStorageInItem
             // 
-            this.groupBox8.Controls.Add(this.label12);
-            this.groupBox8.Controls.Add(this.AsStorageInTime);
-            this.groupBox8.Controls.Add(this.formLabel11);
-            this.groupBox8.Controls.Add(this.AsNumber);
-            this.groupBox8.Controls.Add(this.formLabel10);
-            this.groupBox8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox8.Location = new System.Drawing.Point(3, 3);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(831, 85);
-            this.groupBox8.TabIndex = 0;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "入库单信息";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label12.ForeColor = System.Drawing.Color.DarkRed;
-            this.label12.Location = new System.Drawing.Point(249, 41);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(11, 12);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "*";
-            // 
-            // AsStorageInTime
-            // 
-            this.AsStorageInTime.Location = new System.Drawing.Point(470, 29);
-            this.AsStorageInTime.Name = "AsStorageInTime";
-            this.AsStorageInTime.Size = new System.Drawing.Size(124, 23);
-            this.AsStorageInTime.TabIndex = 3;
-            this.AsStorageInTime.Value = new System.DateTime(2012, 8, 21, 1, 12, 1, 0);
-            // 
-            // formLabel11
-            // 
-            this.formLabel11.AutoSize = true;
-            this.formLabel11.Location = new System.Drawing.Point(401, 36);
-            this.formLabel11.Name = "formLabel11";
-            this.formLabel11.Size = new System.Drawing.Size(63, 14);
-            this.formLabel11.TabIndex = 2;
-            this.formLabel11.Text = "入库日期";
-            // 
-            // AsNumber
-            // 
-            this.AsNumber.Location = new System.Drawing.Point(109, 33);
-            this.AsNumber.Name = "AsNumber";
-            this.AsNumber.Size = new System.Drawing.Size(124, 23);
-            this.AsNumber.TabIndex = 1;
-            // 
-            // formLabel10
-            // 
-            this.formLabel10.AutoSize = true;
-            this.formLabel10.Location = new System.Drawing.Point(40, 36);
-            this.formLabel10.Name = "formLabel10";
-            this.formLabel10.Size = new System.Drawing.Size(63, 14);
-            this.formLabel10.TabIndex = 0;
-            this.formLabel10.Text = "入库单号";
+            this.btnAddStorageInItem.Arrow = RibbonStyle.RibbonMenuButton.e_arrow.None;
+            this.btnAddStorageInItem.BackColor = System.Drawing.Color.Transparent;
+            this.btnAddStorageInItem.ColorBase = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(209)))), ((int)(((byte)(240)))));
+            this.btnAddStorageInItem.ColorBaseStroke = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(187)))), ((int)(((byte)(213)))));
+            this.btnAddStorageInItem.ColorOn = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(214)))), ((int)(((byte)(78)))));
+            this.btnAddStorageInItem.ColorOnStroke = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(177)))), ((int)(((byte)(118)))));
+            this.btnAddStorageInItem.ColorPress = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAddStorageInItem.ColorPressStroke = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.btnAddStorageInItem.FadingSpeed = 20;
+            this.btnAddStorageInItem.FlatAppearance.BorderSize = 0;
+            this.btnAddStorageInItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddStorageInItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStorageInItem.ForeColor = System.Drawing.Color.DarkBlue;
+            this.btnAddStorageInItem.GroupPos = RibbonStyle.RibbonMenuButton.e_groupPos.None;
+            this.btnAddStorageInItem.Image = global::Winform.Properties.Resources.add;
+            this.btnAddStorageInItem.ImageLocation = RibbonStyle.RibbonMenuButton.e_imagelocation.Left;
+            this.btnAddStorageInItem.ImageOffset = 0;
+            this.btnAddStorageInItem.IsPressed = false;
+            this.btnAddStorageInItem.KeepPress = false;
+            this.btnAddStorageInItem.Location = new System.Drawing.Point(460, 62);
+            this.btnAddStorageInItem.MaxImageSize = new System.Drawing.Point(0, 0);
+            this.btnAddStorageInItem.MenuPos = new System.Drawing.Point(0, 0);
+            this.btnAddStorageInItem.Name = "btnAddStorageInItem";
+            this.btnAddStorageInItem.Radius = 10;
+            this.btnAddStorageInItem.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
+            this.btnAddStorageInItem.Size = new System.Drawing.Size(110, 26);
+            this.btnAddStorageInItem.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
+            this.btnAddStorageInItem.SplitDistance = 0;
+            this.btnAddStorageInItem.TabIndex = 9;
+            this.btnAddStorageInItem.Text = "添加产品";
+            this.btnAddStorageInItem.Title = "";
+            this.btnAddStorageInItem.UseVisualStyleBackColor = true;
+            this.btnAddStorageInItem.Click += new System.EventHandler(this.btnAddStorageInItem_Click);
             // 
             // listStorageOutPage
             // 
@@ -2102,7 +2105,7 @@
             this.listStorageOutPage.Location = new System.Drawing.Point(4, 24);
             this.listStorageOutPage.Name = "listStorageOutPage";
             this.listStorageOutPage.Padding = new System.Windows.Forms.Padding(3);
-            this.listStorageOutPage.Size = new System.Drawing.Size(837, 407);
+            this.listStorageOutPage.Size = new System.Drawing.Size(882, 426);
             this.listStorageOutPage.TabIndex = 5;
             this.listStorageOutPage.Text = "销售出库单  ";
             this.listStorageOutPage.UseVisualStyleBackColor = true;
@@ -2122,7 +2125,7 @@
             this.StorageOutList.Location = new System.Drawing.Point(3, 88);
             this.StorageOutList.Name = "StorageOutList";
             this.StorageOutList.RowTemplate.Height = 23;
-            this.StorageOutList.Size = new System.Drawing.Size(831, 316);
+            this.StorageOutList.Size = new System.Drawing.Size(876, 335);
             this.StorageOutList.TabIndex = 2;
             // 
             // dataGridViewTextBoxColumn18
@@ -2180,7 +2183,7 @@
             this.groupBox12.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox12.Location = new System.Drawing.Point(3, 3);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(831, 85);
+            this.groupBox12.Size = new System.Drawing.Size(876, 85);
             this.groupBox12.TabIndex = 1;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "查询";
@@ -2261,7 +2264,7 @@
             this.addStorageOutPage.Location = new System.Drawing.Point(4, 24);
             this.addStorageOutPage.Name = "addStorageOutPage";
             this.addStorageOutPage.Padding = new System.Windows.Forms.Padding(3);
-            this.addStorageOutPage.Size = new System.Drawing.Size(837, 407);
+            this.addStorageOutPage.Size = new System.Drawing.Size(882, 426);
             this.addStorageOutPage.TabIndex = 6;
             this.addStorageOutPage.Text = "添加销售出库  ";
             this.addStorageOutPage.UseVisualStyleBackColor = true;
@@ -2270,11 +2273,10 @@
             // panel7
             // 
             this.panel7.Controls.Add(this.AsoStorageOutItemDataGridView);
-            this.panel7.Controls.Add(this.groupBox14);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(3, 88);
+            this.panel7.Location = new System.Drawing.Point(3, 129);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(831, 316);
+            this.panel7.Size = new System.Drawing.Size(876, 294);
             this.panel7.TabIndex = 2;
             // 
             // AsoStorageOutItemDataGridView
@@ -2296,11 +2298,11 @@
             this.AsoProductListCreateTime});
             this.AsoStorageOutItemDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AsoStorageOutItemDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.AsoStorageOutItemDataGridView.Location = new System.Drawing.Point(0, 181);
+            this.AsoStorageOutItemDataGridView.Location = new System.Drawing.Point(0, 0);
             this.AsoStorageOutItemDataGridView.Name = "AsoStorageOutItemDataGridView";
             this.AsoStorageOutItemDataGridView.RowTemplate.Height = 23;
             this.AsoStorageOutItemDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AsoStorageOutItemDataGridView.Size = new System.Drawing.Size(831, 135);
+            this.AsoStorageOutItemDataGridView.Size = new System.Drawing.Size(876, 294);
             this.AsoStorageOutItemDataGridView.TabIndex = 4;
             // 
             // AsoProductListId
@@ -2383,32 +2385,65 @@
             this.AsoProductListCreateTime.Name = "AsoProductListCreateTime";
             this.AsoProductListCreateTime.Visible = false;
             // 
-            // groupBox14
+            // groupBox13
             // 
-            this.groupBox14.Controls.Add(this.AsoSaveStorageOut);
-            this.groupBox14.Controls.Add(this.AsoStorageOutSpeciText);
-            this.groupBox14.Controls.Add(this.AsoStorageOutUnit);
-            this.groupBox14.Controls.Add(this.AsoStorageOutAmount);
-            this.groupBox14.Controls.Add(this.formLabel31);
-            this.groupBox14.Controls.Add(this.AsoStorageOutUnitPrice);
-            this.groupBox14.Controls.Add(this.formLabel32);
-            this.groupBox14.Controls.Add(this.formLabel33);
-            this.groupBox14.Controls.Add(this.formLabel34);
-            this.groupBox14.Controls.Add(this.AsoStorageOutProductName);
-            this.groupBox14.Controls.Add(this.formLabel35);
-            this.groupBox14.Controls.Add(this.AsoStorageOutBarcode);
-            this.groupBox14.Controls.Add(this.formLabel36);
-            this.groupBox14.Controls.Add(this.AsoStorageOutProductNumber);
-            this.groupBox14.Controls.Add(this.formLabel37);
-            this.groupBox14.Controls.Add(this.AsoAddStorageOutItem);
-            this.groupBox14.Controls.Add(this.AsoDeleteStorageOutItem);
-            this.groupBox14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox14.Location = new System.Drawing.Point(0, 0);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(831, 181);
-            this.groupBox14.TabIndex = 3;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "添加销售产品";
+            this.groupBox13.Controls.Add(this.formLabel32);
+            this.groupBox13.Controls.Add(this.AsoStorageOutUnitPrice);
+            this.groupBox13.Controls.Add(this.AsoStorageOutSpeciText);
+            this.groupBox13.Controls.Add(this.AsoSaveStorageOut);
+            this.groupBox13.Controls.Add(this.formLabel34);
+            this.groupBox13.Controls.Add(this.label15);
+            this.groupBox13.Controls.Add(this.AsoStorageOutTime);
+            this.groupBox13.Controls.Add(this.AsoStorageOutUnit);
+            this.groupBox13.Controls.Add(this.formLabel35);
+            this.groupBox13.Controls.Add(this.AsoStorageOutProductName);
+            this.groupBox13.Controls.Add(this.formLabel29);
+            this.groupBox13.Controls.Add(this.formLabel33);
+            this.groupBox13.Controls.Add(this.formLabel37);
+            this.groupBox13.Controls.Add(this.AsoStorageOutProductNumber);
+            this.groupBox13.Controls.Add(this.formLabel31);
+            this.groupBox13.Controls.Add(this.AsoStorageOutAmount);
+            this.groupBox13.Controls.Add(this.AsoAddStorageOutItem);
+            this.groupBox13.Controls.Add(this.AsoStorageOutNumber);
+            this.groupBox13.Controls.Add(this.AsoDeleteStorageOutItem);
+            this.groupBox13.Controls.Add(this.formLabel30);
+            this.groupBox13.Controls.Add(this.formLabel36);
+            this.groupBox13.Controls.Add(this.AsoStorageOutBarcode);
+            this.groupBox13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox13.Location = new System.Drawing.Point(3, 3);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(876, 126);
+            this.groupBox13.TabIndex = 1;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "出库单信息";
+            // 
+            // formLabel32
+            // 
+            this.formLabel32.AutoSize = true;
+            this.formLabel32.Location = new System.Drawing.Point(649, 79);
+            this.formLabel32.Name = "formLabel32";
+            this.formLabel32.Size = new System.Drawing.Size(49, 14);
+            this.formLabel32.TabIndex = 24;
+            this.formLabel32.Text = "销售价";
+            this.formLabel32.Visible = false;
+            // 
+            // AsoStorageOutUnitPrice
+            // 
+            this.AsoStorageOutUnitPrice.Location = new System.Drawing.Point(693, 79);
+            this.AsoStorageOutUnitPrice.Name = "AsoStorageOutUnitPrice";
+            this.AsoStorageOutUnitPrice.Size = new System.Drawing.Size(124, 23);
+            this.AsoStorageOutUnitPrice.TabIndex = 25;
+            this.AsoStorageOutUnitPrice.Visible = false;
+            // 
+            // AsoStorageOutSpeciText
+            // 
+            this.AsoStorageOutSpeciText.Enabled = false;
+            this.AsoStorageOutSpeciText.FormattingEnabled = true;
+            this.AsoStorageOutSpeciText.Location = new System.Drawing.Point(704, 98);
+            this.AsoStorageOutSpeciText.Name = "AsoStorageOutSpeciText";
+            this.AsoStorageOutSpeciText.Size = new System.Drawing.Size(124, 22);
+            this.AsoStorageOutSpeciText.TabIndex = 28;
+            this.AsoStorageOutSpeciText.Visible = false;
             // 
             // AsoSaveStorageOut
             // 
@@ -2431,7 +2466,7 @@
             this.AsoSaveStorageOut.ImageOffset = 0;
             this.AsoSaveStorageOut.IsPressed = false;
             this.AsoSaveStorageOut.KeepPress = false;
-            this.AsoSaveStorageOut.Location = new System.Drawing.Point(582, 135);
+            this.AsoSaveStorageOut.Location = new System.Drawing.Point(43, 91);
             this.AsoSaveStorageOut.MaxImageSize = new System.Drawing.Point(0, 0);
             this.AsoSaveStorageOut.MenuPos = new System.Drawing.Point(0, 0);
             this.AsoSaveStorageOut.Name = "AsoSaveStorageOut";
@@ -2446,125 +2481,118 @@
             this.AsoSaveStorageOut.UseVisualStyleBackColor = true;
             this.AsoSaveStorageOut.Click += new System.EventHandler(this.AsoSaveStorageOut_Click);
             // 
-            // AsoStorageOutSpeciText
+            // formLabel34
             // 
-            this.AsoStorageOutSpeciText.Enabled = false;
-            this.AsoStorageOutSpeciText.FormattingEnabled = true;
-            this.AsoStorageOutSpeciText.Location = new System.Drawing.Point(330, 60);
-            this.AsoStorageOutSpeciText.Name = "AsoStorageOutSpeciText";
-            this.AsoStorageOutSpeciText.Size = new System.Drawing.Size(124, 22);
-            this.AsoStorageOutSpeciText.TabIndex = 28;
+            this.formLabel34.AutoSize = true;
+            this.formLabel34.Location = new System.Drawing.Point(652, 100);
+            this.formLabel34.Name = "formLabel34";
+            this.formLabel34.Size = new System.Drawing.Size(35, 14);
+            this.formLabel34.TabIndex = 18;
+            this.formLabel34.Text = "规格";
+            this.formLabel34.Visible = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label15.ForeColor = System.Drawing.Color.DarkRed;
+            this.label15.Location = new System.Drawing.Point(249, 41);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(11, 12);
+            this.label15.TabIndex = 11;
+            this.label15.Text = "*";
+            // 
+            // AsoStorageOutTime
+            // 
+            this.AsoStorageOutTime.Location = new System.Drawing.Point(422, 29);
+            this.AsoStorageOutTime.Name = "AsoStorageOutTime";
+            this.AsoStorageOutTime.Size = new System.Drawing.Size(234, 23);
+            this.AsoStorageOutTime.TabIndex = 3;
+            this.AsoStorageOutTime.Value = new System.DateTime(2012, 8, 24, 0, 0, 0, 0);
             // 
             // AsoStorageOutUnit
             // 
             this.AsoStorageOutUnit.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsoStorageOutUnit.Location = new System.Drawing.Point(546, 60);
+            this.AsoStorageOutUnit.Location = new System.Drawing.Point(704, 29);
             this.AsoStorageOutUnit.Name = "AsoStorageOutUnit";
             this.AsoStorageOutUnit.ReadOnly = true;
             this.AsoStorageOutUnit.Size = new System.Drawing.Size(124, 23);
             this.AsoStorageOutUnit.TabIndex = 27;
+            this.AsoStorageOutUnit.Visible = false;
             // 
-            // AsoStorageOutAmount
+            // formLabel35
             // 
-            this.AsoStorageOutAmount.Location = new System.Drawing.Point(330, 94);
-            this.AsoStorageOutAmount.Name = "AsoStorageOutAmount";
-            this.AsoStorageOutAmount.Size = new System.Drawing.Size(124, 23);
-            this.AsoStorageOutAmount.TabIndex = 27;
+            this.formLabel35.AutoSize = true;
+            this.formLabel35.Location = new System.Drawing.Point(419, 100);
+            this.formLabel35.Name = "formLabel35";
+            this.formLabel35.Size = new System.Drawing.Size(49, 14);
+            this.formLabel35.TabIndex = 16;
+            this.formLabel35.Text = "产品名";
+            this.formLabel35.Visible = false;
+            // 
+            // AsoStorageOutProductName
+            // 
+            this.AsoStorageOutProductName.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.AsoStorageOutProductName.Location = new System.Drawing.Point(491, 97);
+            this.AsoStorageOutProductName.Name = "AsoStorageOutProductName";
+            this.AsoStorageOutProductName.ReadOnly = true;
+            this.AsoStorageOutProductName.Size = new System.Drawing.Size(124, 23);
+            this.AsoStorageOutProductName.TabIndex = 17;
+            this.AsoStorageOutProductName.Visible = false;
+            // 
+            // formLabel29
+            // 
+            this.formLabel29.AutoSize = true;
+            this.formLabel29.Location = new System.Drawing.Point(327, 35);
+            this.formLabel29.Name = "formLabel29";
+            this.formLabel29.Size = new System.Drawing.Size(63, 14);
+            this.formLabel29.TabIndex = 2;
+            this.formLabel29.Text = "出库日期";
+            // 
+            // formLabel33
+            // 
+            this.formLabel33.AutoSize = true;
+            this.formLabel33.Location = new System.Drawing.Point(663, 35);
+            this.formLabel33.Name = "formLabel33";
+            this.formLabel33.Size = new System.Drawing.Size(35, 14);
+            this.formLabel33.TabIndex = 20;
+            this.formLabel33.Text = "单位";
+            this.formLabel33.Visible = false;
+            // 
+            // formLabel37
+            // 
+            this.formLabel37.AutoSize = true;
+            this.formLabel37.Location = new System.Drawing.Point(663, 62);
+            this.formLabel37.Name = "formLabel37";
+            this.formLabel37.Size = new System.Drawing.Size(35, 14);
+            this.formLabel37.TabIndex = 11;
+            this.formLabel37.Text = "货号";
+            this.formLabel37.Visible = false;
+            // 
+            // AsoStorageOutProductNumber
+            // 
+            this.AsoStorageOutProductNumber.Location = new System.Drawing.Point(704, 59);
+            this.AsoStorageOutProductNumber.Name = "AsoStorageOutProductNumber";
+            this.AsoStorageOutProductNumber.Size = new System.Drawing.Size(124, 23);
+            this.AsoStorageOutProductNumber.TabIndex = 12;
+            this.AsoStorageOutProductNumber.Visible = false;
+            this.AsoStorageOutProductNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AsoStorageOutProductNumber_KeyPress);
             // 
             // formLabel31
             // 
             this.formLabel31.AutoSize = true;
-            this.formLabel31.Location = new System.Drawing.Point(268, 98);
+            this.formLabel31.Location = new System.Drawing.Point(327, 62);
             this.formLabel31.Name = "formLabel31";
             this.formLabel31.Size = new System.Drawing.Size(35, 14);
             this.formLabel31.TabIndex = 26;
             this.formLabel31.Text = "数量";
             // 
-            // AsoStorageOutUnitPrice
+            // AsoStorageOutAmount
             // 
-            this.AsoStorageOutUnitPrice.Location = new System.Drawing.Point(109, 94);
-            this.AsoStorageOutUnitPrice.Name = "AsoStorageOutUnitPrice";
-            this.AsoStorageOutUnitPrice.Size = new System.Drawing.Size(124, 23);
-            this.AsoStorageOutUnitPrice.TabIndex = 25;
-            // 
-            // formLabel32
-            // 
-            this.formLabel32.AutoSize = true;
-            this.formLabel32.Location = new System.Drawing.Point(40, 98);
-            this.formLabel32.Name = "formLabel32";
-            this.formLabel32.Size = new System.Drawing.Size(49, 14);
-            this.formLabel32.TabIndex = 24;
-            this.formLabel32.Text = "销售价";
-            // 
-            // formLabel33
-            // 
-            this.formLabel33.AutoSize = true;
-            this.formLabel33.Location = new System.Drawing.Point(487, 66);
-            this.formLabel33.Name = "formLabel33";
-            this.formLabel33.Size = new System.Drawing.Size(35, 14);
-            this.formLabel33.TabIndex = 20;
-            this.formLabel33.Text = "单位";
-            // 
-            // formLabel34
-            // 
-            this.formLabel34.AutoSize = true;
-            this.formLabel34.Location = new System.Drawing.Point(268, 66);
-            this.formLabel34.Name = "formLabel34";
-            this.formLabel34.Size = new System.Drawing.Size(35, 14);
-            this.formLabel34.TabIndex = 18;
-            this.formLabel34.Text = "规格";
-            // 
-            // AsoStorageOutProductName
-            // 
-            this.AsoStorageOutProductName.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.AsoStorageOutProductName.Location = new System.Drawing.Point(109, 60);
-            this.AsoStorageOutProductName.Name = "AsoStorageOutProductName";
-            this.AsoStorageOutProductName.ReadOnly = true;
-            this.AsoStorageOutProductName.Size = new System.Drawing.Size(124, 23);
-            this.AsoStorageOutProductName.TabIndex = 17;
-            // 
-            // formLabel35
-            // 
-            this.formLabel35.AutoSize = true;
-            this.formLabel35.Location = new System.Drawing.Point(40, 60);
-            this.formLabel35.Name = "formLabel35";
-            this.formLabel35.Size = new System.Drawing.Size(49, 14);
-            this.formLabel35.TabIndex = 16;
-            this.formLabel35.Text = "产品名";
-            // 
-            // AsoStorageOutBarcode
-            // 
-            this.AsoStorageOutBarcode.Location = new System.Drawing.Point(330, 24);
-            this.AsoStorageOutBarcode.Name = "AsoStorageOutBarcode";
-            this.AsoStorageOutBarcode.Size = new System.Drawing.Size(124, 23);
-            this.AsoStorageOutBarcode.TabIndex = 15;
-            this.AsoStorageOutBarcode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AsoStorageOutBarcode_KeyPress);
-            // 
-            // formLabel36
-            // 
-            this.formLabel36.AutoSize = true;
-            this.formLabel36.Location = new System.Drawing.Point(267, 27);
-            this.formLabel36.Name = "formLabel36";
-            this.formLabel36.Size = new System.Drawing.Size(35, 14);
-            this.formLabel36.TabIndex = 14;
-            this.formLabel36.Text = "条码";
-            // 
-            // AsoStorageOutProductNumber
-            // 
-            this.AsoStorageOutProductNumber.Location = new System.Drawing.Point(109, 24);
-            this.AsoStorageOutProductNumber.Name = "AsoStorageOutProductNumber";
-            this.AsoStorageOutProductNumber.Size = new System.Drawing.Size(124, 23);
-            this.AsoStorageOutProductNumber.TabIndex = 12;
-            this.AsoStorageOutProductNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AsoStorageOutProductNumber_KeyPress);
-            // 
-            // formLabel37
-            // 
-            this.formLabel37.AutoSize = true;
-            this.formLabel37.Location = new System.Drawing.Point(40, 27);
-            this.formLabel37.Name = "formLabel37";
-            this.formLabel37.Size = new System.Drawing.Size(35, 14);
-            this.formLabel37.TabIndex = 11;
-            this.formLabel37.Text = "货号";
+            this.AsoStorageOutAmount.Location = new System.Drawing.Point(422, 59);
+            this.AsoStorageOutAmount.Name = "AsoStorageOutAmount";
+            this.AsoStorageOutAmount.Size = new System.Drawing.Size(124, 23);
+            this.AsoStorageOutAmount.TabIndex = 27;
             // 
             // AsoAddStorageOutItem
             // 
@@ -2587,7 +2615,7 @@
             this.AsoAddStorageOutItem.ImageOffset = 0;
             this.AsoAddStorageOutItem.IsPressed = false;
             this.AsoAddStorageOutItem.KeepPress = false;
-            this.AsoAddStorageOutItem.Location = new System.Drawing.Point(271, 135);
+            this.AsoAddStorageOutItem.Location = new System.Drawing.Point(570, 62);
             this.AsoAddStorageOutItem.MaxImageSize = new System.Drawing.Point(0, 0);
             this.AsoAddStorageOutItem.MenuPos = new System.Drawing.Point(0, 0);
             this.AsoAddStorageOutItem.Name = "AsoAddStorageOutItem";
@@ -2600,7 +2628,16 @@
             this.AsoAddStorageOutItem.Text = "添加";
             this.AsoAddStorageOutItem.Title = "";
             this.AsoAddStorageOutItem.UseVisualStyleBackColor = true;
+            this.AsoAddStorageOutItem.Visible = false;
             this.AsoAddStorageOutItem.Click += new System.EventHandler(this.btnAddStorageOutItem_Click);
+            // 
+            // AsoStorageOutNumber
+            // 
+            this.AsoStorageOutNumber.Enabled = false;
+            this.AsoStorageOutNumber.Location = new System.Drawing.Point(109, 33);
+            this.AsoStorageOutNumber.Name = "AsoStorageOutNumber";
+            this.AsoStorageOutNumber.Size = new System.Drawing.Size(124, 23);
+            this.AsoStorageOutNumber.TabIndex = 1;
             // 
             // AsoDeleteStorageOutItem
             // 
@@ -2623,7 +2660,7 @@
             this.AsoDeleteStorageOutItem.ImageOffset = 0;
             this.AsoDeleteStorageOutItem.IsPressed = false;
             this.AsoDeleteStorageOutItem.KeepPress = false;
-            this.AsoDeleteStorageOutItem.Location = new System.Drawing.Point(366, 135);
+            this.AsoDeleteStorageOutItem.Location = new System.Drawing.Point(157, 91);
             this.AsoDeleteStorageOutItem.MaxImageSize = new System.Drawing.Point(0, 0);
             this.AsoDeleteStorageOutItem.MenuPos = new System.Drawing.Point(0, 0);
             this.AsoDeleteStorageOutItem.Name = "AsoDeleteStorageOutItem";
@@ -2638,56 +2675,6 @@
             this.AsoDeleteStorageOutItem.UseVisualStyleBackColor = true;
             this.AsoDeleteStorageOutItem.Click += new System.EventHandler(this.AsoDeleteStorageOutItem_Click);
             // 
-            // groupBox13
-            // 
-            this.groupBox13.Controls.Add(this.label15);
-            this.groupBox13.Controls.Add(this.AsoStorageOutTime);
-            this.groupBox13.Controls.Add(this.formLabel29);
-            this.groupBox13.Controls.Add(this.AsoStorageOutNumber);
-            this.groupBox13.Controls.Add(this.formLabel30);
-            this.groupBox13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox13.Location = new System.Drawing.Point(3, 3);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(831, 85);
-            this.groupBox13.TabIndex = 1;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "出库单信息";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label15.ForeColor = System.Drawing.Color.DarkRed;
-            this.label15.Location = new System.Drawing.Point(249, 41);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(11, 12);
-            this.label15.TabIndex = 11;
-            this.label15.Text = "*";
-            // 
-            // AsoStorageOutTime
-            // 
-            this.AsoStorageOutTime.Location = new System.Drawing.Point(470, 29);
-            this.AsoStorageOutTime.Name = "AsoStorageOutTime";
-            this.AsoStorageOutTime.Size = new System.Drawing.Size(124, 23);
-            this.AsoStorageOutTime.TabIndex = 3;
-            this.AsoStorageOutTime.Value = new System.DateTime(2012, 8, 24, 0, 0, 0, 0);
-            // 
-            // formLabel29
-            // 
-            this.formLabel29.AutoSize = true;
-            this.formLabel29.Location = new System.Drawing.Point(401, 36);
-            this.formLabel29.Name = "formLabel29";
-            this.formLabel29.Size = new System.Drawing.Size(63, 14);
-            this.formLabel29.TabIndex = 2;
-            this.formLabel29.Text = "出库日期";
-            // 
-            // AsoStorageOutNumber
-            // 
-            this.AsoStorageOutNumber.Location = new System.Drawing.Point(109, 33);
-            this.AsoStorageOutNumber.Name = "AsoStorageOutNumber";
-            this.AsoStorageOutNumber.Size = new System.Drawing.Size(124, 23);
-            this.AsoStorageOutNumber.TabIndex = 1;
-            // 
             // formLabel30
             // 
             this.formLabel30.AutoSize = true;
@@ -2697,6 +2684,23 @@
             this.formLabel30.TabIndex = 0;
             this.formLabel30.Text = "出库单号";
             // 
+            // formLabel36
+            // 
+            this.formLabel36.AutoSize = true;
+            this.formLabel36.Location = new System.Drawing.Point(40, 68);
+            this.formLabel36.Name = "formLabel36";
+            this.formLabel36.Size = new System.Drawing.Size(35, 14);
+            this.formLabel36.TabIndex = 14;
+            this.formLabel36.Text = "条码";
+            // 
+            // AsoStorageOutBarcode
+            // 
+            this.AsoStorageOutBarcode.Location = new System.Drawing.Point(109, 59);
+            this.AsoStorageOutBarcode.Name = "AsoStorageOutBarcode";
+            this.AsoStorageOutBarcode.Size = new System.Drawing.Size(124, 23);
+            this.AsoStorageOutBarcode.TabIndex = 15;
+            this.AsoStorageOutBarcode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AsoStorageOutBarcode_KeyPress);
+            // 
             // inventoryPage
             // 
             this.inventoryPage.Controls.Add(this.inventoryDataGridView);
@@ -2704,7 +2708,7 @@
             this.inventoryPage.Location = new System.Drawing.Point(4, 24);
             this.inventoryPage.Name = "inventoryPage";
             this.inventoryPage.Padding = new System.Windows.Forms.Padding(3);
-            this.inventoryPage.Size = new System.Drawing.Size(837, 407);
+            this.inventoryPage.Size = new System.Drawing.Size(882, 426);
             this.inventoryPage.TabIndex = 7;
             this.inventoryPage.Text = "库存清单  ";
             this.inventoryPage.UseVisualStyleBackColor = true;
@@ -2733,7 +2737,7 @@
             this.inventoryDataGridView.Name = "inventoryDataGridView";
             this.inventoryDataGridView.RowTemplate.Height = 23;
             this.inventoryDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.inventoryDataGridView.Size = new System.Drawing.Size(831, 293);
+            this.inventoryDataGridView.Size = new System.Drawing.Size(876, 312);
             this.inventoryDataGridView.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn22
@@ -2809,7 +2813,7 @@
             this.groupBox15.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox15.Location = new System.Drawing.Point(3, 3);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(831, 108);
+            this.groupBox15.Size = new System.Drawing.Size(876, 108);
             this.groupBox15.TabIndex = 0;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "查询";
@@ -2821,7 +2825,7 @@
             this.updateStorageInPage.Location = new System.Drawing.Point(4, 24);
             this.updateStorageInPage.Name = "updateStorageInPage";
             this.updateStorageInPage.Padding = new System.Windows.Forms.Padding(3);
-            this.updateStorageInPage.Size = new System.Drawing.Size(837, 407);
+            this.updateStorageInPage.Size = new System.Drawing.Size(882, 426);
             this.updateStorageInPage.TabIndex = 3;
             this.updateStorageInPage.Text = "修改采购入库单  ";
             this.updateStorageInPage.UseVisualStyleBackColor = true;
@@ -2834,7 +2838,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 94);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(831, 310);
+            this.panel6.Size = new System.Drawing.Size(876, 329);
             this.panel6.TabIndex = 2;
             // 
             // dataGridView2
@@ -2860,7 +2864,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(831, 129);
+            this.dataGridView2.Size = new System.Drawing.Size(876, 148);
             this.dataGridView2.TabIndex = 5;
             // 
             // dataGridViewTextBoxColumn7
@@ -2964,7 +2968,7 @@
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox11.Location = new System.Drawing.Point(0, 0);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(831, 181);
+            this.groupBox11.Size = new System.Drawing.Size(876, 181);
             this.groupBox11.TabIndex = 2;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "添加产品";
@@ -3180,7 +3184,7 @@
             this.groupBox10.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox10.Location = new System.Drawing.Point(3, 3);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(831, 91);
+            this.groupBox10.Size = new System.Drawing.Size(876, 91);
             this.groupBox10.TabIndex = 1;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "入库单信息";
@@ -3238,7 +3242,7 @@
             this.updateProductPage.Location = new System.Drawing.Point(4, 24);
             this.updateProductPage.Name = "updateProductPage";
             this.updateProductPage.Padding = new System.Windows.Forms.Padding(3);
-            this.updateProductPage.Size = new System.Drawing.Size(837, 407);
+            this.updateProductPage.Size = new System.Drawing.Size(882, 426);
             this.updateProductPage.TabIndex = 2;
             this.updateProductPage.Text = "修改产品信息  ";
             this.updateProductPage.UseVisualStyleBackColor = true;
@@ -3252,7 +3256,7 @@
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Location = new System.Drawing.Point(3, 112);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(831, 292);
+            this.groupBox7.Size = new System.Drawing.Size(876, 311);
             this.groupBox7.TabIndex = 3;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "产品规格";
@@ -3275,7 +3279,7 @@
             this.UpSpecDataGridView.Location = new System.Drawing.Point(3, 86);
             this.UpSpecDataGridView.Name = "UpSpecDataGridView";
             this.UpSpecDataGridView.RowTemplate.Height = 23;
-            this.UpSpecDataGridView.Size = new System.Drawing.Size(825, 203);
+            this.UpSpecDataGridView.Size = new System.Drawing.Size(870, 222);
             this.UpSpecDataGridView.TabIndex = 4;
             this.UpSpecDataGridView.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.UpSpecDataGridView_CellBeginEdit);
             this.UpSpecDataGridView.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.UpSpecDataGridView_CellEndEdit);
@@ -3351,7 +3355,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(3, 86);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(825, 203);
+            this.dataGridView1.Size = new System.Drawing.Size(870, 222);
             this.dataGridView1.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn1
@@ -3414,7 +3418,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(3, 19);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(825, 67);
+            this.panel4.Size = new System.Drawing.Size(870, 67);
             this.panel4.TabIndex = 2;
             // 
             // UpSave
@@ -3543,7 +3547,7 @@
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox6.Location = new System.Drawing.Point(3, 3);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(831, 109);
+            this.groupBox6.Size = new System.Drawing.Size(876, 109);
             this.groupBox6.TabIndex = 1;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "产品基本信息";
@@ -3673,7 +3677,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(845, 459);
+            this.ClientSize = new System.Drawing.Size(890, 478);
             this.Controls.Add(this.extensionTabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -3708,8 +3712,6 @@
             this.addStorageInPage.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AsStorageInItemDataGridView)).EndInit();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.listStorageOutPage.ResumeLayout(false);
@@ -3719,8 +3721,6 @@
             this.addStorageOutPage.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AsoStorageOutItemDataGridView)).EndInit();
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox14.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             this.inventoryPage.ResumeLayout(false);
@@ -3887,7 +3887,6 @@
         private WinformControls.FormLabel formLabel26;
         private WinformControls.NumberInputBox UsSearchAmount;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.GroupBox groupBox9;
         private WinformControls.NumberInputBox AsProductAmount;
         private WinformControls.FormLabel formLabel14;
         private WinformControls.NumberInputBox AsProductUnitPrice;
@@ -3986,7 +3985,6 @@
         private WinformControls.FormLabel formLabel30;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.DataGridView AsoStorageOutItemDataGridView;
-        private System.Windows.Forms.GroupBox groupBox14;
         private RibbonStyle.RibbonMenuButton AsoSaveStorageOut;
         private System.Windows.Forms.ComboBox AsoStorageOutSpeciText;
         private WinformControls.NumberInputBox AsoStorageOutUnit;

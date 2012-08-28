@@ -28,6 +28,7 @@ namespace DataAccess
         {
             return Unique(hql, null);
         }
+
         public virtual object Unique(string hql,IList param)
         {
             IQuery query=NHinbernateSessionFactory .GetSession().CreateQuery(hql);
@@ -38,7 +39,7 @@ namespace DataAccess
 			        query.SetParameter(i,param[i]);
 			    }
             }
-            return query.UniqueResult();
+            return query.SetMaxResults(1).UniqueResult();
         }
         /// <summary>
         /// 逻辑删除一条记录

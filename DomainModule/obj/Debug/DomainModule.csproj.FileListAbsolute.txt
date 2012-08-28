@@ -14,3 +14,11 @@ E:\projects\InvoicingManagement\DomainModule\bin\Debug\CommonEntity.pdb
 E:\projects\InvoicingManagement\DomainModule\obj\Debug\ResolveAssemblyReference.cache
 E:\projects\InvoicingManagement\DomainModule\obj\Debug\DomainModule.dll
 E:\projects\InvoicingManagement\DomainModule\obj\Debug\DomainModule.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\bin\Debug\SpecificationConversion.cs
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\bin\Debug\DomainModule.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\bin\Debug\DomainModule.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\bin\Debug\CommonEntity.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\bin\Debug\CommonEntity.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\obj\Debug\DomainModule.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\DomainModule\obj\Debug\DomainModule.pdb

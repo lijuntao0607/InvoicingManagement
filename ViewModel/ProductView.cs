@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Utility;
+using DomainModule;
 
 namespace ViewModel
 {
@@ -22,6 +23,18 @@ namespace ViewModel
             this.Unit = unit;
             this.UnitPrice = unitPrice;
             this.SpecifiText = specifiText;
+        }
+        public ProductView(Specification spec)
+        {
+            this.ProductId = spec.Product.Id;
+            this.ProductName = spec.Product.ProductName;
+            this.ProductNumber = spec.Product.ProductNumber;
+            this.Category = spec.Product.Category.CategoryName;
+            this.TaxRate = spec.Product.TaxRate;
+            this.Barcode = spec.Barcode ;
+            this.Unit = spec.Unit.DicName;
+            this.UnitPrice = spec.UnitPrice;
+            this.SpecifiText = spec.SpecifiText;
         }
         /// <summary>
         ///                 string queryString = " select p.Id,p.ProductName,p.ProductNumber," +

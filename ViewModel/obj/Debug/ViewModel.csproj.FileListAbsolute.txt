@@ -20,3 +20,15 @@ E:\projects\InvoicingManagement\ViewModel\obj\Debug\ViewModel.dll
 E:\projects\InvoicingManagement\ViewModel\obj\Debug\ViewModel.pdb
 E:\projects\InvoicingManagement\ViewModel\bin\Debug\Utility.dll
 E:\projects\InvoicingManagement\ViewModel\bin\Debug\Utility.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\SpecificationConversion.cs
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\CommonEntity.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\DomainModule.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\Utility.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\CommonEntity.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\DomainModule.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\bin\Debug\Utility.pdb
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\benny\Documents\GitHub\InvoicingManagement\ViewModel\obj\Debug\ViewModel.pdb

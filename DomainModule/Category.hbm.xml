@@ -5,6 +5,8 @@
       <generator class="assigned" />
     </id>
     <property name="CategoryName" column="CategoryName" type="String" length="50"/>
+    <property name="Description" column="Description" type="String" length="50"/>
+    
     <property name="NodePath" column="NodePath" type="String" length="500"/>
     <many-to-one name ="Parent" column ="Parent" class ="DomainModule.Category,DomainModule" />
     <property name="IsDel" column="IsDel" type="Boolean"/>

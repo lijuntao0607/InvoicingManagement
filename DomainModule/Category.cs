@@ -9,5 +9,6 @@ namespace DomainModule
     {
 
         public virtual string CategoryName { get; set; }
+        public virtual string Description { get; set; }
     }
 }

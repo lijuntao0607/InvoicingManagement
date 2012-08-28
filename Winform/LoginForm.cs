@@ -35,8 +35,20 @@ namespace Winform
         {
             try
             {
+                loginClick();
+            }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message + ex.StackTrace);
+            }
+        }
+
+        private void loginClick()
+        {
+            try
+            {
                 StringBuilder sb = new StringBuilder();
-                if (String.IsNullOrEmpty( this.tbUserName.Text))
+                if (String.IsNullOrEmpty(this.tbUserName.Text))
                 {
                     sb.Append("登陆名不能为空\n");
                 }
@@ -64,7 +76,7 @@ namespace Winform
                 else
                 {
                     Toast.Show("登陆失败");
-                    
+
                 }
             }
             catch (Exception ex)
@@ -84,6 +96,12 @@ namespace Winform
             {
                 Toast.Show(ex.Message + ex.StackTrace);
             }
+        }
+
+        private void tbPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == '\r')
+                loginClick();
         }
     }
 }
