@@ -2121,6 +2121,18 @@ namespace Winform
             //}
         }
 
+        private void ribbonMenuButton3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                TabControlManager.ShowPage(extensionTabControl1, ProductListPage);
+            }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message);
+            }
+        }
+
 
 
 
