@@ -1,3 +1,5 @@
+/UnitTest/bin
+/UnitTest/obj
 /Winform/bin
 /Winform/obj
 /BusinessService/bin
@@ -12,3 +14,11 @@
 /ViewModel/obj
 /BackgroundControl/bin
 /BackgroundControl/obj
+/WinformControls/bin
+/WinformControls/obj
+/ServiceInvoker/bin
+/ServiceInvoker/obj
+/CommonModel/bin
+/CommonModel/obj
+/BusinessServiceInterface/bin
+/BusinessServiceInterface/obj

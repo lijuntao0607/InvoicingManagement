@@ -1,5 +1,0 @@
-D:\projects\InvoicingManagement\CommonModel\bin\Debug\CommonModel.dll
-D:\projects\InvoicingManagement\CommonModel\bin\Debug\CommonModel.pdb
-D:\projects\InvoicingManagement\CommonModel\obj\Debug\ResolveAssemblyReference.cache
-D:\projects\InvoicingManagement\CommonModel\obj\Debug\CommonModel.dll
-D:\projects\InvoicingManagement\CommonModel\obj\Debug\CommonModel.pdb
