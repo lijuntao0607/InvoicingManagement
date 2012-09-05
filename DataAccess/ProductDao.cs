@@ -18,5 +18,10 @@ namespace DataAccess
         {
             return NHinbernateSessionFactory.GetSession().CreateQuery(hql).List<ProductView>();
         }
+
+        public void Test()
+        {
+
+        }
     }
 }

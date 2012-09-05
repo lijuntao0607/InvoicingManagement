@@ -4,6 +4,7 @@ using System.Text;
 using CommonEntity;
 using System.Collections;
 using NHibernate;
+using System.Data;
 
 namespace DataAccess
 {
@@ -149,5 +150,71 @@ namespace DataAccess
             
             return query.SetFirstResult(start).SetMaxResults(limit).List<T>();
         }
+        public object ExecuteScale(string s)
+        {
+            return ExecuteScale(s, CommandType.Text, null);
+        }
+        public object ExecuteScale(string s, CommandType type, ArrayList param)
+        {
+            IDbCommand cmd = NHinbernateSessionFactory.GetSession() .Connection.CreateCommand();
+            NHinbernateSessionFactory.GetSession().Transaction.Enlist(cmd);
+            cmd.CommandText = s;
+            cmd.CommandType = type;
+            if (param != null)
+            {
+                foreach (IDataParameter p in param)
+                {
+                    cmd.Parameters.Add(p);
+                }
+            }
+            return cmd.ExecuteScalar();
+        }
+
+        public IDataReader Execute(string s,ArrayList param)
+        {
+            return Execute(s, CommandType.Text, param);
+        }
+        public IDataReader Execute(string s)
+        {
+            return Execute(s, CommandType.Text, null);
+        }
+        public IDataReader Execute(string s, CommandType type, ArrayList param)
+        {
+            IDbCommand cmd = NHinbernateSessionFactory.GetSession().Connection.CreateCommand();
+            NHinbernateSessionFactory.GetSession().Transaction.Enlist(cmd);
+            cmd.CommandText = s;
+            cmd.CommandType = type;
+            if (param != null)
+            {
+                foreach (IDataParameter p in param)
+                {
+                    cmd.Parameters.Add(p);
+                }
+            }
+            return cmd.ExecuteReader();
+
+        }
+
+        public int ExecuteNonQuery(string s)
+        {
+            return ExecuteNonQuery(s, CommandType.Text, null);
+        }
+        public int ExecuteNonQuery(string s, CommandType type, ArrayList param)
+        {
+            IDbCommand cmd = NHinbernateSessionFactory.GetSession().Connection.CreateCommand();
+            NHinbernateSessionFactory.GetSession().Transaction.Enlist(cmd);
+            cmd.CommandText = s;
+            cmd.CommandType = type;
+
+            if (param != null)
+            {
+                foreach (IDataParameter p in param)
+                {
+                    cmd.Parameters.Add(p);
+                }
+            }
+            return cmd.ExecuteNonQuery();
+        }
+
     }
 }

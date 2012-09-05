@@ -7,6 +7,7 @@ using DataAccess;
 using DomainModule;
 using ViewModel;
 using System.Collections;
+using System.Data;
 
 namespace BusinessService
 {
@@ -52,6 +53,11 @@ namespace BusinessService
             {
                 NHinbernateSessionFactory.Commit();
             }
+        }
+        public IDataReader GetInvoicingReportDataTable(DateTime start,DateTime end)
+        {
+            string sql = " select ";
+            return null;
         }
     }
 }

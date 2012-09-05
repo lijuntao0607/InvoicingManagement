@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("产品类别");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("产品类别");
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.SystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ExportMyDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -322,6 +322,17 @@
             this.formLabel7 = new WinformControls.FormLabel();
             this.formLabel8 = new WinformControls.FormLabel();
             this.formLabel9 = new WinformControls.FormLabel();
+            this.invoicingReportPage = new System.Windows.Forms.TabPage();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.InvoicingCrystalReport = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.InvoicingReport4 = new Winform.InvoicingReport();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.InvoicingReport3 = new Winform.InvoicingReport();
+            this.InvoicingReport1 = new Winform.InvoicingReport();
+            this.InvoicingReport2 = new Winform.InvoicingReport();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.ribbonMenuButton4 = new RibbonStyle.RibbonMenuButton();
             this.menuStrip1.SuspendLayout();
             this.CategoryTreeContextMenuStrip.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -364,6 +375,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel4.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.invoicingReportPage.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -547,26 +561,26 @@
             this.DeleteCategoryMenuItem});
             this.CategoryTreeContextMenuStrip.Name = "CategoryTreeContextMenuStrip";
             this.CategoryTreeContextMenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.CategoryTreeContextMenuStrip.Size = new System.Drawing.Size(123, 70);
+            this.CategoryTreeContextMenuStrip.Size = new System.Drawing.Size(119, 70);
             // 
             // AddCategoryMenuItem
             // 
             this.AddCategoryMenuItem.Name = "AddCategoryMenuItem";
-            this.AddCategoryMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.AddCategoryMenuItem.Size = new System.Drawing.Size(118, 22);
             this.AddCategoryMenuItem.Text = "添加类别";
             this.AddCategoryMenuItem.Click += new System.EventHandler(this.AddCategoryMenuItem_Click);
             // 
             // RenameMenuItem
             // 
             this.RenameMenuItem.Name = "RenameMenuItem";
-            this.RenameMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.RenameMenuItem.Size = new System.Drawing.Size(118, 22);
             this.RenameMenuItem.Text = "重命名";
             this.RenameMenuItem.Click += new System.EventHandler(this.RenameMenuItem_Click);
             // 
             // DeleteCategoryMenuItem
             // 
             this.DeleteCategoryMenuItem.Name = "DeleteCategoryMenuItem";
-            this.DeleteCategoryMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.DeleteCategoryMenuItem.Size = new System.Drawing.Size(118, 22);
             this.DeleteCategoryMenuItem.Text = "删除类别";
             this.DeleteCategoryMenuItem.Click += new System.EventHandler(this.DeleteCategoryMenuItem_Click);
             // 
@@ -606,7 +620,7 @@
             this.ribbonMenuButton3.Name = "ribbonMenuButton3";
             this.ribbonMenuButton3.Radius = 10;
             this.ribbonMenuButton3.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
-            this.ribbonMenuButton3.Size = new System.Drawing.Size(120, 34);
+            this.ribbonMenuButton3.Size = new System.Drawing.Size(119, 40);
             this.ribbonMenuButton3.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
             this.ribbonMenuButton3.SplitDistance = 0;
             this.ribbonMenuButton3.TabIndex = 5;
@@ -626,6 +640,7 @@
             this.extensionTabControl1.Controls.Add(this.inventoryPage);
             this.extensionTabControl1.Controls.Add(this.updateStorageInPage);
             this.extensionTabControl1.Controls.Add(this.updateProductPage);
+            this.extensionTabControl1.Controls.Add(this.invoicingReportPage);
             this.extensionTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.extensionTabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.extensionTabControl1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -964,10 +979,10 @@
             this.treeView1.LabelEdit = true;
             this.treeView1.Location = new System.Drawing.Point(3, 3);
             this.treeView1.Name = "treeView1";
-            treeNode2.Name = "RootNode";
-            treeNode2.Text = "产品类别";
+            treeNode1.Name = "RootNode";
+            treeNode1.Text = "产品类别";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2});
+            treeNode1});
             this.treeView1.Size = new System.Drawing.Size(160, 383);
             this.treeView1.TabIndex = 0;
             // 
@@ -989,7 +1004,7 @@
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Location = new System.Drawing.Point(0, 101);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(882, 288);
+            this.groupBox5.Size = new System.Drawing.Size(759, 288);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "产品规格";
@@ -1012,7 +1027,7 @@
             this.ApSpecDataGridView.Location = new System.Drawing.Point(3, 137);
             this.ApSpecDataGridView.Name = "ApSpecDataGridView";
             this.ApSpecDataGridView.RowTemplate.Height = 23;
-            this.ApSpecDataGridView.Size = new System.Drawing.Size(876, 148);
+            this.ApSpecDataGridView.Size = new System.Drawing.Size(753, 148);
             this.ApSpecDataGridView.TabIndex = 3;
             // 
             // SLId
@@ -1084,7 +1099,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 19);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(876, 118);
+            this.panel3.Size = new System.Drawing.Size(753, 118);
             this.panel3.TabIndex = 2;
             // 
             // ApUnit
@@ -1311,7 +1326,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(882, 101);
+            this.groupBox3.Size = new System.Drawing.Size(759, 101);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "产品基本信息";
@@ -1463,7 +1478,7 @@
             this.StorageInListDataGridView.Location = new System.Drawing.Point(3, 81);
             this.StorageInListDataGridView.Name = "StorageInListDataGridView";
             this.StorageInListDataGridView.RowTemplate.Height = 23;
-            this.StorageInListDataGridView.Size = new System.Drawing.Size(876, 305);
+            this.StorageInListDataGridView.Size = new System.Drawing.Size(753, 305);
             this.StorageInListDataGridView.TabIndex = 1;
             // 
             // StlId
@@ -1523,7 +1538,7 @@
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox4.Location = new System.Drawing.Point(3, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(876, 78);
+            this.groupBox4.Size = new System.Drawing.Size(753, 78);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "查询";
@@ -1683,7 +1698,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(3, 125);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(876, 261);
+            this.panel5.Size = new System.Drawing.Size(753, 261);
             this.panel5.TabIndex = 1;
             // 
             // AsStorageInItemDataGridView
@@ -1709,7 +1724,7 @@
             this.AsStorageInItemDataGridView.Name = "AsStorageInItemDataGridView";
             this.AsStorageInItemDataGridView.RowTemplate.Height = 23;
             this.AsStorageInItemDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AsStorageInItemDataGridView.Size = new System.Drawing.Size(876, 261);
+            this.AsStorageInItemDataGridView.Size = new System.Drawing.Size(753, 261);
             this.AsStorageInItemDataGridView.TabIndex = 4;
             // 
             // AsProductListId
@@ -1819,7 +1834,7 @@
             this.groupBox8.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox8.Location = new System.Drawing.Point(3, 3);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(876, 122);
+            this.groupBox8.Size = new System.Drawing.Size(753, 122);
             this.groupBox8.TabIndex = 0;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "入库单信息";
@@ -2130,7 +2145,7 @@
             this.StorageOutList.Location = new System.Drawing.Point(3, 81);
             this.StorageOutList.Name = "StorageOutList";
             this.StorageOutList.RowTemplate.Height = 23;
-            this.StorageOutList.Size = new System.Drawing.Size(876, 305);
+            this.StorageOutList.Size = new System.Drawing.Size(753, 305);
             this.StorageOutList.TabIndex = 2;
             // 
             // dataGridViewTextBoxColumn18
@@ -2188,7 +2203,7 @@
             this.groupBox12.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox12.Location = new System.Drawing.Point(3, 3);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(876, 78);
+            this.groupBox12.Size = new System.Drawing.Size(753, 78);
             this.groupBox12.TabIndex = 1;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "查询";
@@ -2279,7 +2294,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(3, 119);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(876, 267);
+            this.panel7.Size = new System.Drawing.Size(753, 267);
             this.panel7.TabIndex = 2;
             // 
             // AsoStorageOutItemDataGridView
@@ -2305,7 +2320,7 @@
             this.AsoStorageOutItemDataGridView.Name = "AsoStorageOutItemDataGridView";
             this.AsoStorageOutItemDataGridView.RowTemplate.Height = 23;
             this.AsoStorageOutItemDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AsoStorageOutItemDataGridView.Size = new System.Drawing.Size(876, 267);
+            this.AsoStorageOutItemDataGridView.Size = new System.Drawing.Size(753, 267);
             this.AsoStorageOutItemDataGridView.TabIndex = 4;
             // 
             // AsoProductListId
@@ -2415,7 +2430,7 @@
             this.groupBox13.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox13.Location = new System.Drawing.Point(3, 3);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(876, 116);
+            this.groupBox13.Size = new System.Drawing.Size(753, 116);
             this.groupBox13.TabIndex = 1;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "出库单信息";
@@ -2734,7 +2749,7 @@
             this.inventoryDataGridView.Name = "inventoryDataGridView";
             this.inventoryDataGridView.RowTemplate.Height = 23;
             this.inventoryDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.inventoryDataGridView.Size = new System.Drawing.Size(876, 283);
+            this.inventoryDataGridView.Size = new System.Drawing.Size(753, 283);
             this.inventoryDataGridView.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn22
@@ -2810,7 +2825,7 @@
             this.groupBox15.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox15.Location = new System.Drawing.Point(3, 3);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(876, 100);
+            this.groupBox15.Size = new System.Drawing.Size(753, 100);
             this.groupBox15.TabIndex = 0;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "查询";
@@ -2834,7 +2849,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 87);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(876, 299);
+            this.panel6.Size = new System.Drawing.Size(753, 299);
             this.panel6.TabIndex = 2;
             // 
             // dataGridView2
@@ -2860,7 +2875,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(876, 132);
+            this.dataGridView2.Size = new System.Drawing.Size(753, 132);
             this.dataGridView2.TabIndex = 5;
             // 
             // dataGridViewTextBoxColumn7
@@ -2964,7 +2979,7 @@
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox11.Location = new System.Drawing.Point(0, 0);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(876, 167);
+            this.groupBox11.Size = new System.Drawing.Size(753, 167);
             this.groupBox11.TabIndex = 2;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "添加产品";
@@ -3177,7 +3192,7 @@
             this.groupBox10.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox10.Location = new System.Drawing.Point(3, 3);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(876, 84);
+            this.groupBox10.Size = new System.Drawing.Size(753, 84);
             this.groupBox10.TabIndex = 1;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "入库单信息";
@@ -3248,7 +3263,7 @@
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Location = new System.Drawing.Point(3, 104);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(876, 282);
+            this.groupBox7.Size = new System.Drawing.Size(753, 282);
             this.groupBox7.TabIndex = 3;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "产品规格";
@@ -3271,7 +3286,7 @@
             this.UpSpecDataGridView.Location = new System.Drawing.Point(3, 81);
             this.UpSpecDataGridView.Name = "UpSpecDataGridView";
             this.UpSpecDataGridView.RowTemplate.Height = 23;
-            this.UpSpecDataGridView.Size = new System.Drawing.Size(870, 198);
+            this.UpSpecDataGridView.Size = new System.Drawing.Size(747, 198);
             this.UpSpecDataGridView.TabIndex = 4;
             // 
             // UpSlId
@@ -3345,7 +3360,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(3, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(870, 198);
+            this.dataGridView1.Size = new System.Drawing.Size(747, 198);
             this.dataGridView1.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn1
@@ -3408,7 +3423,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(3, 19);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(870, 62);
+            this.panel4.Size = new System.Drawing.Size(747, 62);
             this.panel4.TabIndex = 2;
             // 
             // UpSave
@@ -3534,7 +3549,7 @@
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox6.Location = new System.Drawing.Point(3, 3);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(876, 101);
+            this.groupBox6.Size = new System.Drawing.Size(753, 101);
             this.groupBox6.TabIndex = 1;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "产品基本信息";
@@ -3659,6 +3674,100 @@
             this.formLabel9.TabIndex = 0;
             this.formLabel9.Text = "产品名";
             // 
+            // invoicingReportPage
+            // 
+            this.invoicingReportPage.Controls.Add(this.panel10);
+            this.invoicingReportPage.Controls.Add(this.panel9);
+            this.invoicingReportPage.Location = new System.Drawing.Point(4, 24);
+            this.invoicingReportPage.Name = "invoicingReportPage";
+            this.invoicingReportPage.Padding = new System.Windows.Forms.Padding(3);
+            this.invoicingReportPage.Size = new System.Drawing.Size(759, 389);
+            this.invoicingReportPage.TabIndex = 8;
+            this.invoicingReportPage.Text = "进销存统计报表  ";
+            this.invoicingReportPage.UseVisualStyleBackColor = true;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.InvoicingCrystalReport);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel10.Location = new System.Drawing.Point(3, 66);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(753, 320);
+            this.panel10.TabIndex = 1;
+            // 
+            // InvoicingCrystalReport
+            // 
+            this.InvoicingCrystalReport.ActiveViewIndex = 0;
+            this.InvoicingCrystalReport.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.InvoicingCrystalReport.Cursor = System.Windows.Forms.Cursors.Default;
+            this.InvoicingCrystalReport.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InvoicingCrystalReport.Location = new System.Drawing.Point(0, 0);
+            this.InvoicingCrystalReport.Name = "InvoicingCrystalReport";
+            this.InvoicingCrystalReport.ReportSource = this.InvoicingReport4;
+            this.InvoicingCrystalReport.Size = new System.Drawing.Size(753, 320);
+            this.InvoicingCrystalReport.TabIndex = 0;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.ribbonMenuButton4);
+            this.panel9.Controls.Add(this.dateTimePicker3);
+            this.panel9.Controls.Add(this.dateTimePicker1);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(3, 3);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(753, 63);
+            this.panel9.TabIndex = 0;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(87, 20);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker1.TabIndex = 0;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(322, 20);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker3.TabIndex = 1;
+            // 
+            // ribbonMenuButton4
+            // 
+            this.ribbonMenuButton4.Arrow = RibbonStyle.RibbonMenuButton.e_arrow.None;
+            this.ribbonMenuButton4.BackColor = System.Drawing.Color.Transparent;
+            this.ribbonMenuButton4.ColorBase = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(209)))), ((int)(((byte)(240)))));
+            this.ribbonMenuButton4.ColorBaseStroke = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(187)))), ((int)(((byte)(213)))));
+            this.ribbonMenuButton4.ColorOn = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(214)))), ((int)(((byte)(78)))));
+            this.ribbonMenuButton4.ColorOnStroke = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(177)))), ((int)(((byte)(118)))));
+            this.ribbonMenuButton4.ColorPress = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.ribbonMenuButton4.ColorPressStroke = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.ribbonMenuButton4.FadingSpeed = 20;
+            this.ribbonMenuButton4.FlatAppearance.BorderSize = 0;
+            this.ribbonMenuButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ribbonMenuButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonMenuButton4.ForeColor = System.Drawing.Color.DarkBlue;
+            this.ribbonMenuButton4.GroupPos = RibbonStyle.RibbonMenuButton.e_groupPos.None;
+            this.ribbonMenuButton4.Image = global::Winform.Properties.Resources.add;
+            this.ribbonMenuButton4.ImageLocation = RibbonStyle.RibbonMenuButton.e_imagelocation.Left;
+            this.ribbonMenuButton4.ImageOffset = 0;
+            this.ribbonMenuButton4.IsPressed = false;
+            this.ribbonMenuButton4.KeepPress = false;
+            this.ribbonMenuButton4.Location = new System.Drawing.Point(542, 12);
+            this.ribbonMenuButton4.MaxImageSize = new System.Drawing.Point(0, 0);
+            this.ribbonMenuButton4.MenuPos = new System.Drawing.Point(0, 0);
+            this.ribbonMenuButton4.Name = "ribbonMenuButton4";
+            this.ribbonMenuButton4.Radius = 10;
+            this.ribbonMenuButton4.ShowBase = RibbonStyle.RibbonMenuButton.e_showbase.Yes;
+            this.ribbonMenuButton4.Size = new System.Drawing.Size(119, 40);
+            this.ribbonMenuButton4.SplitButton = RibbonStyle.RibbonMenuButton.e_splitbutton.No;
+            this.ribbonMenuButton4.SplitDistance = 0;
+            this.ribbonMenuButton4.TabIndex = 6;
+            this.ribbonMenuButton4.Text = "产品列表";
+            this.ribbonMenuButton4.Title = "";
+            this.ribbonMenuButton4.UseVisualStyleBackColor = true;
+            this.ribbonMenuButton4.Click += new System.EventHandler(this.ribbonMenuButton4_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -3727,6 +3836,9 @@
             this.panel4.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.invoicingReportPage.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4026,5 +4138,16 @@
         private WinformControls.FormLabel formLabel8;
         private WinformControls.FormLabel formLabel9;
         private RibbonStyle.RibbonMenuButton ribbonMenuButton3;
+        private System.Windows.Forms.TabPage invoicingReportPage;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel9;
+        private CrystalDecisions.Windows.Forms.CrystalReportViewer InvoicingCrystalReport;
+        private InvoicingReport InvoicingReport1;
+        private InvoicingReport InvoicingReport2;
+        private InvoicingReport InvoicingReport3;
+        private InvoicingReport InvoicingReport4;
+        private RibbonStyle.RibbonMenuButton ribbonMenuButton4;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
