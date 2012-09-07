@@ -45,6 +45,7 @@ namespace Winform
                 if (sb.Length > 0)
                 {
                     lblErrorMsg.Text = sb.ToString();
+                    Toast.Show(sb.ToString());
                 }
                 else
                 {
