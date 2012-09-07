@@ -1995,26 +1995,7 @@ namespace Winform
 
         private void extensionTabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (extensionTabControl1.SelectedTab == addStorageInPage)
-            {
-                this.ActiveControl = this.addStorageInPage;
-                this.ActiveControl = this.AsProductBarcode;
-                this.AsProductBarcode.Focus();
-            }
-            else
-                if (extensionTabControl1.SelectedTab == addStorageOutPage)
-                {
-                    this.ActiveControl = this.addStorageOutPage;
-                    this.ActiveControl = this.AsoStorageOutBarcode;
-                    this.AsoStorageOutBarcode.Focus();
-                }
-                else
-                    if (extensionTabControl1.SelectedTab == ProductListPage )
-                    {
-                        this.ActiveControl = this.ProductListPage ;
-                        this.ActiveControl = this.tbBarcode ;
-                        this.tbBarcode.Focus();
-                    }
+
         }
 
         private void AsProductUnit_TextChanged(object sender, EventArgs e)
