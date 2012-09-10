@@ -82,6 +82,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="InvoicingReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvoicingReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CategorySelectWindow.resx">
       <DependentUpon>CategorySelectWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoicingReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvoicingReport.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

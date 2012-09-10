@@ -677,7 +677,7 @@ namespace Winform {
             
             private global::System.Data.DataColumn columnCategory;
             
-            private global::System.Data.DataColumn columnSpecText;
+            private global::System.Data.DataColumn columnSpecifiText;
             
             private global::System.Data.DataColumn columnProductNumber;
             
@@ -752,9 +752,9 @@ namespace Winform {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn SpecTextColumn {
+            public global::System.Data.DataColumn SpecifiTextColumn {
                 get {
-                    return this.columnSpecText;
+                    return this.columnSpecifiText;
                 }
             }
             
@@ -883,12 +883,12 @@ namespace Winform {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public InvoicingRow AddInvoicingRow(string Id, string Category, string SpecText, string ProductNumber, string ProductName, string Barcode, string StorageInAmount, string StorageInTotalPrice, string StorageOutAmount, string StorageOutTotalPrice, string ProfileLossAmount, string ProfileLossTotalPrice, string InventoryAmount, string InventoryTotalPrice) {
+            public InvoicingRow AddInvoicingRow(string Id, string Category, string SpecifiText, string ProductNumber, string ProductName, string Barcode, string StorageInAmount, string StorageInTotalPrice, string StorageOutAmount, string StorageOutTotalPrice, string ProfileLossAmount, string ProfileLossTotalPrice, string InventoryAmount, string InventoryTotalPrice) {
                 InvoicingRow rowInvoicingRow = ((InvoicingRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         Id,
                         Category,
-                        SpecText,
+                        SpecifiText,
                         ProductNumber,
                         ProductName,
                         Barcode,
@@ -924,7 +924,7 @@ namespace Winform {
             internal void InitVars() {
                 this.columnId = base.Columns["Id"];
                 this.columnCategory = base.Columns["Category"];
-                this.columnSpecText = base.Columns["SpecText"];
+                this.columnSpecifiText = base.Columns["SpecifiText"];
                 this.columnProductNumber = base.Columns["ProductNumber"];
                 this.columnProductName = base.Columns["ProductName"];
                 this.columnBarcode = base.Columns["Barcode"];
@@ -945,8 +945,8 @@ namespace Winform {
                 base.Columns.Add(this.columnId);
                 this.columnCategory = new global::System.Data.DataColumn("Category", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCategory);
-                this.columnSpecText = new global::System.Data.DataColumn("SpecText", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSpecText);
+                this.columnSpecifiText = new global::System.Data.DataColumn("SpecifiText", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSpecifiText);
                 this.columnProductNumber = new global::System.Data.DataColumn("ProductNumber", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnProductNumber);
                 this.columnProductName = new global::System.Data.DataColumn("ProductName", typeof(string), null, global::System.Data.MappingType.Element);
@@ -1410,17 +1410,17 @@ namespace Winform {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string SpecText {
+            public string SpecifiText {
                 get {
                     try {
-                        return ((string)(this[this.tableInvoicing.SpecTextColumn]));
+                        return ((string)(this[this.tableInvoicing.SpecifiTextColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("表“Invoicing”中列“SpecText”的值为 DBNull。", e);
+                        throw new global::System.Data.StrongTypingException("表“Invoicing”中列“SpecifiText”的值为 DBNull。", e);
                     }
                 }
                 set {
-                    this[this.tableInvoicing.SpecTextColumn] = value;
+                    this[this.tableInvoicing.SpecifiTextColumn] = value;
                 }
             }
             
@@ -1626,14 +1626,14 @@ namespace Winform {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsSpecTextNull() {
-                return this.IsNull(this.tableInvoicing.SpecTextColumn);
+            public bool IsSpecifiTextNull() {
+                return this.IsNull(this.tableInvoicing.SpecifiTextColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetSpecTextNull() {
-                this[this.tableInvoicing.SpecTextColumn] = global::System.Convert.DBNull;
+            public void SetSpecifiTextNull() {
+                this[this.tableInvoicing.SpecifiTextColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

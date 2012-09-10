@@ -215,6 +215,95 @@ namespace DataAccess
             }
             return cmd.ExecuteNonQuery();
         }
+        /// <summary>
+
+        /// 填充DataSet
+
+        /// </summary>
+
+        /// <param name="sql"></param>
+
+        /// <returns></returns>
+
+        public DataSet ExecuteDataset(string sql)
+        {
+
+            ISession session = null;
+
+            DataSet ds = new DataSet();
+
+            try
+            {
+
+                session = NHinbernateSessionFactory.GetSession();
+
+                IDbCommand command = session.Connection.CreateCommand();
+
+                command.CommandText = sql;
+
+
+
+                IDataReader reader = command.ExecuteReader();
+
+                DataTable result = new DataTable();
+
+                //result.Load(reader);//此方法亦可
+
+                DataTable schemaTable = reader.GetSchemaTable();
+
+                for (int i = 0; i < schemaTable.Rows.Count; i++)
+                {
+
+                    string columnName = schemaTable.Rows[i][0].ToString();
+
+                    result.Columns.Add(columnName);
+
+                }
+
+                while (reader.Read())
+                {
+
+                    int fieldCount = reader.FieldCount;
+
+                    object[] values = new Object[fieldCount];
+
+                    for (int i = 0; i < fieldCount; i++)
+                    {
+
+                        values[i] = reader.GetValue(i);
+
+                    }
+
+                    result.Rows.Add(values);
+
+                }
+
+                ds.Tables.Add(result);
+
+            }
+
+            catch (Exception ex)
+            {
+
+                throw ex;
+
+            }
+
+            finally
+            {
+
+                if (session != null)
+                {
+
+                    session.Close();
+
+                }
+
+            }
+
+            return ds;
+
+        }
 
     }
 }

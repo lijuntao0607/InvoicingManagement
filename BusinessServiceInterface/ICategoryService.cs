@@ -8,7 +8,7 @@ namespace BusinessServiceInterface
     public interface ICategoryService
     {
         void Add(Category c);
-        void Delete(string id);
+        void Delete(Category c);
         Category Get(string id);
         IList<Category> GetAll();
         void Update(Category c);

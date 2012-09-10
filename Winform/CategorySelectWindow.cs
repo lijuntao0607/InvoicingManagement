@@ -86,11 +86,12 @@ namespace Winform
         {
             try
             {
-                if (e.Node.Level != 0)
+                if (e.Node.Level != 0 && !string.IsNullOrEmpty(e.Label))
                 {
                     Category category = (Category)e.Node.Tag;
                     category.CategoryName = e.Label;
                     SystemVariable.CategoryService.Update(category);
+                    e.Node.Text = category.CategoryName;
                 }
 
             }
@@ -148,8 +149,8 @@ namespace Winform
                 if (MessageBox.Show("确定删除吗？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     Category category = (Category)CurrentNode.Tag;
-                    SystemVariable.CategoryService.Delete(category.Id);
-                    SystemVariable.CategoryList.Remove(category);
+                    SystemVariable.CategoryService.Delete(category);
+                    //SystemVariable.CategoryList.Remove(category);
                 }
             }
             catch (Exception ex)

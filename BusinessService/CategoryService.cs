@@ -20,8 +20,8 @@ namespace BusinessService
             try
             {
                 NHinbernateSessionFactory.OpenSession();
-CategoryDao.Save(c);
-
+                CategoryDao.Save(c);
+                SystemVariable.CategoryList.Add(c);
             }
             catch (Exception ex)
             {
@@ -37,13 +37,14 @@ CategoryDao.Save(c);
         }
 
 
-        public void Delete(string id)
+        public void Delete(Category c)
         {
             try
             {
                 NHinbernateSessionFactory.OpenSession();
 
-CategoryDao.Delete(id);
+                CategoryDao.Delete(c.Id);
+                SystemVariable.CategoryList.Remove(c);
             }
             catch (Exception ex)
             {

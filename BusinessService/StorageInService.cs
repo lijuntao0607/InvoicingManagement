@@ -243,8 +243,14 @@ namespace BusinessService
             try
             {
                 NHinbernateSessionFactory.OpenSession();
+                var o = StorageInDao.Unique("select si.ListNumber from StorageIn as si order by si.CreateTime desc");
+                string oldNumber = null;
+                if (o != null)
+                {
+                    oldNumber = o.ToString().Trim();
+                }
 
-                string oldNumber = StorageInDao.Unique("select si.ListNumber from StorageIn as si order by si.CreateTime desc").ToString().Trim ();
+
                 string   dt =  DateTime.Now.ToShortDateString ();
                 //dt = dt.Substring(7, 4) + dt.Substring(4, 2) + dt.Substring(1, 2);
                 List<string> myList = new List<string>(dt.Split('/'));

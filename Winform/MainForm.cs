@@ -175,8 +175,8 @@ namespace Winform
                 if (MessageBox.Show("确定删除吗？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     Category category=(Category )CurrentNode .Tag;
-                    SystemVariable.CategoryService.Delete(category.Id);
-                    SystemVariable.CategoryList.Remove(category);
+                    SystemVariable.CategoryService.Delete(category);
+                    
                 }
             }
             catch (Exception ex)
@@ -189,11 +189,12 @@ namespace Winform
         {
             try
             {
-                if (e.Node.Level != 0)
+                if (e.Node.Level != 0&& !string.IsNullOrEmpty(e.Label))
                 {
                     Category category = (Category)e.Node.Tag;
                     category.CategoryName = e.Label;
                     SystemVariable.CategoryService.Update(category);
+                    e.Node.Text = category.CategoryName;
                 }
             }
             catch (Exception ex)
@@ -438,10 +439,10 @@ namespace Winform
             {
                 sb.Append("请输入产品名\n");
             }
-            if (string.IsNullOrEmpty(this.ApProductNumber.Text))
-            {
-                sb.Append("请输入货号\n");
-            }
+            //if (string.IsNullOrEmpty(this.ApProductNumber.Text))
+            //{
+            //    sb.Append("请输入货号\n");
+            //}
             if (string.IsNullOrEmpty(this.ApCategory.Text))
             {
                 sb.Append("请产品类别\n");
@@ -492,6 +493,9 @@ namespace Winform
             ApProductName.Text = string.Empty;
             ApProductNumber.Text = string.Empty;
             ApTaxRate.Text = string.Empty;
+            ApSpeciText.Text = string.Empty;
+            ApUnitPrice.Text = string.Empty;
+            ApBarcode.Text = string.Empty;
 
             DataGridViewManager.RebindListDataSource<SpecificationView>(ApSpecDataGridView, null);
             AddProductPage.Tag = new ProductInfo();
@@ -1627,7 +1631,7 @@ namespace Winform
 
         private void InvoicingReporterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Toast.Show("NHibernate Exception,请检查配置文件");
+            TabControlManager.ShowPage(extensionTabControl1,invoicingReportPage);
         }
 
         private void InvoicingUpdateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -2116,8 +2120,64 @@ namespace Winform
 
         private void ribbonMenuButton4_Click(object sender, EventArgs e)
         {
-            DataSet.InvoicingDataTable dt = new DataSet.InvoicingDataTable();
             
+            
+        }
+
+        private void invoicingReportPage_Enter(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void InvoicingReportQueryButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //DataSet.InvoicingDataTable dt = new DataSet.InvoicingDataTable();
+
+                DataTable t = SystemVariable.WarehouseService.GetInvoicingReportDataTable(InvoicingReportStartTime.Value, InvoicingReportEndTime.Value);
+
+                //foreach (DataRow r in t.Rows)
+                //{
+                //    var nr = dt.NewRow();
+                //    nr["Category"] = r["Category"];
+                //    nr["ProductName"] = r["ProductName"];
+                //    nr["ProductNumber"] = r["ProductNumber"];
+                //    nr["SpecifiText"] = r["SpecifiText"];
+                //    nr["StorageInAmount"] = r["StorageInAmount"];
+                //    nr["StorageInTotalPrice"] = r["StorageInTotalPrice"];
+                //    nr["StorageOutAmount"] = r["StorageOutAmount"];
+                //    nr["StorageOutTotalPrice"] = r["StorageOutTotalPrice"];
+                //    nr["ProfileLossAmount"] = r["ProfileLossAmount"];
+                //    nr["ProfileLossTotalPrice"] = r["ProfileLossTotalPrice"];
+                //    nr["InventoryAmount"] = r["InventoryAmount"];
+                //    nr["InventoryTotalPrice"] = r["InventoryTotalPrice"];
+                //    dt.Rows.Add(nr);
+                //}
+                InvoicingReport1.SetDataSource(t);
+                
+
+                //InvoicingReport1.Refresh();
+                crystalReportViewer1.RefreshReport();
+                
+            }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message);
+            }
+        }
+
+        private void ribbonMenuButton3_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                TabControlManager.ShowPage(extensionTabControl1, ProductListPage);
+            }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message);
+            }
         }
 
 
