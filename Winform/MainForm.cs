@@ -566,7 +566,11 @@ namespace Winform
         {
             try
             {
-                TabControlManager.ShowPage(extensionTabControl1,addStorageInPage);
+                TabControlManager.ShowPage(extensionTabControl1, addStorageInPage);
+
+                this.ActiveControl = this.addStorageInPage;
+                this.ActiveControl = this.AsProductBarcode;
+                this.AsProductBarcode.Focus();
             }
             catch (Exception ex)
             {
@@ -1662,7 +1666,12 @@ namespace Winform
 
         private void SalesStorageOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Toast.Show("Transaction不能提交两次,请检查是是否重复开启事物");
+            
+            TabControlManager.ShowPage(extensionTabControl1, addStorageOutPage);
+
+            this.ActiveControl = this.addStorageOutPage;
+            this.ActiveControl = this.AsoStorageOutBarcode;
+            this.AsoStorageOutBarcode.Focus();
         }
 
         private void ribbonMenuButton5_Click(object sender, EventArgs e)
@@ -1980,12 +1989,7 @@ namespace Winform
 
         private void extensionTabControl1_Selected(object sender, TabControlEventArgs e)
         {
-            if (e.TabPage== addStorageInPage)
-            {
-                this.ActiveControl = this.addStorageInPage;
-                this.ActiveControl = this.AsProductBarcode;
-                this.AsProductBarcode.Focus();
-            }
+             
         }
 
         private void groupBox9_Enter(object sender, EventArgs e)
@@ -1995,9 +1999,55 @@ namespace Winform
 
         private void extensionTabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (this.extensionTabControl1.SelectedTab == addStorageInPage)
+            {
+                this.ActiveControl = this.addStorageInPage;
+                this.ActiveControl = this.AsProductBarcode;
+                this.AsProductBarcode.Focus();
+            }
+            else 
+                if (this.extensionTabControl1.SelectedTab == addStorageOutPage )
+                {
+                    this.ActiveControl = this.addStorageOutPage;
+                    this.ActiveControl = this.AsoStorageOutBarcode;
+                    this.AsoStorageOutBarcode.Focus();
+                }
+                else
+                    if (this.extensionTabControl1.SelectedTab == ProductListPage)
+                    {
+                        TabControlManager.ShowPage(extensionTabControl1,ProductListPage );
+                        
+                        this.ActiveControl = this.ProductListPage ;
+                        this.ActiveControl = this.tbBarcode ;
+                        this.tbBarcode.Focus();
 
+                    }
+                    else  if (this.extensionTabControl1.SelectedTab ==AddProductPage ) 
+                        {
+
+                            TabControlManager.ShowPage(extensionTabControl1, AddProductPage);
+
+                            this.ActiveControl = this.AddProductPage;
+                            this.ActiveControl = this.ApProductName;
+                            this.ApProductName.Focus();
+                        }
+                        else if (this.extensionTabControl1.SelectedTab == updateStorageInPage)
+                    {
+                        this.ActiveControl = this.updateStorageInPage;
+                        this.ActiveControl = this.textBox2;
+                        this.textBox2.Focus();
+
+                        }
+
+
+                    else if (this.extensionTabControl1.SelectedTab == updateProductPage)
+                    {
+                        this.ActiveControl = this.updateProductPage ;
+                        this.ActiveControl = this.UpProductName;
+                        this.UpProductName.Focus();
+
+                    }
         }
-
         private void AsProductUnit_TextChanged(object sender, EventArgs e)
         {
 
@@ -2118,6 +2168,114 @@ namespace Winform
         {
             DataSet.InvoicingDataTable dt = new DataSet.InvoicingDataTable();
             
+        }
+
+        private void ribbonMenuButton3_Click_1(object sender, EventArgs e)
+        {
+            TabControlManager.ShowPage(extensionTabControl1, addStorageInPage);
+
+            this.ActiveControl = this.addStorageInPage;
+            this.ActiveControl = this.AsProductBarcode;
+            this.AsProductBarcode.Focus();
+        }
+
+        private void ribbonMenuButton4_Click_1(object sender, EventArgs e)
+        {
+            TabControlManager.ShowPage(extensionTabControl1, addStorageOutPage);
+
+            this.ActiveControl = this.addStorageOutPage;
+            this.ActiveControl = this.AsoStorageOutBarcode;
+            this.AsoStorageOutBarcode.Focus();
+        }
+
+        private void productListDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonMenuButton8_Click(object sender, EventArgs e)
+        {
+            TabControlManager.ShowPage(extensionTabControl1, AddProductPage );
+
+            this.ActiveControl = this.AddProductPage ;
+            this.ActiveControl = this.ApProductName;
+            this.ApProductName.Focus();
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox8_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void formLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ApTaxRate_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ApProductName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void formLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void formLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ApCategory_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void formLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ApProductNumber_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
 

@@ -10,6 +10,7 @@ using WinformControls;
 using DomainModule;
 using BusinessServiceInterface;
 using BusinessService;
+using System.IO;
 
 namespace Winform
 {
@@ -24,7 +25,20 @@ namespace Winform
         {
             try
             {
-                
+                if (File.Exists("username.txt") == true)
+                {
+                    TextReader tr = new StreamReader("username.txt");
+                    string username = tr.ReadLine();
+
+                    tr.Close();
+                    if (username.Trim().Length > 0)
+                    {
+                        this.tbUserName.Text = username.Trim ();
+                        this.tbPassword.Focus();
+                    }
+                    else
+                        this.tbUserName.Focus();
+                }
             }
             catch (Exception ex)
             {
@@ -65,6 +79,11 @@ namespace Winform
 
 
                 //IUserService userService = new UserService();
+                TextWriter tw = new StreamWriter("username.txt");
+
+                tw.WriteLine(tbUserName.Text);
+
+                tw.Close();
 
                 UserInfo user = SystemVariable.UserService.Login(tbUserName.Text, tbPassword.Text);
                 if (user != null)
@@ -73,6 +92,10 @@ namespace Winform
                     this.DialogResult = DialogResult.OK;
                     this.Close();
                     this.Dispose();
+                   
+                    
+                    
+                   
                 }
                 else
                 {
@@ -103,6 +126,28 @@ namespace Winform
         {
             if (e.KeyChar == '\r')
                 loginClick();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ribbonMenuButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                loginClick();
+            }
+            catch (Exception ex)
+            {
+                Toast.Show(ex.Message + ex.StackTrace);
+            }
+        }
+
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
